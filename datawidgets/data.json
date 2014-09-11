@@ -1,1 +1,0 @@
-[{"name":"w_1","ownerId":"","requestDate":"2014-09-11T10:00:35.812Z","description":"","category":"","wtype":"visual","src_script":"// this line should not be removed\r\nvar w_1 = angular.module(\"w_1\",[]);\r\n\r\nw_1.controller( \"w_1Controller\", function( $scope ) {\n\t\n});\n","_id":"541172c30b17b115390851d2"}]
