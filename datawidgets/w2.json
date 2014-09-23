@@ -1,0 +1,22 @@
+{
+	"_id": "54182c023708c754234b3017",
+	"name": "w2",
+	"ownerId": "",
+	"requestDate": "2014-09-16T12:24:34.188Z",
+	"description": "",
+	"category": "",
+	"wtype": "visual",
+	"src_script": "// this line should not be removed\r\nvar w2 = angular.module(\"w2\",[]);\r\n\r\nw2.controller( \"w2Controller\", function( $scope ) {\n\t\n});\n",
+	"versioning": {
+		"dreamface2": {
+			"last_action": "1411041128",
+			"status": "committed",
+			"user": "admin"
+		},
+		"dreamface1": {
+			"last_action": "1410870317",
+			"status": "committed",
+			"user": "admin"
+		}
+	}
+}
