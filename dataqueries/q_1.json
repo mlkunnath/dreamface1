@@ -1,0 +1,54 @@
+{
+	"_id": "54213f03d0cff3a60dab4e83",
+	"appexpr": [],
+	"category": "q_cat_2",
+	"connector": "http",
+	"dependency": "",
+	"description": "gffgfg",
+	"format": "json",
+	"lock": {
+		"status": "unlocked"
+	},
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{}}",
+	"name": "q_1",
+	"ownerId": "",
+	"parameters": [],
+	"persistence": "none",
+	"postcode": [],
+	"precode": [],
+	"requestDate": "2014-10-28T18:33:16.531Z",
+	"selector": ":root",
+	"service": {
+		"name": "service1",
+		"method": ""
+	},
+	"settings": {
+		"postrequestbody": "",
+		"authentication": "none",
+		"auth_password": "",
+		"typerequest": "HTTP_GET",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": "",
+		"dbdriver": "",
+		"dbnames": {
+			"database": "",
+			"collection": ""
+		}
+	},
+	"source": "ext",
+	"update_comment": "",
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1414593986",
+			"status": "committed",
+			"user": "admin"
+		},
+		"dreamface3": {
+			"last_action": "1414522709",
+			"status": "modified",
+			"user": "admin"
+		}
+	},
+	"visibility": "visible"
+}
