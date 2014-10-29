@@ -1,0 +1,17 @@
+{
+	"tenant": "demo",
+	"login": "testU",
+	"roles": {
+		"list": [
+			"admin",
+			"developer"
+		],
+		"default": "admin"
+	},
+	"email": "dinaris@list.ru",
+	"type": "",
+	"lastName": "Nazarenko",
+	"firstName": "Alexey",
+	"_id": "544117621cff344e13c8c068",
+	"pass": "12QWaszx"
+}
