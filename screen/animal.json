@@ -1,0 +1,17 @@
+{
+	"_id": "5450ddf619f445691736108d",
+	"application": "testApp",
+	"category": "animals",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": []
+	},
+	"name": "animal",
+	"ownerId": "",
+	"requestDate": "2014-10-29T12:30:59.074Z",
+	"title": "animal",
+	"visibility": "visible"
+}
