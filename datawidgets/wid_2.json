@@ -1,0 +1,18 @@
+{
+	"name": "wid_2",
+	"ownerId": "",
+	"requestDate": "2014-10-31T15:18:41.925Z",
+	"description": "desc",
+	"category": "w_cat_1",
+	"wtype": "visual",
+	"src": "{\"properties\":{\"title\":{\"label\":\"\",\"visible\":true,\"color\":\"\"},\"tools\":{\"color\":true,\"edit\":true,\"collapse\":true,\"fullscreen\":true,\"delete\":true},\"sortable\":true},\"definition\":[{\"id\":\"root\",\"type\":\"panel\",\"attributes\":{\"name\":{\"value\":\"pnlPanel1\"},\"controller\":{\"value\":\"\"},\"form\":{\"value\":\"\"},\"model\":{\"value\":\"\"},\"useModel\":{\"value\":false},\"collapsible\":{\"value\":false},\"classes\":{\"value\":\"\"},\"style\":{\"value\":\"\"},\"display\":{\"value\":\"\"},\"title\":{\"value\":\"\"},\"titleVisible\":{\"value\":false},\"rows\":[{\"classes\":\"\",\"width\":\"12\",\"panelColumns\":[{\"classes\":\"\",\"width\":\"12\"}]}]},\"children\":[]}]}",
+	"src_script": "// this line should not be removed\r\nvar wid_2 = angular.module(\"wid_2\",[]);\r\n\r\nwid_2.controller( \"wid_2Controller\", function( $scope ) {\n\t\n});\n",
+	"_id": "5453a851128d27873b808a5e",
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1414768812",
+			"status": "committed",
+			"user": "admin"
+		}
+	}
+}
