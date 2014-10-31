@@ -1,0 +1,14 @@
+{
+	"title": "Home",
+	"name": "Home",
+	"requestDate": "2014-10-31T11:36:55.062Z",
+	"ownerId": "",
+	"application": "fcdsfsdfsd",
+	"parentname": "",
+	"icon": "home",
+	"action": {
+		"type": "screen",
+		"value": "Home"
+	},
+	"_id": "545374577f1d33fe2190a72e"
+}
