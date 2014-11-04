@@ -1,5 +1,5 @@
 {
-	"tenant": "demo1",
+	"tenant": "demo",
 	"login": "admin",
 	"roles": {
 		"list": [
