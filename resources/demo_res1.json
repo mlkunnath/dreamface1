@@ -1,0 +1,15 @@
+{
+	"_id": "5436aa58f350fec1f6e11ed2",
+	"description": "Remopre serddd",
+	"items": [
+		{
+			"path": "test.css",
+			"type": "CSS"
+		},
+		{
+			"path": "test.js",
+			"type": "JavaScript"
+		}
+	],
+	"name": "demo_res1"
+}
