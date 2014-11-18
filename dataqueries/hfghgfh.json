@@ -1,0 +1,48 @@
+{
+	"name": "hfghgfh",
+	"ownerId": "",
+	"description": "",
+	"category": "q_cat_1",
+	"service": {
+		"name": "",
+		"method": ""
+	},
+	"format": "json",
+	"persistence": "none",
+	"source": "ext",
+	"settings": {
+		"postrequestbody": "",
+		"authentication": "none",
+		"auth_password": "",
+		"typerequest": "HTTP_GET",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": "",
+		"dbdriver": "",
+		"dbnames": {
+			"database": "",
+			"collection": ""
+		}
+	},
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{}}",
+	"requestDate": "2014-11-12T19:09:45.116Z",
+	"parameters": [],
+	"appexpr": [],
+	"precode": [],
+	"postcode": [],
+	"connector": "http",
+	"lock": {
+		"status": "unlocked"
+	},
+	"selector": ":root",
+	"update_comment": "",
+	"visibility": "visible",
+	"_id": "5463b07953ba130f39adca14",
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1416324152",
+			"status": "committed",
+			"user": "admin"
+		}
+	}
+}
