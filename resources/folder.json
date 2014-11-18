@@ -1,0 +1,39 @@
+{
+	"_id": "5465028ca220b31e77f14375",
+	"description": "folder",
+	"items": [
+		{
+			"path": "js/jquery-1.6.2.min.js",
+			"type": "JavaScript"
+		},
+		{
+			"path": "css/menu/.",
+			"type": "0"
+		},
+		{
+			"path": "css/main/.",
+			"type": "0"
+		},
+		{
+			"path": "css/main/index.css",
+			"type": "CSS"
+		},
+		{
+			"path": "css/menu/hor_menu.css",
+			"type": "CSS"
+		},
+		{
+			"path": "css/menu/vert_menu.css",
+			"type": "CSS"
+		},
+		{
+			"path": "css/menu/hor.js",
+			"type": "JavaScript"
+		},
+		{
+			"path": "css/menu/vert.js",
+			"type": "JavaScript"
+		}
+	],
+	"name": "folder"
+}
