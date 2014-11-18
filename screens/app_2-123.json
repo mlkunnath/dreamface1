@@ -1,0 +1,17 @@
+{
+	"_id": "54633950d23adce214901555",
+	"application": "app_2",
+	"category": "",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": []
+	},
+	"name": "123",
+	"ownerId": "",
+	"requestDate": "2014-11-12T18:58:29.545Z",
+	"title": "123",
+	"visibility": "visible"
+}
