@@ -1,0 +1,16 @@
+{
+	"tenant": "demo",
+	"login": "admin",
+	"roles": {
+		"list": [
+			"admin"
+		],
+		"default": "admin"
+	},
+	"email": "",
+	"type": "staff",
+	"lastName": "",
+	"firstName": "",
+	"_id": "546f438a8e82e5ab08c4d8d8",
+	"pass": "123456"
+}
