@@ -1,0 +1,49 @@
+{
+	"_id": "54a3e6192c753cb5114f010a",
+	"selector": ":root",
+	"update_comment": "",
+	"ownerId": "",
+	"persistence": "sessions",
+	"settings": {
+		"postrequestbody": "",
+		"authentication": "none",
+		"auth_password": "",
+		"typerequest": "HTTP_GET",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": "",
+		"dbdriver": "",
+		"dbnames": {
+			"database": "",
+			"collection": ""
+		}
+	},
+	"appexpr": [],
+	"format": "json",
+	"dependency": "",
+	"category": "",
+	"description": "12345",
+	"name": "test",
+	"connector": "http",
+	"requestDate": "2014-12-31T12:10:41.788Z",
+	"parameters": [],
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{}}",
+	"source": "ext",
+	"visibility": "visible",
+	"lock": {
+		"status": "unlocked"
+	},
+	"precode": [],
+	"postcode": [],
+	"service": {
+		"name": "",
+		"method": ""
+	},
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1420027881",
+			"status": "committed",
+			"user": "admin"
+		}
+	}
+}
