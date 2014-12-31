@@ -1,9 +1,16 @@
 {
-	"_id": "54a4172b0bb257fa264df69e",
-	"selector": ":root",
-	"update_comment": "",
+	"_id": "54a416bc0bb257fa264df69b",
+	"name": "testQ1",
 	"ownerId": "",
-	"persistence": "none",
+	"description": "456754",
+	"category": "",
+	"service": {
+		"name": "",
+		"method": ""
+	},
+	"format": "xml",
+	"persistence": "sessions",
+	"source": "ext",
 	"settings": {
 		"postrequestbody": "",
 		"authentication": "none",
@@ -18,31 +25,19 @@
 			"collection": ""
 		}
 	},
-	"appexpr": [],
-	"format": "json",
-	"dependency": "",
-	"category": "",
-	"description": "123456",
-	"name": "test",
-	"connector": "http",
-	"requestDate": "2014-12-31T15:32:59.773Z",
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{}}",
+	"requestDate": "2014-12-31T15:31:08.092Z",
 	"parameters": [],
-	"metadata": {
-		"name": "root",
-		"type": "root",
-		"children": {}
-	},
-	"source": "ext",
-	"visibility": "visible",
+	"appexpr": [],
+	"precode": [],
+	"postcode": [],
+	"connector": "http",
 	"lock": {
 		"status": "unlocked"
 	},
-	"precode": [],
-	"postcode": [],
-	"service": {
-		"name": "",
-		"method": ""
-	},
+	"selector": ":root",
+	"update_comment": "",
+	"visibility": "visible",
 	"versioning": {
 		"dreamface1": {
 			"last_action": "1420041911",

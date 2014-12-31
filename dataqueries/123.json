@@ -1,5 +1,5 @@
 {
-	"_id": "54a4172b0bb257fa264df69e",
+	"_id": "54a417040bb257fa264df69c",
 	"selector": ":root",
 	"update_comment": "",
 	"ownerId": "",
@@ -22,10 +22,10 @@
 	"format": "json",
 	"dependency": "",
 	"category": "",
-	"description": "123456",
-	"name": "test",
+	"description": "123",
+	"name": "123",
 	"connector": "http",
-	"requestDate": "2014-12-31T15:32:59.773Z",
+	"requestDate": "2014-12-31T15:32:20.774Z",
 	"parameters": [],
 	"metadata": {
 		"name": "root",
