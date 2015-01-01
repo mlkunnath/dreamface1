@@ -12,5 +12,17 @@
 		"width": "100%",
 		"backgroundcolor": "white",
 		"rows": []
+	},
+	"versioning": {
+		"dreamface1": {
+			"status": "modified",
+			"user": "admin",
+			"last_action": "1420107844"
+		},
+		"undefined": {
+			"status": "deleted",
+			"user": "admin",
+			"last_action": "1420107712"
+		}
 	}
 }
