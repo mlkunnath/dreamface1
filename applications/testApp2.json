@@ -3,7 +3,7 @@
 	"name": "testApp2",
 	"ownerId": "",
 	"requestDate": "2015-01-01T10:01:51.418Z",
-	"title": "",
+	"title": "123",
 	"applicationContext": [
 		{
 			"properties": [
@@ -60,9 +60,22 @@
 	"platform": "web",
 	"versioning": {
 		"dreamface1": {
-			"last_action": "1420106529",
+			"last_action": "1420108234",
 			"status": "committed",
 			"user": "admin"
+		},
+		"dreamface2": {
+			"status": "modified",
+			"user": "admin",
+			"last_action": "1420107839"
+		},
+		"undefined": {
+			"status": "deleted",
+			"user": "admin",
+			"last_action": "1420107712"
 		}
+	},
+	"personalization": {
+		"template": ""
 	}
 }
