@@ -1,0 +1,31 @@
+{
+	"_id": "54a809202f0dd58f1852642d",
+	"title": "1",
+	"name": "1",
+	"requestDate": "2015-01-03T15:22:51.636Z",
+	"ownerId": "",
+	"application": "1",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "1",
+								"id": "71014"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}
