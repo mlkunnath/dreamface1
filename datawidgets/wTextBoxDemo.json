@@ -1,0 +1,19 @@
+{
+	"_id": "54469ebbba22fcf82725af26",
+	"category": "Style",
+	"description": "",
+	"name": "wTextBoxDemo",
+	"ownerId": "",
+	"requestDate": "2014-10-21T18:01:05.190Z",
+	"src": "{\n\t\"properties\": {\n\t\t\"title\": {\n\t\t\t\"label\": \"\",\n\t\t\t\"visible\": true,\n\t\t\t\"color\": \"\"\n\t\t},\n\t\t\"tools\": {\n\t\t\t\"color\": true,\n\t\t\t\"edit\": true,\n\t\t\t\"collapse\": true,\n\t\t\t\"fullscreen\": true,\n\t\t\t\"delete\": true\n\t\t},\n\t\t\"sortable\": true\n\t},\n\t\"definition\": [\n\t\t{\n\t\t\t\"id\": \"root\",\n\t\t\t\"type\": \"panel\",\n\t\t\t\"attributes\": {\n\t\t\t\t\"name\": {\n\t\t\t\t\t\"value\": \"pnlPanel1\"\n\t\t\t\t},\n\t\t\t\t\"controller\": {\n\t\t\t\t\t\"value\": \"wTextBoxDemoController\"\n\t\t\t\t},\n\t\t\t\t\"form\": {\n\t\t\t\t\t\"value\": \"wTextBoxDemoForm\"\n\t\t\t\t},\n\t\t\t\t\"model\": {\n\t\t\t\t\t\"value\": \"\"\n\t\t\t\t},\n\t\t\t\t\"useModel\": {\n\t\t\t\t\t\"value\": false\n\t\t\t\t},\n\t\t\t\t\"collapsible\": {\n\t\t\t\t\t\"value\": false\n\t\t\t\t},\n\t\t\t\t\"classes\": {\n\t\t\t\t\t\"value\": \"\"\n\t\t\t\t},\n\t\t\t\t\"style\": {\n\t\t\t\t\t\"value\": \"\"\n\t\t\t\t},\n\t\t\t\t\"display\": {\n\t\t\t\t\t\"value\": \"\"\n\t\t\t\t},\n\t\t\t\t\"title\": {\n\t\t\t\t\t\"value\": \"\"\n\t\t\t\t},\n\t\t\t\t\"titleVisible\": {\n\t\t\t\t\t\"value\": false\n\t\t\t\t},\n\t\t\t\t\"layout\": {\n\t\t\t\t\t\"rows\": [\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\"cols\": [\n\t\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\t\"width\": {\n\t\t\t\t\t\t\t\t\t\t\"value\": \"12\"\n\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\"classes\": {\n\t\t\t\t\t\t\t\t\t\t\"value\": \"\"\n\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\"dynamicClasses\": {\n\t\t\t\t\t\t\t\t\t\t\"value\": \"\"\n\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\"style\": {\n\t\t\t\t\t\t\t\t\t\t\"value\": \"\"\n\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t],\n\t\t\t\t\t\t\t\"classes\": {\n\t\t\t\t\t\t\t\t\"value\": \"\"\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\"dynamicClasses\": {\n\t\t\t\t\t\t\t\t\"value\": \"\"\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\"style\": {\n\t\t\t\t\t\t\t\t\"value\": \"\"\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t}\n\t\t\t\t\t],\n\t\t\t\t\t\"classes\": {\n\t\t\t\t\t\t\"value\": \"\"\n\t\t\t\t\t},\n\t\t\t\t\t\"dynamicClasses\": {\n\t\t\t\t\t\t\"value\": \"\"\n\t\t\t\t\t},\n\t\t\t\t\t\"style\": {\n\t\t\t\t\t\t\"value\": \"\"\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t},\n\t\t\t\"children\": [\n\t\t\t\t{\n\t\t\t\t\t\"id\": 58610,\n\t\t\t\t\t\"type\": \"statictext\",\n\t\t\t\t\t\"attributes\": {\n\t\t\t\t\t\t\"name\": {\n\t\t\t\t\t\t\t\"value\": \"txtStaticText1\"\n\t\t\t\t\t\t},\n\t\t\t\t\t\t\"bind\": {\n\t\t\t\t\t\t\t\"value\": \"\"\n\t\t\t\t\t\t},\n\t\t\t\t\t\t\"text\": {\n\t\t\t\t\t\t\t\"value\": \"Sample Text\"\n\t\t\t\t\t\t},\n\t\t\t\t\t\t\"counter\": {\n\t\t\t\t\t\t\t\"bind\": {\n\t\t\t\t\t\t\t\t\"value\": \"test\"\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\"onclick\": {\n\t\t\t\t\t\t\t\t\"value\": \"\"\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\"position\": {\n\t\t\t\t\t\t\t\t\"value\": \"left\"\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t},\n\t\t\t\t\t\t\"classes\": {\n\t\t\t\t\t\t\t\"value\": \"\"\n\t\t\t\t\t\t},\n\t\t\t\t\t\t\"style\": {\n\t\t\t\t\t\t\t\"value\": \"\"\n\t\t\t\t\t\t}\n\t\t\t\t\t},\n\t\t\t\t\t\"children\": [],\n\t\t\t\t\t\"container\": \"layout_0_row_0_column_0\"\n\t\t\t\t}\n\t\t\t]\n\t\t}\n\t]\n}",
+	"src_script": "// this line should not be removed\nvar wTextBoxDemo = angular.module(\"wTextBoxDemo\",[]);\n\nwTextBoxDemo.controller( \"wTextBoxDemoController\", function( $scope ) {\n\t\n});\n$scope.test=[1,2, 3, 4, 5, 6, 7];",
+	"src_styles": "",
+	"wtype": "visual",
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1422540701",
+			"status": "committed",
+			"user": "admin"
+		}
+	}
+}
