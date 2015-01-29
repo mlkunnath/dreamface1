@@ -1,0 +1,54 @@
+{
+	"_id": "545a0ff655fc392a50f427df",
+	"selector": ":root",
+	"update_comment": "",
+	"ownerId": "",
+	"persistence": "none",
+	"settings": {
+		"postrequestbody": "",
+		"authentication": "none",
+		"auth_password": "",
+		"typerequest": "HTTP_GET",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": "http://50.97.60.186:3001/database/get/Demo/Users",
+		"dbdriver": "mongodb",
+		"dbnames": {
+			"database": "Demo",
+			"collection": "Users"
+		}
+	},
+	"appexpr": [],
+	"format": "json",
+	"dependency": "",
+	"category": "Samples",
+	"description": "",
+	"name": "qGetUsersPanel",
+	"connector": "http",
+	"requestDate": "2014-12-10T17:25:15.389Z",
+	"parameters": [],
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{\"0\":{\"name\":\"0\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"0\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"0\"},\"styles\":{}}]},\"children\":{}},\"1\":{\"name\":\"1\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"1\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"1\"},\"styles\":{}}]},\"children\":{}},\"2\":{\"name\":\"2\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"2\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"2\"},\"styles\":{}}]},\"children\":{}},\"3\":{\"name\":\"3\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"3\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"3\"},\"styles\":{}}]},\"children\":{}},\"4\":{\"name\":\"4\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"4\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"4\"},\"styles\":{}}]},\"children\":{}},\"5\":{\"name\":\"5\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"5\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"5\"},\"styles\":{}}]},\"children\":{}}}}",
+	"source": "db",
+	"visibility": "visible",
+	"lock": {
+		"status": "unlocked"
+	},
+	"precode": [],
+	"postcode": [
+		{
+			"name": "Prepare Panel",
+			"code": "var resp = [];\nvar users = response.data;\nresponse = users.forEach(function(item) {\n   resp.push({\n   'title' :'User #'+item.id,\n   'content': {\n     'userName': item.firstName,\n     'userLastName': item.lastName,\n     'occupation': 'Professional occupation: ' + item.occupation,\n     'name': item.firstName + ' ' + item.lastName,\n     'bio':item.bio\n     }\n   });\n});\nresponse = resp;\nterminateFilter(response);"
+		}
+	],
+	"service": {
+		"name": "",
+		"method": ""
+	},
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1422532636",
+			"status": "committed",
+			"user": "admin"
+		}
+	}
+}

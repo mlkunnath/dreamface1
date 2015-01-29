@@ -1,0 +1,58 @@
+{
+	"_id": "545a522855fc392a50f42805",
+	"selector": ":root",
+	"update_comment": "",
+	"ownerId": "",
+	"persistence": "none",
+	"settings": {
+		"postrequestbody": {
+			"id": "",
+			"firstName": "",
+			"lastName": "",
+			"occupation": ""
+		},
+		"authentication": "none",
+		"auth_password": "",
+		"typerequest": "HTTP_POST",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": "http://50.97.60.186:3001/database/put",
+		"dbdriver": "mongodb",
+		"dbnames": {
+			"database": "Demo",
+			"collection": "Users"
+		}
+	},
+	"appexpr": [],
+	"format": "json",
+	"dependency": "",
+	"category": "Samples",
+	"description": "",
+	"name": "qAddUser",
+	"connector": "http",
+	"requestDate": "2014-12-10T15:25:06.067Z",
+	"parameters": [],
+	"metadata": {
+		"name": "root",
+		"type": "root",
+		"children": {}
+	},
+	"source": "db",
+	"visibility": "visible",
+	"lock": {
+		"status": "unlocked"
+	},
+	"precode": [],
+	"postcode": [],
+	"service": {
+		"name": "",
+		"method": ""
+	},
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1422532636",
+			"status": "committed",
+			"user": "admin"
+		}
+	}
+}

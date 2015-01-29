@@ -1,0 +1,65 @@
+{
+	"_id": "54b70e384c82af2017cb8950",
+	"selector": ":root",
+	"update_comment": "",
+	"ownerId": "",
+	"persistence": "none",
+	"settings": {
+		"postrequestbody": {
+			"contentItems": [
+				{
+					"id": "xxx",
+					"userid": "abc",
+					"sourceid": "freetext",
+					"contenttype": "text/plain",
+					"language": "en",
+					"content": "hello world,  a fun guy one two three four five six seven eight nine ten one two three four five six seven eight nine ten one two three four five six seven eight nine ten one two three four five six seven eight nine ten one two three four five six seven eight nine ten one two three four five six seven eight nine ten one two three four five six seven eight nine ten one two three four five six seven eight nine ten one two three four five six seven eight nine ten one two three four five six seven eight nine ten one two three four five six seven eight nine ten one two three four five six seven eight nine ten one two three four five six seven eight nine ten "
+				}
+			]
+		},
+		"authentication": "Watson_User_Model",
+		"auth_password": "",
+		"typerequest": "HTTP_POST",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": "https://gateway.watsonplatform.net/systemu/service/api/v2/profile",
+		"dbdriver": "",
+		"dbnames": {
+			"database": "",
+			"collection": ""
+		}
+	},
+	"appexpr": [],
+	"format": "json",
+	"dependency": "",
+	"category": "Samples",
+	"description": "",
+	"name": "qWatsonUserModeling",
+	"connector": "http",
+	"requestDate": "2015-01-15T01:01:52.728Z",
+	"parameters": [],
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{\"tree\":{\"name\":\"tree\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"tree\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"tree\"},\"styles\":{}}]},\"children\":{}},\"id\":{\"name\":\"id\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"id\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"id\"},\"styles\":{}}]},\"children\":{}},\"source\":{\"name\":\"source\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"source\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"source\"},\"styles\":{}}]},\"children\":{}},\"word_count_message\":{\"name\":\"word_count_message\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"word_count_message\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"word_count_message\"},\"styles\":{}}]},\"children\":{}},\"word_count\":{\"name\":\"word_count\",\"type\":\"Number\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"word_count\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"word_count\"},\"styles\":{}}]},\"children\":{}}}}",
+	"source": "ext",
+	"visibility": "visible",
+	"lock": {
+		"status": "unlocked"
+	},
+	"precode": [],
+	"postcode": [
+		{
+			"name": "replace100",
+			"code": ""
+		}
+	],
+	"service": {
+		"name": "",
+		"method": ""
+	},
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1422532636",
+			"status": "committed",
+			"user": "admin"
+		}
+	}
+}

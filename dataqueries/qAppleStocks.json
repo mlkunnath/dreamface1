@@ -1,0 +1,54 @@
+{
+	"_id": "545af5a655fc392a50f42853",
+	"selector": ":root",
+	"update_comment": "",
+	"ownerId": "",
+	"persistence": "none",
+	"settings": {
+		"postrequestbody": "",
+		"authentication": "none",
+		"auth_password": "",
+		"typerequest": "HTTP_GET",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": "http://api.stocklytics.com/historicalPrices/1.0/?api_key=0c1ab0b24fcfc691f68071f5f8a5b63d178719ea&stock=AAPL&format=JSON&order=DESC&start=2011-01-01&end=2013-01-10",
+		"dbdriver": "",
+		"dbnames": {
+			"database": "",
+			"collection": ""
+		}
+	},
+	"appexpr": [],
+	"format": "json",
+	"dependency": "",
+	"category": "Samples",
+	"description": "",
+	"name": "qAppleStocks",
+	"connector": "http",
+	"requestDate": "2014-11-11T08:12:57.481Z",
+	"parameters": [],
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{\"series\":{\"name\":\"series\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"series\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"series\"},\"styles\":{}}]},\"children\":{}},\"data\":{\"name\":\"data\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"data\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"data\"},\"styles\":{}}]},\"children\":{}}}}",
+	"source": "ext",
+	"visibility": "visible",
+	"lock": {
+		"status": "unlocked"
+	},
+	"precode": [],
+	"postcode": [
+		{
+			"name": "",
+			"code": "resp=response;\nseries=[];\nvar data =[];\n\n    \n    series=Object.keys(resp);\n\n\n   \n\nfor(i=0;i<resp.length;i++) {\n   data.push({x: series[i],\n              y : [resp[0].low,resp[0].high,resp[0].close]});\n   \n}\n\n\nresponse.series=series;\nresponse.data=data;\n terminateFilter();\n\n"
+		}
+	],
+	"service": {
+		"name": "",
+		"method": ""
+	},
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1422532636",
+			"status": "committed",
+			"user": "admin"
+		}
+	}
+}

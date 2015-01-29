@@ -1,0 +1,59 @@
+{
+	"_id": "541f05dd2ff9c16c1e2cf914",
+	"appexpr": [],
+	"category": "Samples",
+	"connector": "http",
+	"dependency": "",
+	"description": "",
+	"format": "json",
+	"lock": {
+		"status": "unlocked"
+	},
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{\"0\":{\"name\":\"0\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"0\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"0\"},\"styles\":{}}]},\"children\":{}},\"1\":{\"name\":\"1\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"1\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"1\"},\"styles\":{}}]},\"children\":{}},\"2\":{\"name\":\"2\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"2\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"2\"},\"styles\":{}}]},\"children\":{}},\"3\":{\"name\":\"3\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"3\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"3\"},\"styles\":{}}]},\"children\":{}},\"4\":{\"name\":\"4\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"4\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"4\"},\"styles\":{}}]},\"children\":{}},\"5\":{\"name\":\"5\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"5\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"5\"},\"styles\":{}}]},\"children\":{}},\"6\":{\"name\":\"6\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"6\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"6\"},\"styles\":{}}]},\"children\":{}}}}",
+	"name": "qGetOrderDetailsEx7",
+	"ownerId": "",
+	"parameters": [],
+	"persistence": "none",
+	"postcode": [
+		{
+			"name": "TabsFiter",
+			"code": "var resp = [];\nvar index = 1;\nvar data = response.data;\nresponse = data.forEach(function(item) {\n  odd = index % 2;\n  resp.push({\n   'label' :'Order #'+item.OrderID+ ' For Product : '+item.ProductID,\n   'disabled': false,\n   'content': {\n     'OrderDetailID': item.OrderDetailID,\n     'ProductID': item.ProductID,\n     'Quantity': item.Quantity,\n     'UnitPriceUsd': item.UnitPriceUsd,\n     'TotalPrice': item.Quantity*item.UnitPriceUsd,\n     'Vendor': item.Vendor,\n    'Description': item.Description\n     \n     }\n   });\n   index++;\n});\nresponse = resp;\nterminateFilter(response);"
+		}
+	],
+	"precode": [],
+	"requestDate": "2014-11-04T06:06:03.876Z",
+	"selector": ":root",
+	"service": {
+		"name": "",
+		"method": ""
+	},
+	"settings": {
+		"postrequestbody": "",
+		"authentication": "none",
+		"auth_password": "",
+		"typerequest": "HTTP_GET",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": "http://50.97.60.186/database/get/Customers/orderDetails",
+		"dbdriver": "mongodb",
+		"dbnames": {
+			"database": "Customers",
+			"collection": "orderDetails"
+		}
+	},
+	"source": "db",
+	"update_comment": "",
+	"visibility": "visible",
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1422532636",
+			"status": "committed",
+			"user": "admin"
+		},
+		"MyDfApp": {
+			"last_action": "1415081164",
+			"status": "modified",
+			"user": "admin"
+		}
+	}
+}

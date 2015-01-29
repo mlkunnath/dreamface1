@@ -1,0 +1,72 @@
+{
+	"_id": "542da5c986d8a0dc2cdbdd64",
+	"selector": ":root",
+	"update_comment": "",
+	"ownerId": "",
+	"persistence": "none",
+	"settings": {
+		"postrequestbody": "",
+		"authentication": "none",
+		"auth_password": "",
+		"typerequest": "HTTP_GET",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": "http://api.nytimes.com/svc/news/v3/content/all/all/.json",
+		"dbdriver": "",
+		"dbnames": {
+			"database": "",
+			"collection": ""
+		}
+	},
+	"appexpr": [],
+	"format": "json",
+	"dependency": "",
+	"category": "",
+	"description": "newYork Times Top News API",
+	"name": "qNYTimes",
+	"connector": "http",
+	"requestDate": "2014-10-31T19:37:48.620Z",
+	"parameters": [
+		{
+			"name": "api-key",
+			"type": "request",
+			"value": "a0a5c5a9d0bf8afd43fae30964e4f058:13:69906565",
+			"operation": "eq"
+		},
+		{
+			"name": "limit",
+			"type": "request",
+			"value": "10",
+			"operation": "eq"
+		}
+	],
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{\"0\":{\"name\":\"0\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"0\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"0\"},\"styles\":{}}]},\"children\":{}},\"1\":{\"name\":\"1\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"1\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"1\"},\"styles\":{}}]},\"children\":{}},\"2\":{\"name\":\"2\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"2\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"2\"},\"styles\":{}}]},\"children\":{}},\"3\":{\"name\":\"3\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"3\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"3\"},\"styles\":{}}]},\"children\":{}},\"4\":{\"name\":\"4\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"4\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"4\"},\"styles\":{}}]},\"children\":{}},\"5\":{\"name\":\"5\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"5\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"5\"},\"styles\":{}}]},\"children\":{}},\"6\":{\"name\":\"6\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"6\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"6\"},\"styles\":{}}]},\"children\":{}},\"7\":{\"name\":\"7\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"7\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"7\"},\"styles\":{}}]},\"children\":{}},\"8\":{\"name\":\"8\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"8\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"8\"},\"styles\":{}}]},\"children\":{}},\"9\":{\"name\":\"9\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"9\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"9\"},\"styles\":{}}]},\"children\":{}}}}",
+	"source": "ext",
+	"visibility": "visible",
+	"lock": {
+		"status": "unlocked"
+	},
+	"precode": [],
+	"postcode": [
+		{
+			"name": "",
+			"code": "var resp = [];\nvar index = 1;\nvar data = response.results;\nresponse = data.forEach(function(item) {\n  odd = index % 2;\n  resp.push({\n     'label':item.title,\n     'disabled': false,\n     'open': (index>1 ? false : true),\n     'classes': (odd ? 'info-odd' : 'info-even'),\n     'content':\n     {\n         'abstract': item.abstract,\n         'url': item.url,\n         'thumbnail_standard': item.thumbnail_standard,\n         \n     }\n   \n   });\n   index++;\n});\nresponse = resp;\nterminateFilter(response);"
+		}
+	],
+	"service": {
+		"name": "",
+		"method": ""
+	},
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1422532636",
+			"status": "committed",
+			"user": "admin"
+		},
+		"MyDfApp": {
+			"last_action": "1415028292",
+			"status": "committed",
+			"user": "admin"
+		}
+	}
+}

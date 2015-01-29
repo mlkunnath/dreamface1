@@ -1,0 +1,65 @@
+{
+	"_id": "5453f044f9943754325b573c",
+	"selector": ":root",
+	"update_comment": "",
+	"ownerId": "",
+	"persistence": "none",
+	"settings": {
+		"postrequestbody": "",
+		"authentication": "none",
+		"auth_password": "",
+		"typerequest": "HTTP_POST",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": "http://localhost:3000/dbdriver/mysql/rm/classicmodels/customers",
+		"dbdriver": "mysql",
+		"dbnames": {
+			"database": "classicmodels",
+			"collection": "customers"
+		}
+	},
+	"appexpr": [],
+	"format": "json",
+	"dependency": "",
+	"category": "",
+	"description": "",
+	"name": "qSQLcrudRemove",
+	"connector": "http",
+	"requestDate": "2014-10-31T20:25:40.420Z",
+	"parameters": [
+		{
+			"name": "customerNumber",
+			"type": "",
+			"value": "",
+			"operation": "eq"
+		}
+	],
+	"metadata": {
+		"name": "root",
+		"type": "root",
+		"children": {}
+	},
+	"source": "db",
+	"visibility": "visible",
+	"lock": {
+		"status": "unlocked"
+	},
+	"precode": [],
+	"postcode": [],
+	"service": {
+		"name": "",
+		"method": ""
+	},
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1422532636",
+			"status": "committed",
+			"user": "admin"
+		},
+		"MyDfApp": {
+			"last_action": "1415028292",
+			"status": "committed",
+			"user": "admin"
+		}
+	}
+}

@@ -1,0 +1,66 @@
+{
+	"_id": "544576a7ba22fcf82725aeb9",
+	"appexpr": [],
+	"category": "IBM",
+	"connector": "http",
+	"dependency": "",
+	"description": "Get Tasklist",
+	"format": "json",
+	"lock": {
+		"status": "unlocked"
+	},
+	"metadata": {
+		"name": "root",
+		"type": "root",
+		"children": {}
+	},
+	"name": "qGetTasks",
+	"ownerId": "",
+	"parameters": [
+		{
+			"name": "organization",
+			"type": "request",
+			"value": "byTask",
+			"operation": "eq"
+		},
+		{
+			"name": "condition",
+			"type": "request",
+			"value": "taskStatus|New_or_Received",
+			"operation": "eq"
+		}
+	],
+	"persistence": "none",
+	"postcode": [],
+	"precode": [],
+	"requestDate": "2014-10-21T10:41:29.115Z",
+	"selector": ":root",
+	"service": {
+		"name": "",
+		"method": ""
+	},
+	"settings": {
+		"postrequestbody": "",
+		"authentication": "bpmadmin",
+		"auth_password": "",
+		"typerequest": "HTTP_POST",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": "http://dreamface1:9080/rest/bpm/wle/v1/search/query",
+		"dbdriver": "",
+		"dbnames": {
+			"database": "",
+			"collection": ""
+		}
+	},
+	"source": "ext",
+	"update_comment": "",
+	"visibility": "visible",
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1422532636",
+			"status": "committed",
+			"user": "admin"
+		}
+	}
+}

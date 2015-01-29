@@ -1,0 +1,80 @@
+{
+	"_id": "5453f38af9943754325b573e",
+	"selector": ":root",
+	"update_comment": "",
+	"ownerId": "",
+	"persistence": "none",
+	"settings": {
+		"postrequestbody": {
+			"customerNumber": "",
+			"customerName": "",
+			"contactLastName": "",
+			"contactFirstName": "",
+			"phone": "",
+			"addressLine1": "",
+			"addressLine2": "",
+			"city": "",
+			"state": "",
+			"postalCode": "",
+			"country": "",
+			"salesRepEmployeeNumber": "",
+			"creditLimit": "",
+			"CustomerID": "",
+			"ContactFirstName": "",
+			"ContactLastName": "",
+			"CompanyName": "",
+			"Country": "",
+			"City": "",
+			"ZipCode": "",
+			"Address": ""
+		},
+		"authentication": "none",
+		"auth_password": "",
+		"typerequest": "HTTP_POST",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": "http://localhost:3000/dbdriver/mysql/put/classicmodels/customers",
+		"dbdriver": "mysql",
+		"dbnames": {
+			"database": "classicmodels",
+			"collection": "customers"
+		}
+	},
+	"appexpr": [],
+	"format": "json",
+	"dependency": "",
+	"category": "",
+	"description": "",
+	"name": "qSQLCrudAdd",
+	"connector": "http",
+	"requestDate": "2014-10-31T20:39:38.092Z",
+	"parameters": [],
+	"metadata": {
+		"name": "root",
+		"type": "root",
+		"children": {}
+	},
+	"source": "db",
+	"visibility": "visible",
+	"lock": {
+		"status": "unlocked"
+	},
+	"precode": [],
+	"postcode": [],
+	"service": {
+		"name": "",
+		"method": ""
+	},
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1422532636",
+			"status": "committed",
+			"user": "admin"
+		},
+		"MyDfApp": {
+			"last_action": "1415028292",
+			"status": "committed",
+			"user": "admin"
+		}
+	}
+}

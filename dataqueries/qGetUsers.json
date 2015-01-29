@@ -1,0 +1,49 @@
+{
+	"_id": "54400723f2ad380827a19e96",
+	"appexpr": [],
+	"category": "Demo",
+	"connector": "http",
+	"dependency": "",
+	"description": "Get Users from Json",
+	"format": "json",
+	"lock": {
+		"status": "unlocked"
+	},
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{}}",
+	"name": "qGetUsers",
+	"ownerId": "",
+	"parameters": [],
+	"persistence": "none",
+	"postcode": [],
+	"precode": [],
+	"requestDate": "2014-12-10T16:26:39.444Z",
+	"selector": ":root",
+	"service": {
+		"name": "",
+		"method": ""
+	},
+	"settings": {
+		"postrequestbody": "",
+		"authentication": "none",
+		"auth_password": "",
+		"typerequest": "HTTP_GET",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": "http://50.97.60.186:3001/database/get/Demo/Users",
+		"dbdriver": "mongodb",
+		"dbnames": {
+			"database": "Demo",
+			"collection": "Users"
+		}
+	},
+	"source": "db",
+	"update_comment": "",
+	"visibility": "visible",
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1422532636",
+			"status": "committed",
+			"user": "admin"
+		}
+	}
+}
