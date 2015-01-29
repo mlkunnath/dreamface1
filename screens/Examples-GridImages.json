@@ -1,0 +1,31 @@
+{
+	"_id": "547644a4d261e57934a5c574",
+	"title": "GridImages",
+	"name": "GridImages",
+	"requestDate": "2015-01-16T23:01:54.528Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": 12,
+						"widgets": [
+							{
+								"name": "wGridImagesUrl",
+								"id": "6080"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

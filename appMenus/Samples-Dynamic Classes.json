@@ -1,0 +1,15 @@
+{
+	"_id": "545a833d55fc392a50f4282f",
+	"title": "Dynamic Classes",
+	"name": "Dynamic Classes",
+	"requestDate": "2014-11-24T19:06:03.813Z",
+	"ownerId": "",
+	"application": "Samples",
+	"parentname": "Dynamic Containers",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "LayoutDynamicClass"
+	},
+	"order": "0"
+}

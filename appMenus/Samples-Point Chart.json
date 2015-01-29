@@ -1,0 +1,15 @@
+{
+	"_id": "546679408e82543e0a6fb3b3",
+	"title": "Point Chart",
+	"name": "Point Chart",
+	"requestDate": "2014-11-21T18:45:10.967Z",
+	"ownerId": "",
+	"application": "Samples",
+	"parentname": "Charts",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "pointChart"
+	},
+	"order": "0"
+}

@@ -1,0 +1,14 @@
+{
+	"_id": "546228028e82543e0a6fb281",
+	"title": "Patterns VS Masks",
+	"name": "Patterns VS Masks",
+	"requestDate": "2014-11-11T15:15:41.248Z",
+	"ownerId": "",
+	"application": "Samples",
+	"parentname": "Forms",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "RegexVsInputMask"
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"_id": "5476457dd261e57934a5c575",
+	"title": "PubSub",
+	"name": "PubSub",
+	"requestDate": "2014-12-22T06:49:38.678Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "6",
+						"widgets": [
+							{
+								"name": "wPublisher",
+								"id": "83623"
+							}
+						]
+					},
+					{
+						"width": "6",
+						"widgets": [
+							{
+								"name": "wSubscriber",
+								"id": "43868"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"_id": "54764169d261e57934a5c571",
+	"title": "GridStyling",
+	"name": "GridStyling",
+	"requestDate": "2014-11-26T21:15:27.661Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wGridCellClasses",
+								"id": "55869"
+							}
+						]
+					}
+				],
+				"id": ""
+			},
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wGrid",
+								"id": "69145"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

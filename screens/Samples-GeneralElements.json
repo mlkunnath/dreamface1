@@ -1,0 +1,59 @@
+{
+	"_id": "5468e8cb8e82543e0a6fb3c1",
+	"title": "GeneralElements",
+	"name": "GeneralElements",
+	"requestDate": "2014-11-16T23:35:36.505Z",
+	"ownerId": "",
+	"application": "Samples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wAlertBoxes",
+								"id": "91087"
+							}
+						]
+					}
+				],
+				"id": ""
+			},
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wLabelsBadges",
+								"id": "74025"
+							}
+						]
+					}
+				],
+				"id": ""
+			},
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wJumboWells",
+								"id": "52186"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

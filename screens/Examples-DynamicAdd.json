@@ -1,0 +1,31 @@
+{
+	"_id": "5476243ed261e57934a5c569",
+	"title": "DynamicAdd",
+	"name": "DynamicAdd",
+	"requestDate": "2014-12-10T17:50:46.711Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wDynamicContainersAdd",
+								"id": "54673"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"_id": "54978eec931e0efa0a53f6b1",
+	"title": "TodoList",
+	"name": "TodoList",
+	"requestDate": "2014-12-22T03:24:44.135Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wTodoSimple",
+								"id": "67938"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

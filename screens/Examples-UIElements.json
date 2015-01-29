@@ -1,0 +1,45 @@
+{
+	"_id": "5476180cd261e57934a5c55e",
+	"title": "UIElements",
+	"name": "UIElements",
+	"requestDate": "2015-01-15T16:40:43.841Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wAlertBoxes",
+								"id": "54720"
+							}
+						]
+					}
+				],
+				"id": ""
+			},
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wBadgesAndLabels",
+								"id": "84811"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

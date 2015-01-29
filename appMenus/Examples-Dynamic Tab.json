@@ -1,0 +1,15 @@
+{
+	"_id": "54765198d261e57934a5c591",
+	"title": "Dynamic Tab",
+	"name": "Dynamic Tab",
+	"requestDate": "2015-01-14T23:46:47.641Z",
+	"ownerId": "",
+	"application": "Examples",
+	"parentname": "Tab",
+	"order": "0",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "DynamicTab"
+	}
+}

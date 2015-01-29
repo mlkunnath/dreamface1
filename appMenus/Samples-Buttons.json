@@ -1,0 +1,14 @@
+{
+	"_id": "546a154f8e82543e0a6fb3e7",
+	"title": "Buttons",
+	"name": "Buttons",
+	"requestDate": "2014-11-17T15:33:51.300Z",
+	"ownerId": "",
+	"application": "Samples",
+	"parentname": "UI Elements",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "Buttons"
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"_id": "5491f6fa931e0efa0a53f661",
+	"title": "FlexDisp",
+	"name": "FlexDisp",
+	"requestDate": "2014-12-17T21:34:57.913Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wFlexCss",
+								"id": "66384"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

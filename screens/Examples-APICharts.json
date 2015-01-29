@@ -1,0 +1,35 @@
+{
+	"_id": "54b6d74f4c82af2017cb8941",
+	"title": "APICharts",
+	"name": "APICharts",
+	"requestDate": "2015-01-14T20:54:04.564Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wUsaPopulationStatistics",
+								"id": "95489"
+							},
+							{
+								"name": "wChartFilter",
+								"id": "92405"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

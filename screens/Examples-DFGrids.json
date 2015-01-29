@@ -1,0 +1,32 @@
+{
+	"_id": "547606a4d261e57934a5c54c",
+	"title": "DFGrids",
+	"name": "DFGrids",
+	"requestDate": "2014-12-10T17:54:11.252Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wGridStyles",
+								"id": "55226"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	},
+	"category": ""
+}

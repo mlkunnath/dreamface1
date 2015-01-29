@@ -1,0 +1,31 @@
+{
+	"_id": "54761173d261e57934a5c556",
+	"title": "CRUD",
+	"name": "CRUD",
+	"requestDate": "2014-11-27T17:04:50.941Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wMiniCrudModal",
+								"id": "34608"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

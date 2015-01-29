@@ -1,0 +1,15 @@
+{
+	"_id": "54592b93ce83e3f749c441fd",
+	"title": "TreeBasicNav",
+	"name": "TreeBasicNav",
+	"requestDate": "2014-11-21T18:48:20.492Z",
+	"ownerId": "",
+	"application": "Samples",
+	"parentname": "Trees",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "TreeBasicNav"
+	},
+	"order": "0"
+}

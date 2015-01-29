@@ -1,0 +1,31 @@
+{
+	"_id": "54b82aba4c82af2017cb8978",
+	"title": "Dynacombo",
+	"name": "Dynacombo",
+	"requestDate": "2015-01-15T21:02:20.196Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wRadioSurvey",
+								"id": "6476"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

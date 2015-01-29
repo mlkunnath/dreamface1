@@ -1,0 +1,15 @@
+{
+	"_id": "54b5eed14c82af2017cb88fd",
+	"title": "Static",
+	"name": "Static",
+	"requestDate": "2015-01-14T04:21:37.246Z",
+	"ownerId": "",
+	"application": "Examples",
+	"parentname": "Panel",
+	"order": "0",
+	"icon": "",
+	"action": {
+		"type": "no_action",
+		"value": ""
+	}
+}

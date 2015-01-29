@@ -1,0 +1,15 @@
+{
+	"_id": "546aad2370facf0f0d6d229d",
+	"title": "Rating",
+	"name": "Rating",
+	"requestDate": "2014-11-18T02:21:23.579Z",
+	"ownerId": "",
+	"application": "Samples",
+	"parentname": "Graphical Controls",
+	"order": "0",
+	"icon": "",
+	"action": {
+		"type": "no_action",
+		"value": ""
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"_id": "546aabfe70facf0f0d6d228e",
+	"title": "Static Text",
+	"name": "Static Text",
+	"requestDate": "2014-11-18T02:16:30.176Z",
+	"ownerId": "",
+	"application": "Samples",
+	"parentname": "Graphical Controls",
+	"order": "0",
+	"icon": "",
+	"action": {
+		"type": "no_action",
+		"value": ""
+	}
+}

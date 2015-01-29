@@ -1,0 +1,31 @@
+{
+	"_id": "54b584544c82af2017cb88e3",
+	"title": "APICarousel",
+	"name": "APICarousel",
+	"requestDate": "2015-01-13T20:47:48.215Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wCarouselMovies",
+								"id": "13529"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

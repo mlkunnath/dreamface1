@@ -1,0 +1,15 @@
+{
+	"_id": "5459159fddc98a8a1955b9bd",
+	"title": "GridFilteringRadio",
+	"name": "GridFilteringRadio",
+	"requestDate": "2014-11-21T18:43:30.412Z",
+	"ownerId": "",
+	"application": "Samples",
+	"parentname": "Data Grid",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "GridFilterByRadio"
+	},
+	"order": "0"
+}

@@ -1,0 +1,31 @@
+{
+	"_id": "54ab57214c82af2017cb8859",
+	"title": "inputFields",
+	"name": "inputFields",
+	"requestDate": "2015-01-06T03:41:31.355Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wInputField",
+								"id": "75475"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

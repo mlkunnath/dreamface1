@@ -1,0 +1,15 @@
+{
+	"_id": "54b7d8ec4c82af2017cb8963",
+	"title": "Modifying Charts",
+	"name": "Modifying Charts",
+	"requestDate": "2015-01-15T15:13:06.277Z",
+	"ownerId": "",
+	"application": "Examples",
+	"parentname": "Chart",
+	"order": "0",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "ModifyingCharts"
+	}
+}

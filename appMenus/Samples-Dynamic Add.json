@@ -1,0 +1,15 @@
+{
+	"_id": "545a5ce255fc392a50f4280d",
+	"title": "Dynamic Add",
+	"name": "Dynamic Add",
+	"requestDate": "2014-11-25T06:50:06.060Z",
+	"ownerId": "",
+	"application": "Samples",
+	"parentname": "Dynamic Containers",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "DynamicAdd"
+	},
+	"order": "0"
+}

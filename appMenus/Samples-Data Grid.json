@@ -1,0 +1,15 @@
+{
+	"_id": "546aacda70facf0f0d6d2299",
+	"title": "Data Grid",
+	"name": "Data Grid",
+	"requestDate": "2014-11-21T18:44:03.270Z",
+	"ownerId": "",
+	"application": "Samples",
+	"parentname": "Graphical Controls",
+	"order": "0",
+	"icon": "list-alt",
+	"action": {
+		"type": "no_action",
+		"value": ""
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"_id": "545a1b5755fc392a50f427e4",
+	"title": "Dynamic Layout",
+	"name": "Dynamic Layout",
+	"requestDate": "2014-11-24T19:06:29.845Z",
+	"ownerId": "",
+	"application": "Samples",
+	"parentname": "Dynamic Containers",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "DynamicLayout"
+	},
+	"order": "0"
+}

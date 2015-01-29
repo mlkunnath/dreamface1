@@ -1,0 +1,15 @@
+{
+	"_id": "54b584244c82af2017cb88e2",
+	"title": "API Carousel",
+	"name": "API Carousel",
+	"requestDate": "2015-01-13T20:47:48.227Z",
+	"ownerId": "",
+	"application": "Examples",
+	"parentname": "Carousel",
+	"order": "0",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "APICarousel"
+	}
+}

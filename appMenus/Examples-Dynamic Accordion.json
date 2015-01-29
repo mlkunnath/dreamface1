@@ -1,0 +1,15 @@
+{
+	"_id": "5476518ad261e57934a5c590",
+	"title": "Dynamic Accordion",
+	"name": "Dynamic Accordion",
+	"requestDate": "2014-11-26T22:18:27.196Z",
+	"ownerId": "",
+	"application": "Examples",
+	"parentname": "Accordion",
+	"order": "0",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "DynamicAccordion"
+	}
+}

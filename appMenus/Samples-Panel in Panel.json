@@ -1,0 +1,15 @@
+{
+	"_id": "545b023e55fc392a50f4285e",
+	"title": "Panel in Panel",
+	"name": "Panel in Panel",
+	"requestDate": "2014-11-24T19:06:24.869Z",
+	"ownerId": "",
+	"application": "Samples",
+	"parentname": "Dynamic Containers",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "DynaPanelinPanel"
+	},
+	"order": "0"
+}

@@ -1,0 +1,15 @@
+{
+	"_id": "54b981dd4c82af2017cb89ad",
+	"title": "Area And Point",
+	"name": "Area And Point",
+	"requestDate": "2015-01-16T21:26:18.374Z",
+	"ownerId": "",
+	"application": "Examples",
+	"parentname": "Basic Charts",
+	"order": "3",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "area"
+	}
+}

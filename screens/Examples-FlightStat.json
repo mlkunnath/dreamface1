@@ -1,0 +1,31 @@
+{
+	"_id": "54978f2f931e0efa0a53f6b3",
+	"title": "FlightStat",
+	"name": "FlightStat",
+	"requestDate": "2014-12-22T03:25:44.962Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wAirportFlights",
+								"id": "33099"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

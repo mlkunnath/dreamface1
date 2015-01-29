@@ -1,0 +1,15 @@
+{
+	"_id": "54ab46cf4c82af2017cb8854",
+	"title": "Alert Box",
+	"name": "Alert Box",
+	"requestDate": "2015-01-06T02:22:55.718Z",
+	"ownerId": "",
+	"application": "Examples",
+	"parentname": "Custom Directives",
+	"order": "0",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "AlertBoxes"
+	}
+}

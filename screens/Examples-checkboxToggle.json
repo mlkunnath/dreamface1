@@ -1,0 +1,27 @@
+{
+	"_id": "547679bfd261e57934a5c59b",
+	"title": "checkboxToggle",
+	"name": "checkboxToggle",
+	"requestDate": "2014-12-10T17:53:02.794Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": []
+					}
+				],
+				"id": ""
+			}
+		]
+	},
+	"category": ""
+}

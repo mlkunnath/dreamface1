@@ -1,0 +1,15 @@
+{
+	"_id": "546aac4b70facf0f0d6d2295",
+	"title": "Check Box",
+	"name": "Check Box",
+	"requestDate": "2014-11-21T18:50:08.367Z",
+	"ownerId": "",
+	"application": "Samples",
+	"parentname": "Graphical Controls",
+	"order": "0",
+	"icon": "check",
+	"action": {
+		"type": "no_action",
+		"value": ""
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"_id": "546aac1070facf0f0d6d2290",
+	"title": "Link",
+	"name": "Link",
+	"requestDate": "2014-11-18T02:16:48.838Z",
+	"ownerId": "",
+	"application": "Samples",
+	"parentname": "Graphical Controls",
+	"order": "0",
+	"icon": "",
+	"action": {
+		"type": "no_action",
+		"value": ""
+	}
+}

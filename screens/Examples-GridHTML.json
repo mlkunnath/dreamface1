@@ -1,0 +1,31 @@
+{
+	"_id": "54b9d1f04c82af2017cb89bc",
+	"title": "GridHTML",
+	"name": "GridHTML",
+	"requestDate": "2015-01-17T03:08:13.035Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wGridMoviesHtml",
+								"id": "34214"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

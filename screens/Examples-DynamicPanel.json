@@ -1,0 +1,31 @@
+{
+	"_id": "54765128d261e57934a5c58e",
+	"title": "DynamicPanel",
+	"name": "DynamicPanel",
+	"requestDate": "2014-11-26T22:16:25.511Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wPanelDynamic",
+								"id": "5305"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

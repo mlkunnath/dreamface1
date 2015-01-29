@@ -1,0 +1,32 @@
+{
+	"_id": "54ab28aa4c82af2017cb8846",
+	"title": "ProgressBar",
+	"name": "ProgressBar",
+	"requestDate": "2015-01-13T11:44:41.766Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wProgressBarGC",
+								"id": "74516"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	},
+	"category": ""
+}

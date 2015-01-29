@@ -1,0 +1,15 @@
+{
+	"_id": "546aac2670facf0f0d6d2292",
+	"title": "Image",
+	"name": "Image",
+	"requestDate": "2014-11-18T02:17:10.438Z",
+	"ownerId": "",
+	"application": "Samples",
+	"parentname": "Graphical Controls",
+	"order": "0",
+	"icon": "",
+	"action": {
+		"type": "no_action",
+		"value": ""
+	}
+}

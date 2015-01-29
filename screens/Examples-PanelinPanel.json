@@ -1,0 +1,31 @@
+{
+	"_id": "54764e5fd261e57934a5c584",
+	"title": "PanelinPanel",
+	"name": "PanelinPanel",
+	"requestDate": "2015-01-14T04:22:05.870Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wDynamicPanelInPanel",
+								"id": "40608"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

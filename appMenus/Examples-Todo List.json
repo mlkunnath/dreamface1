@@ -1,0 +1,15 @@
+{
+	"_id": "54978edc931e0efa0a53f6b0",
+	"title": "Todo List",
+	"name": "Todo List",
+	"requestDate": "2014-12-22T03:24:44.149Z",
+	"ownerId": "",
+	"application": "Examples",
+	"parentname": "Simple Apps",
+	"order": "0",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "TodoList"
+	}
+}

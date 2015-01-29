@@ -1,0 +1,32 @@
+{
+	"_id": "54592b69ce83e3f749c441fb",
+	"title": "TreeBasicNav",
+	"name": "TreeBasicNav",
+	"requestDate": "2014-11-21T18:48:20.478Z",
+	"ownerId": "",
+	"application": "Samples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wTree",
+								"id": "8911"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	},
+	"category": ""
+}

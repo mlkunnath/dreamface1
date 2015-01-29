@@ -1,0 +1,31 @@
+{
+	"_id": "547611c2d261e57934a5c558",
+	"title": "DFButtons",
+	"name": "DFButtons",
+	"requestDate": "2015-01-13T09:58:39.206Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wButtons",
+								"id": "12070"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"_id": "546aac3170facf0f0d6d2293",
+	"title": "Input Field",
+	"name": "Input Field",
+	"requestDate": "2014-11-24T19:01:48.877Z",
+	"ownerId": "",
+	"application": "Samples",
+	"parentname": "Graphical Controls",
+	"order": "0",
+	"icon": "comment",
+	"action": {
+		"type": "screen",
+		"value": "Forms"
+	}
+}

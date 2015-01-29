@@ -1,0 +1,15 @@
+{
+	"_id": "54b6d7384c82af2017cb8940",
+	"title": "API Charts",
+	"name": "API Charts",
+	"requestDate": "2015-01-14T20:54:04.604Z",
+	"ownerId": "",
+	"application": "Examples",
+	"parentname": "Chart",
+	"order": "1",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "APICharts"
+	}
+}

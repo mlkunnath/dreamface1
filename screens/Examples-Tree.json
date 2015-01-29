@@ -1,0 +1,26 @@
+{
+	"_id": "5476405fd261e57934a5c56f",
+	"title": "Tree",
+	"name": "Tree",
+	"requestDate": "2015-01-13T09:59:21.321Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": []
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

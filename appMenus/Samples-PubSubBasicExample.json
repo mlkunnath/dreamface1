@@ -1,0 +1,14 @@
+{
+	"_id": "5459323fce83e3f749c44206",
+	"title": "PubSubBasicExample",
+	"name": "PubSubBasicExample",
+	"requestDate": "2014-11-04T20:08:46.777Z",
+	"ownerId": "",
+	"application": "Samples",
+	"parentname": "PubSub",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "PubSubBasicExample"
+	}
+}

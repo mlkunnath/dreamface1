@@ -1,0 +1,32 @@
+{
+	"_id": "54979885931e0efa0a53f6be",
+	"title": "gridFilters",
+	"name": "gridFilters",
+	"requestDate": "2015-01-13T11:02:50.840Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wGridFilter",
+								"id": "81656"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	},
+	"category": ""
+}

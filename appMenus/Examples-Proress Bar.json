@@ -1,0 +1,15 @@
+{
+	"_id": "54ab288d4c82af2017cb8845",
+	"title": "Proress Bar",
+	"name": "Proress Bar",
+	"requestDate": "2015-01-13T11:44:41.788Z",
+	"ownerId": "",
+	"application": "Examples",
+	"parentname": "Custom Directives",
+	"order": "0",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "ProgressBar"
+	}
+}

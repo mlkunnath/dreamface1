@@ -1,0 +1,31 @@
+{
+	"_id": "54979904931e0efa0a53f6c0",
+	"title": "WeatherForecast",
+	"name": "WeatherForecast",
+	"requestDate": "2014-12-22T04:07:44.411Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wWeatherHorizon",
+								"id": "40226"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

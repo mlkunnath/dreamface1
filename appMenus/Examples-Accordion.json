@@ -1,0 +1,15 @@
+{
+	"_id": "54764f3ad261e57934a5c588",
+	"title": "Accordion",
+	"name": "Accordion",
+	"requestDate": "2015-01-15T16:40:14.343Z",
+	"ownerId": "",
+	"application": "Examples",
+	"parentname": "Graphical Controls",
+	"order": "4",
+	"icon": "film",
+	"action": {
+		"type": "no_action",
+		"value": ""
+	}
+}

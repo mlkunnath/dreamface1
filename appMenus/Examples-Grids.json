@@ -1,0 +1,15 @@
+{
+	"_id": "5476067ad261e57934a5c54b",
+	"title": "Grids",
+	"name": "Grids",
+	"requestDate": "2014-11-26T16:58:25.065Z",
+	"ownerId": "",
+	"application": "Examples",
+	"parentname": "DataGrid",
+	"order": "0",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "DFGrids"
+	}
+}

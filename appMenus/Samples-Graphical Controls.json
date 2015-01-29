@@ -1,0 +1,15 @@
+{
+	"_id": "546aabe070facf0f0d6d228d",
+	"title": "Graphical Controls",
+	"name": "Graphical Controls",
+	"requestDate": "2014-11-18T02:16:00.936Z",
+	"ownerId": "",
+	"application": "Samples",
+	"parentname": "",
+	"order": "0",
+	"icon": "",
+	"action": {
+		"type": "no_action",
+		"value": ""
+	}
+}

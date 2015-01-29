@@ -1,0 +1,31 @@
+{
+	"_id": "54ba81714c82af2017cb89c4",
+	"title": "rating",
+	"name": "rating",
+	"requestDate": "2015-01-17T15:36:29.287Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wRating",
+								"id": "94364"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"_id": "547610f7d261e57934a5c554",
+	"title": "Javascript Libraries",
+	"name": "Javascript Libraries",
+	"requestDate": "2015-01-14T19:23:46.513Z",
+	"ownerId": "",
+	"application": "Examples",
+	"parentname": "Resources",
+	"order": "0",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "JSLibraries"
+	}
+}

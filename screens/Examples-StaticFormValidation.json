@@ -1,0 +1,40 @@
+{
+	"_id": "54b6a3fb4c82af2017cb8920",
+	"title": "StaticFormValidation",
+	"name": "StaticFormValidation",
+	"requestDate": "2015-01-14T18:48:24.260Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "6",
+						"widgets": [
+							{
+								"name": "wFormsValidation",
+								"id": "31134"
+							}
+						]
+					},
+					{
+						"width": "6",
+						"widgets": [
+							{
+								"name": "wFormsValidation2",
+								"id": "93469"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

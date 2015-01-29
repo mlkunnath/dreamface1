@@ -1,0 +1,15 @@
+{
+	"_id": "5461fe9f8e82543e0a6fb276",
+	"title": "Grid Images",
+	"name": "Grid Images",
+	"requestDate": "2014-11-21T18:43:44.532Z",
+	"ownerId": "",
+	"application": "Samples",
+	"parentname": "Data Grid",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "GridStyling"
+	},
+	"order": "0"
+}

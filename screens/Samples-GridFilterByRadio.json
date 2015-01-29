@@ -1,0 +1,32 @@
+{
+	"_id": "54591559ddc98a8a1955b9bb",
+	"title": "GridFilterByRadio",
+	"name": "GridFilterByRadio",
+	"requestDate": "2014-11-21T18:43:30.397Z",
+	"ownerId": "",
+	"application": "Samples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wGridExample",
+								"id": "64397"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	},
+	"category": ""
+}

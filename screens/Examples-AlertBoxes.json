@@ -1,0 +1,31 @@
+{
+	"_id": "54ab46f24c82af2017cb8855",
+	"title": "AlertBoxes",
+	"name": "AlertBoxes",
+	"requestDate": "2015-01-06T02:22:55.715Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wAlertDirectiveAutoHide",
+								"id": "63783"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

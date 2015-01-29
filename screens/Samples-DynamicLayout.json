@@ -1,0 +1,63 @@
+{
+	"_id": "545a1b7955fc392a50f427e5",
+	"title": "DynamicLayout",
+	"name": "DynamicLayout",
+	"requestDate": "2014-11-24T19:06:29.831Z",
+	"ownerId": "",
+	"application": "Samples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wDynamicTab",
+								"id": "52817"
+							}
+						]
+					}
+				],
+				"id": ""
+			},
+			{
+				"columns": [
+					{
+						"width": "4",
+						"widgets": [
+							{
+								"name": "wDynamicAccrod",
+								"id": "16144"
+							}
+						]
+					},
+					{
+						"width": "4",
+						"widgets": [
+							{
+								"name": "wListDynamic",
+								"id": "28170"
+							}
+						]
+					},
+					{
+						"width": "4",
+						"widgets": [
+							{
+								"name": "wPanelDynamic",
+								"id": "27799"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

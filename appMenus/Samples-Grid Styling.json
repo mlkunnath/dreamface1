@@ -1,0 +1,15 @@
+{
+	"_id": "545a723b55fc392a50f42823",
+	"title": "Grid Styling",
+	"name": "Grid Styling",
+	"requestDate": "2014-11-21T18:43:37.522Z",
+	"ownerId": "",
+	"application": "Samples",
+	"parentname": "Data Grid",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "GridStyles"
+	},
+	"order": "0"
+}

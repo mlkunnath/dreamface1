@@ -1,0 +1,31 @@
+{
+	"_id": "5465773c8e82543e0a6fb37a",
+	"title": "MiniCrud",
+	"name": "MiniCrud",
+	"requestDate": "2014-11-14T03:30:13.712Z",
+	"ownerId": "",
+	"application": "Samples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wMiniCrud",
+								"id": "79484"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

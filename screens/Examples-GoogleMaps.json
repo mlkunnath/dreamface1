@@ -1,0 +1,31 @@
+{
+	"_id": "5491f900931e0efa0a53f665",
+	"title": "GoogleMaps",
+	"name": "GoogleMaps",
+	"requestDate": "2014-12-17T21:43:35.951Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wGoogle",
+								"id": "90796"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"_id": "546622b58e82543e0a6fb38b",
+	"title": "Bar Chart",
+	"name": "Bar Chart",
+	"requestDate": "2014-11-21T18:44:49.876Z",
+	"ownerId": "",
+	"application": "Samples",
+	"parentname": "Charts",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "barCharts"
+	},
+	"order": "0"
+}

@@ -1,0 +1,26 @@
+{
+	"_id": "547623e4d261e57934a5c568",
+	"title": "Containers",
+	"name": "Containers",
+	"requestDate": "2014-12-10T15:29:06.951Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": []
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

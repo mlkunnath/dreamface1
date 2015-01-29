@@ -1,0 +1,15 @@
+{
+	"_id": "5476492ed261e57934a5c578",
+	"title": "Pie Chart",
+	"name": "Pie Chart",
+	"requestDate": "2015-01-16T15:19:38.952Z",
+	"ownerId": "",
+	"application": "Examples",
+	"parentname": "Basic Charts",
+	"order": "0",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "Pie"
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"_id": "54625e0a8e82543e0a6fb292",
+	"title": "FormValid",
+	"name": "FormValid",
+	"requestDate": "2014-11-17T14:35:40.993Z",
+	"ownerId": "",
+	"application": "Samples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": 12,
+						"widgets": [
+							{
+								"name": "wFormValidation",
+								"id": "84766"
+							}
+						]
+					}
+				],
+				"id": ""
+			},
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wCheckoutForm",
+								"id": "42087"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	},
+	"category": ""
+}

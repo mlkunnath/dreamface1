@@ -1,0 +1,31 @@
+{
+	"_id": "547649f1d261e57934a5c580",
+	"title": "area",
+	"name": "area",
+	"requestDate": "2015-01-16T21:26:18.371Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wAreaChart",
+								"id": "40665"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

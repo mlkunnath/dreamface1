@@ -1,0 +1,31 @@
+{
+	"_id": "54653e1b8e82543e0a6fb361",
+	"title": "UsBoxOffice",
+	"name": "UsBoxOffice",
+	"requestDate": "2014-11-13T23:26:33.152Z",
+	"ownerId": "",
+	"application": "Samples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wUsBoxOffice",
+								"id": "81703"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

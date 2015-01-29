@@ -1,0 +1,32 @@
+{
+	"_id": "545917f7ddc98a8a1955b9c1",
+	"title": "ChartFilter",
+	"name": "ChartFilter",
+	"requestDate": "2014-11-04T18:18:27.071Z",
+	"ownerId": "",
+	"application": "Samples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wChartFilter",
+								"id": "99616"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	},
+	"category": ""
+}

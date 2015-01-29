@@ -1,0 +1,31 @@
+{
+	"_id": "54761103d261e57934a5c555",
+	"title": "JSLibraries",
+	"name": "JSLibraries",
+	"requestDate": "2015-01-14T19:23:46.499Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": 12,
+						"widgets": [
+							{
+								"name": "wJavascriptResource",
+								"id": "31572"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

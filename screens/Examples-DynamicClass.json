@@ -1,0 +1,40 @@
+{
+	"_id": "5476d7c6d261e57934a5c5ab",
+	"title": "DynamicClass",
+	"name": "DynamicClass",
+	"requestDate": "2014-11-27T08:49:14.519Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "6",
+						"widgets": [
+							{
+								"name": "wTabsDynamicClasses",
+								"id": "43525"
+							}
+						]
+					},
+					{
+						"width": "6",
+						"widgets": [
+							{
+								"name": "wAccordionDynamicClass",
+								"id": "60578"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

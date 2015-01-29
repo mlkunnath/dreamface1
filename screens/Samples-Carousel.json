@@ -1,0 +1,32 @@
+{
+	"_id": "546ab98b70facf0f0d6d22a8",
+	"title": "Carousel",
+	"name": "Carousel",
+	"requestDate": "2014-11-18T03:48:42.076Z",
+	"ownerId": "",
+	"application": "Samples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wCarousel",
+								"id": "86975"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	},
+	"category": ""
+}

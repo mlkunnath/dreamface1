@@ -1,0 +1,41 @@
+{
+	"_id": "5465f6388e82543e0a6fb385",
+	"title": "PIeChart",
+	"name": "PIeChart",
+	"requestDate": "2014-11-21T18:47:28.976Z",
+	"ownerId": "",
+	"application": "Samples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "5",
+						"widgets": [
+							{
+								"name": "wPieChart1",
+								"id": "20244"
+							}
+						]
+					},
+					{
+						"width": "7",
+						"widgets": [
+							{
+								"name": "wPieChart",
+								"id": "52061"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	},
+	"category": ""
+}

@@ -1,0 +1,31 @@
+{
+	"_id": "54b711aa4c82af2017cb8956",
+	"title": "APIChaining",
+	"name": "APIChaining",
+	"requestDate": "2015-01-15T01:03:01.612Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wTwitterMode1",
+								"id": "34037"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

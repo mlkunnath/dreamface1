@@ -1,0 +1,15 @@
+{
+	"_id": "546660d18e82543e0a6fb3a1",
+	"title": "Area Chart",
+	"name": "Area Chart",
+	"requestDate": "2014-11-21T18:44:56.783Z",
+	"ownerId": "",
+	"application": "Samples",
+	"parentname": "Charts",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "AreaChart"
+	},
+	"order": "0"
+}

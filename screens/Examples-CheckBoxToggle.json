@@ -1,0 +1,31 @@
+{
+	"_id": "549777a3931e0efa0a53f6a8",
+	"title": "CheckBoxToggle",
+	"name": "CheckBoxToggle",
+	"requestDate": "2014-12-22T01:56:40.423Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wCheckBocToggle",
+								"id": "55386"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

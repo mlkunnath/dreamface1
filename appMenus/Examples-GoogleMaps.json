@@ -1,0 +1,15 @@
+{
+	"_id": "5491f8ec931e0efa0a53f664",
+	"title": "GoogleMaps",
+	"name": "GoogleMaps",
+	"requestDate": "2014-12-17T21:43:35.972Z",
+	"ownerId": "",
+	"application": "Examples",
+	"parentname": "Resources",
+	"order": "0",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "GoogleMaps"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"_id": "54764e9fd261e57934a5c587",
+	"title": "Panel",
+	"name": "Panel",
+	"requestDate": "2015-01-15T16:39:57.611Z",
+	"ownerId": "",
+	"application": "Examples",
+	"parentname": "Graphical Controls",
+	"order": "2",
+	"icon": "th-large",
+	"action": {
+		"type": "no_action",
+		"value": ""
+	}
+}

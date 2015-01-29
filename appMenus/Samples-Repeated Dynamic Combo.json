@@ -1,0 +1,15 @@
+{
+	"_id": "545bcbbb55fc392a50f4289a",
+	"title": "Dynamic Combo",
+	"name": "Repeated Dynamic Combo",
+	"requestDate": "2014-11-21T18:41:57.719Z",
+	"ownerId": "",
+	"application": "Samples",
+	"parentname": "Combo Box",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "repeatDynaCombo"
+	},
+	"order": "0"
+}

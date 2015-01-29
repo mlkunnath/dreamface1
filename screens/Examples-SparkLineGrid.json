@@ -1,0 +1,31 @@
+{
+	"_id": "54979848931e0efa0a53f6bb",
+	"title": "SparkLineGrid",
+	"name": "SparkLineGrid",
+	"requestDate": "2014-12-22T04:04:34.265Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wSampleGrid",
+								"id": "80897"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

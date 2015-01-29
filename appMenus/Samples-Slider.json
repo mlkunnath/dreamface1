@@ -1,0 +1,15 @@
+{
+	"_id": "546aad2d70facf0f0d6d229e",
+	"title": "Slider",
+	"name": "Slider",
+	"requestDate": "2014-11-24T19:16:17.773Z",
+	"ownerId": "",
+	"application": "Samples",
+	"parentname": "Graphical Controls",
+	"order": "0",
+	"icon": "fa fa-check",
+	"action": {
+		"type": "screen",
+		"value": "Slider"
+	}
+}

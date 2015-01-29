@@ -1,0 +1,31 @@
+{
+	"_id": "54764a05d261e57934a5c581",
+	"title": "point",
+	"name": "point",
+	"requestDate": "2014-11-26T21:45:54.444Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wPointChart",
+								"id": "17643"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

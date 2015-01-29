@@ -1,0 +1,31 @@
+{
+	"_id": "54764998d261e57934a5c57e",
+	"title": "Line",
+	"name": "Line",
+	"requestDate": "2014-12-10T21:52:42.259Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wLineChart1",
+								"id": "56339"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

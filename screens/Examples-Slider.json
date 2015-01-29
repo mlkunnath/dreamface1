@@ -1,0 +1,31 @@
+{
+	"_id": "5476894cd261e57934a5c5a2",
+	"title": "Slider",
+	"name": "Slider",
+	"requestDate": "2015-01-15T20:08:12.685Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wSlider",
+								"id": "18074"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

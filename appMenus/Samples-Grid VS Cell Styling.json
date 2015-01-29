@@ -1,0 +1,15 @@
+{
+	"_id": "54621fed8e82543e0a6fb27e",
+	"title": "Grid VS Cell Styling",
+	"name": "Grid VS Cell Styling",
+	"requestDate": "2014-11-21T18:43:50.712Z",
+	"ownerId": "",
+	"application": "Samples",
+	"parentname": "Data Grid",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "GridVSCell"
+	},
+	"order": "0"
+}

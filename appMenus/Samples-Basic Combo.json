@@ -1,0 +1,15 @@
+{
+	"_id": "545b6af355fc392a50f42868",
+	"title": "Basic Combo",
+	"name": "Basic Combo",
+	"requestDate": "2014-11-21T18:41:38.087Z",
+	"ownerId": "",
+	"application": "Samples",
+	"parentname": "Combo Box",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "BasicCombo"
+	},
+	"order": "0"
+}

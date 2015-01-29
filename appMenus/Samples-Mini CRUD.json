@@ -1,0 +1,14 @@
+{
+	"_id": "5465772c8e82543e0a6fb379",
+	"title": "Mini CRUD",
+	"name": "Mini CRUD",
+	"requestDate": "2014-11-14T03:30:16.213Z",
+	"ownerId": "",
+	"application": "Samples",
+	"parentname": "CRUD",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "MiniCrud"
+	}
+}

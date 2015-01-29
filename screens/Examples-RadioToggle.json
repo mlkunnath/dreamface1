@@ -1,0 +1,27 @@
+{
+	"_id": "54768708d261e57934a5c59e",
+	"title": "RadioToggle",
+	"name": "RadioToggle",
+	"requestDate": "2014-12-10T17:52:56.963Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": []
+					}
+				],
+				"id": ""
+			}
+		]
+	},
+	"category": ""
+}

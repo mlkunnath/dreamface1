@@ -1,0 +1,31 @@
+{
+	"_id": "547651bfd261e57934a5c592",
+	"title": "DynamicTab",
+	"name": "DynamicTab",
+	"requestDate": "2015-01-14T23:46:47.627Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wTabsMovies",
+								"id": "75864"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

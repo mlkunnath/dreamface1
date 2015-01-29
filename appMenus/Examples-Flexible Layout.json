@@ -1,0 +1,15 @@
+{
+	"_id": "5491f6ee931e0efa0a53f660",
+	"title": "Flexible Layout",
+	"name": "Flexible Layout",
+	"requestDate": "2015-01-15T16:52:20.416Z",
+	"ownerId": "",
+	"application": "Examples",
+	"parentname": "Static",
+	"order": "1",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "FlexDisp"
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"_id": "5476515ad261e57934a5c58f",
+	"title": "DynamicAccordion",
+	"name": "DynamicAccordion",
+	"requestDate": "2014-11-26T22:18:27.194Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wDynamicAccrod",
+								"id": "20223"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"_id": "5476042ed261e57934a5c548",
+	"title": "BasicRadio",
+	"name": "BasicRadio",
+	"requestDate": "2015-01-15T21:25:53.311Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wDynamicRadio",
+								"id": "97322"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

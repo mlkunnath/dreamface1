@@ -1,0 +1,15 @@
+{
+	"_id": "54b6d6fc4c82af2017cb893f",
+	"title": "Basic Charts",
+	"name": "Basic Charts",
+	"requestDate": "2015-01-14T20:52:12.206Z",
+	"ownerId": "",
+	"application": "Examples",
+	"parentname": "Chart",
+	"order": "0",
+	"icon": "",
+	"action": {
+		"type": "no_action",
+		"value": ""
+	}
+}

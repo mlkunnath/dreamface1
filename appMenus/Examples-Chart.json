@@ -1,0 +1,15 @@
+{
+	"_id": "547648f0d261e57934a5c577",
+	"title": "Chart",
+	"name": "Chart",
+	"requestDate": "2015-01-15T16:41:54.065Z",
+	"ownerId": "",
+	"application": "Examples",
+	"parentname": "Graphical Controls",
+	"order": "13",
+	"icon": "stats",
+	"action": {
+		"type": "no_action",
+		"value": ""
+	}
+}

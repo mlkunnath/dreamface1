@@ -1,0 +1,31 @@
+{
+	"_id": "54ab63394c82af2017cb8861",
+	"title": "Wizard",
+	"name": "Wizard",
+	"requestDate": "2015-01-15T16:41:12.784Z",
+	"ownerId": "",
+	"application": "Examples",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wWizard",
+								"id": "41636"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}
