@@ -1,0 +1,42 @@
+{
+	"tenant": "Examples",
+	"login": "elias",
+	"roles": {
+		"list": [
+			"admin",
+			"developer"
+		],
+		"default": "admin"
+	},
+	"rights": [
+		"accessRealm::studio",
+		"manageUsers::CustomUsers",
+		"manageUsers::StaffUsers",
+		"listUsers::CustomUsers",
+		"listUsers::StaffUsers",
+		"executeAny::dataquery",
+		"assignAny::CustomRoles",
+		"assignAny::StaffRoles",
+		"assignStaffRole::admin",
+		"assignStaffRole::developer",
+		"manageRoles::CustomRoles",
+		"assignRight::accessRealm",
+		"assignRight::DATAQUERY",
+		"assignRight::executeAny::dataquery",
+		"assignRight::manageUsers::CustomUsers",
+		"assignRight::listUsers::CustomUsers",
+		"assignRight::listUsers::StaffUsers",
+		"assignRight::assignAny::CustomRoles",
+		"assignRight::assignAny::StaffRoles",
+		"assignRight::assignStaffRole::admin",
+		"assignRight::assignStaffRole::developer",
+		"assignRight::manageRoles::CustomRoles"
+	],
+	"email": "eyousef@hawk.iit.edu",
+	"type": "",
+	"lastName": "Yousef",
+	"firstName": "Elias",
+	"kind": "system",
+	"_id": "5458556b2b8a0cbc44961921",
+	"pass": "123456"
+}
