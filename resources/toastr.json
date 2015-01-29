@@ -1,0 +1,15 @@
+{
+	"_id": "54a37a3f7814ef8fb27dc327",
+	"name": "toastr",
+	"description": "",
+	"items": [
+		{
+			"path": "toastr/toastr.css",
+			"type": "CSS"
+		},
+		{
+			"path": "toastr/toastr.js",
+			"type": "JavaScript"
+		}
+	]
+}

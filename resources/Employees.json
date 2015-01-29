@@ -1,0 +1,55 @@
+{
+	"_id": "547f765e90e0fccf464c082f",
+	"name": "Employees",
+	"description": "",
+	"items": [
+		{
+			"path": "pics/amy_jones.jpg",
+			"type": "Image"
+		},
+		{
+			"path": "pics/eugene_lee.jpg",
+			"type": "Image"
+		},
+		{
+			"path": "pics/gary_donovan.jpg",
+			"type": "Image"
+		},
+		{
+			"path": "pics/james_king.jpg",
+			"type": "Image"
+		},
+		{
+			"path": "pics/john_williams.jpg",
+			"type": "Image"
+		},
+		{
+			"path": "pics/julie_taylor.jpg",
+			"type": "Image"
+		},
+		{
+			"path": "pics/kathleen_byrne.jpg",
+			"type": "Image"
+		},
+		{
+			"path": "pics/lisa_wong.jpg",
+			"type": "Image"
+		},
+		{
+			"path": "pics/paula_gates.jpg",
+			"type": "Image"
+		},
+		{
+			"path": "pics/paul_jones.jpg",
+			"type": "Image"
+		},
+		{
+			"path": "pics/ray_moore.jpg",
+			"type": "Image"
+		},
+		{
+			"path": "pics/steven_wells.jpg",
+			"type": "Image"
+		}
+	]
+}

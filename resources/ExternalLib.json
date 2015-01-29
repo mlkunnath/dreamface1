@@ -1,0 +1,11 @@
+{
+	"_id": "546a852590e0fccf464c082a",
+	"name": "ExternalLib",
+	"description": "",
+	"items": [
+		{
+			"path": "externallib.js",
+			"type": "JavaScript"
+		}
+	]
+}

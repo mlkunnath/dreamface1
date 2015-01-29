@@ -1,0 +1,11 @@
+{
+	"_id": "547d432990e0fccf464c082e",
+	"name": "images",
+	"description": "",
+	"items": [
+		{
+			"path": "images/ribbon.png",
+			"type": "Image"
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"_id": "5488a14bf63f9ba0a5850797",
+	"name": "avatars",
+	"description": "",
+	"items": [
+		{
+			"path": "avatars/user1.png",
+			"type": "Image"
+		},
+		{
+			"path": "avatars/user2.png",
+			"type": "Image"
+		},
+		{
+			"path": "avatars/user3.jpg",
+			"type": "Image"
+		},
+		{
+			"path": "avatars/user3.png",
+			"type": "Image"
+		},
+		{
+			"path": "avatars/user4.png",
+			"type": "Image"
+		},
+		{
+			"path": "avatars/user5.png",
+			"type": "Image"
+		}
+	]
+}

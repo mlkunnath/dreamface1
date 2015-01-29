@@ -1,0 +1,927 @@
+{
+	"_id": "5457f754eed6e2af4447c996",
+	"name": "Flags",
+	"description": "",
+	"items": {
+		"0": {
+			"path": "png250px/AE.PNG",
+			"type": "Image"
+		},
+		"1": {
+			"path": "png250px/AF.PNG",
+			"type": "Image"
+		},
+		"2": {
+			"path": "png250px/AG.PNG",
+			"type": "Image"
+		},
+		"3": {
+			"path": "png250px/AI.PNG",
+			"type": "Image"
+		},
+		"4": {
+			"path": "png250px/AL.PNG",
+			"type": "Image"
+		},
+		"5": {
+			"path": "png250px/AM.PNG",
+			"type": "Image"
+		},
+		"6": {
+			"path": "png250px/AO.PNG",
+			"type": "Image"
+		},
+		"7": {
+			"path": "png250px/AR.PNG",
+			"type": "Image"
+		},
+		"8": {
+			"path": "png250px/AS.PNG",
+			"type": "Image"
+		},
+		"9": {
+			"path": "png250px/AT.PNG",
+			"type": "Image"
+		},
+		"10": {
+			"path": "png250px/AU.PNG",
+			"type": "Image"
+		},
+		"11": {
+			"path": "png250px/AW.PNG",
+			"type": "Image"
+		},
+		"12": {
+			"path": "png250px/AX.PNG",
+			"type": "Image"
+		},
+		"13": {
+			"path": "png250px/AZ.PNG",
+			"type": "Image"
+		},
+		"14": {
+			"path": "png250px/BA.PNG",
+			"type": "Image"
+		},
+		"15": {
+			"path": "png250px/BB.PNG",
+			"type": "Image"
+		},
+		"16": {
+			"path": "png250px/BD.PNG",
+			"type": "Image"
+		},
+		"17": {
+			"path": "png250px/BE.PNG",
+			"type": "Image"
+		},
+		"18": {
+			"path": "png250px/BF.PNG",
+			"type": "Image"
+		},
+		"19": {
+			"path": "png250px/BG.PNG",
+			"type": "Image"
+		},
+		"20": {
+			"path": "png250px/BH.PNG",
+			"type": "Image"
+		},
+		"21": {
+			"path": "png250px/BI.PNG",
+			"type": "Image"
+		},
+		"22": {
+			"path": "png250px/BJ.PNG",
+			"type": "Image"
+		},
+		"23": {
+			"path": "png250px/BM.PNG",
+			"type": "Image"
+		},
+		"24": {
+			"path": "png250px/BN.PNG",
+			"type": "Image"
+		},
+		"25": {
+			"path": "png250px/BO.PNG",
+			"type": "Image"
+		},
+		"26": {
+			"path": "png250px/BR.PNG",
+			"type": "Image"
+		},
+		"27": {
+			"path": "png250px/BS.PNG",
+			"type": "Image"
+		},
+		"28": {
+			"path": "png250px/BT.PNG",
+			"type": "Image"
+		},
+		"29": {
+			"path": "png250px/BW.PNG",
+			"type": "Image"
+		},
+		"30": {
+			"path": "png250px/BY.PNG",
+			"type": "Image"
+		},
+		"31": {
+			"path": "png250px/BZ.PNG",
+			"type": "Image"
+		},
+		"32": {
+			"path": "png250px/CA.PNG",
+			"type": "Image"
+		},
+		"33": {
+			"path": "png250px/CC.PNG",
+			"type": "Image"
+		},
+		"34": {
+			"path": "png250px/CD.PNG",
+			"type": "Image"
+		},
+		"35": {
+			"path": "png250px/CF.PNG",
+			"type": "Image"
+		},
+		"36": {
+			"path": "png250px/CG.PNG",
+			"type": "Image"
+		},
+		"37": {
+			"path": "png250px/CH.PNG",
+			"type": "Image"
+		},
+		"38": {
+			"path": "png250px/CI.PNG",
+			"type": "Image"
+		},
+		"39": {
+			"path": "png250px/CK.PNG",
+			"type": "Image"
+		},
+		"40": {
+			"path": "png250px/CL.PNG",
+			"type": "Image"
+		},
+		"41": {
+			"path": "png250px/CM.PNG",
+			"type": "Image"
+		},
+		"42": {
+			"path": "png250px/CN.PNG",
+			"type": "Image"
+		},
+		"43": {
+			"path": "png250px/CO.PNG",
+			"type": "Image"
+		},
+		"44": {
+			"path": "png250px/CR.PNG",
+			"type": "Image"
+		},
+		"45": {
+			"path": "png250px/CU.PNG",
+			"type": "Image"
+		},
+		"46": {
+			"path": "png250px/CV.PNG",
+			"type": "Image"
+		},
+		"47": {
+			"path": "png250px/CW.PNG",
+			"type": "Image"
+		},
+		"48": {
+			"path": "png250px/CX.PNG",
+			"type": "Image"
+		},
+		"49": {
+			"path": "png250px/CY.PNG",
+			"type": "Image"
+		},
+		"50": {
+			"path": "png250px/CZ.PNG",
+			"type": "Image"
+		},
+		"51": {
+			"path": "png250px/DE.PNG",
+			"type": "Image"
+		},
+		"52": {
+			"path": "png250px/DJ.PNG",
+			"type": "Image"
+		},
+		"53": {
+			"path": "png250px/DK.PNG",
+			"type": "Image"
+		},
+		"54": {
+			"path": "png250px/DM.PNG",
+			"type": "Image"
+		},
+		"55": {
+			"path": "png250px/DO.PNG",
+			"type": "Image"
+		},
+		"56": {
+			"path": "png250px/DZ.PNG",
+			"type": "Image"
+		},
+		"57": {
+			"path": "png250px/EC.PNG",
+			"type": "Image"
+		},
+		"58": {
+			"path": "png250px/EE.PNG",
+			"type": "Image"
+		},
+		"59": {
+			"path": "png250px/EG.PNG",
+			"type": "Image"
+		},
+		"60": {
+			"path": "png250px/ER.PNG",
+			"type": "Image"
+		},
+		"61": {
+			"path": "png250px/ES.PNG",
+			"type": "Image"
+		},
+		"62": {
+			"path": "png250px/ET.PNG",
+			"type": "Image"
+		},
+		"63": {
+			"path": "png250px/FI.PNG",
+			"type": "Image"
+		},
+		"64": {
+			"path": "png250px/FJ.PNG",
+			"type": "Image"
+		},
+		"65": {
+			"path": "png250px/FK.PNG",
+			"type": "Image"
+		},
+		"66": {
+			"path": "png250px/FM.PNG",
+			"type": "Image"
+		},
+		"67": {
+			"path": "png250px/FO.PNG",
+			"type": "Image"
+		},
+		"68": {
+			"path": "png250px/FR.PNG",
+			"type": "Image"
+		},
+		"69": {
+			"path": "png250px/GA.PNG",
+			"type": "Image"
+		},
+		"70": {
+			"path": "png250px/GB.PNG",
+			"type": "Image"
+		},
+		"71": {
+			"path": "png250px/GD.PNG",
+			"type": "Image"
+		},
+		"72": {
+			"path": "png250px/GE.PNG",
+			"type": "Image"
+		},
+		"73": {
+			"path": "png250px/GG.PNG",
+			"type": "Image"
+		},
+		"74": {
+			"path": "png250px/GH.PNG",
+			"type": "Image"
+		},
+		"75": {
+			"path": "png250px/GI.PNG",
+			"type": "Image"
+		},
+		"76": {
+			"path": "png250px/GL.PNG",
+			"type": "Image"
+		},
+		"77": {
+			"path": "png250px/GM.PNG",
+			"type": "Image"
+		},
+		"78": {
+			"path": "png250px/GN.PNG",
+			"type": "Image"
+		},
+		"79": {
+			"path": "png250px/GQ.PNG",
+			"type": "Image"
+		},
+		"80": {
+			"path": "png250px/GR.PNG",
+			"type": "Image"
+		},
+		"81": {
+			"path": "png250px/GS.PNG",
+			"type": "Image"
+		},
+		"82": {
+			"path": "png250px/GT.PNG",
+			"type": "Image"
+		},
+		"83": {
+			"path": "png250px/GU.PNG",
+			"type": "Image"
+		},
+		"84": {
+			"path": "png250px/GW.PNG",
+			"type": "Image"
+		},
+		"85": {
+			"path": "png250px/GY.PNG",
+			"type": "Image"
+		},
+		"86": {
+			"path": "png250px/HK.PNG",
+			"type": "Image"
+		},
+		"87": {
+			"path": "png250px/HN.PNG",
+			"type": "Image"
+		},
+		"88": {
+			"path": "png250px/HR.PNG",
+			"type": "Image"
+		},
+		"89": {
+			"path": "png250px/HT.PNG",
+			"type": "Image"
+		},
+		"90": {
+			"path": "png250px/HU.PNG",
+			"type": "Image"
+		},
+		"91": {
+			"path": "png250px/ID.PNG",
+			"type": "Image"
+		},
+		"92": {
+			"path": "png250px/IE.PNG",
+			"type": "Image"
+		},
+		"93": {
+			"path": "png250px/IL.PNG",
+			"type": "Image"
+		},
+		"94": {
+			"path": "png250px/IM.PNG",
+			"type": "Image"
+		},
+		"95": {
+			"path": "png250px/IN.PNG",
+			"type": "Image"
+		},
+		"96": {
+			"path": "png250px/IO.PNG",
+			"type": "Image"
+		},
+		"97": {
+			"path": "png250px/IQ.PNG",
+			"type": "Image"
+		},
+		"98": {
+			"path": "png250px/IRAN.PNG",
+			"type": "Image"
+		},
+		"99": {
+			"path": "png250px/IS.PNG",
+			"type": "Image"
+		},
+		"100": {
+			"path": "png250px/IT.PNG",
+			"type": "Image"
+		},
+		"101": {
+			"path": "png250px/JE.PNG",
+			"type": "Image"
+		},
+		"102": {
+			"path": "png250px/JM.PNG",
+			"type": "Image"
+		},
+		"103": {
+			"path": "png250px/JO.PNG",
+			"type": "Image"
+		},
+		"104": {
+			"path": "png250px/JP.PNG",
+			"type": "Image"
+		},
+		"105": {
+			"path": "png250px/KE.PNG",
+			"type": "Image"
+		},
+		"106": {
+			"path": "png250px/KG.PNG",
+			"type": "Image"
+		},
+		"107": {
+			"path": "png250px/KH.PNG",
+			"type": "Image"
+		},
+		"108": {
+			"path": "png250px/KI.PNG",
+			"type": "Image"
+		},
+		"109": {
+			"path": "png250px/KM.PNG",
+			"type": "Image"
+		},
+		"110": {
+			"path": "png250px/KN.PNG",
+			"type": "Image"
+		},
+		"111": {
+			"path": "png250px/KP.PNG",
+			"type": "Image"
+		},
+		"112": {
+			"path": "png250px/KR.PNG",
+			"type": "Image"
+		},
+		"113": {
+			"path": "png250px/KW.PNG",
+			"type": "Image"
+		},
+		"114": {
+			"path": "png250px/KY.PNG",
+			"type": "Image"
+		},
+		"115": {
+			"path": "png250px/KZ.PNG",
+			"type": "Image"
+		},
+		"116": {
+			"path": "png250px/LA.PNG",
+			"type": "Image"
+		},
+		"117": {
+			"path": "png250px/LB.PNG",
+			"type": "Image"
+		},
+		"118": {
+			"path": "png250px/LC.PNG",
+			"type": "Image"
+		},
+		"119": {
+			"path": "png250px/LI.PNG",
+			"type": "Image"
+		},
+		"120": {
+			"path": "png250px/LK.PNG",
+			"type": "Image"
+		},
+		"121": {
+			"path": "png250px/LR.PNG",
+			"type": "Image"
+		},
+		"122": {
+			"path": "png250px/LS.PNG",
+			"type": "Image"
+		},
+		"123": {
+			"path": "png250px/LT.PNG",
+			"type": "Image"
+		},
+		"124": {
+			"path": "png250px/LU.PNG",
+			"type": "Image"
+		},
+		"125": {
+			"path": "png250px/LV.PNG",
+			"type": "Image"
+		},
+		"126": {
+			"path": "png250px/LY.PNG",
+			"type": "Image"
+		},
+		"127": {
+			"path": "png250px/MA.PNG",
+			"type": "Image"
+		},
+		"128": {
+			"path": "png250px/MC.PNG",
+			"type": "Image"
+		},
+		"129": {
+			"path": "png250px/MD.PNG",
+			"type": "Image"
+		},
+		"130": {
+			"path": "png250px/ME.PNG",
+			"type": "Image"
+		},
+		"131": {
+			"path": "png250px/MG.PNG",
+			"type": "Image"
+		},
+		"132": {
+			"path": "png250px/MH.PNG",
+			"type": "Image"
+		},
+		"133": {
+			"path": "png250px/MK.PNG",
+			"type": "Image"
+		},
+		"134": {
+			"path": "png250px/ML.PNG",
+			"type": "Image"
+		},
+		"135": {
+			"path": "png250px/MM.PNG",
+			"type": "Image"
+		},
+		"136": {
+			"path": "png250px/MN.PNG",
+			"type": "Image"
+		},
+		"137": {
+			"path": "png250px/MO.PNG",
+			"type": "Image"
+		},
+		"138": {
+			"path": "png250px/MP.PNG",
+			"type": "Image"
+		},
+		"139": {
+			"path": "png250px/MR.PNG",
+			"type": "Image"
+		},
+		"140": {
+			"path": "png250px/MS.PNG",
+			"type": "Image"
+		},
+		"141": {
+			"path": "png250px/MT.PNG",
+			"type": "Image"
+		},
+		"142": {
+			"path": "png250px/MU.PNG",
+			"type": "Image"
+		},
+		"143": {
+			"path": "png250px/MV.PNG",
+			"type": "Image"
+		},
+		"144": {
+			"path": "png250px/MW.PNG",
+			"type": "Image"
+		},
+		"145": {
+			"path": "png250px/MX.PNG",
+			"type": "Image"
+		},
+		"146": {
+			"path": "png250px/MY.PNG",
+			"type": "Image"
+		},
+		"147": {
+			"path": "png250px/MZ.PNG",
+			"type": "Image"
+		},
+		"148": {
+			"path": "png250px/NA.PNG",
+			"type": "Image"
+		},
+		"149": {
+			"path": "png250px/NC.PNG",
+			"type": "Image"
+		},
+		"150": {
+			"path": "png250px/NE.PNG",
+			"type": "Image"
+		},
+		"151": {
+			"path": "png250px/NF.PNG",
+			"type": "Image"
+		},
+		"152": {
+			"path": "png250px/NG.PNG",
+			"type": "Image"
+		},
+		"153": {
+			"path": "png250px/NI.PNG",
+			"type": "Image"
+		},
+		"154": {
+			"path": "png250px/NL.PNG",
+			"type": "Image"
+		},
+		"155": {
+			"path": "png250px/NO.PNG",
+			"type": "Image"
+		},
+		"156": {
+			"path": "png250px/NP.PNG",
+			"type": "Image"
+		},
+		"157": {
+			"path": "png250px/NR.PNG",
+			"type": "Image"
+		},
+		"158": {
+			"path": "png250px/NU.PNG",
+			"type": "Image"
+		},
+		"159": {
+			"path": "png250px/NZ.PNG",
+			"type": "Image"
+		},
+		"160": {
+			"path": "png250px/OM.PNG",
+			"type": "Image"
+		},
+		"161": {
+			"path": "png250px/PA.PNG",
+			"type": "Image"
+		},
+		"162": {
+			"path": "png250px/PE.PNG",
+			"type": "Image"
+		},
+		"163": {
+			"path": "png250px/PF.PNG",
+			"type": "Image"
+		},
+		"164": {
+			"path": "png250px/PG.PNG",
+			"type": "Image"
+		},
+		"165": {
+			"path": "png250px/PH.PNG",
+			"type": "Image"
+		},
+		"166": {
+			"path": "png250px/PK.PNG",
+			"type": "Image"
+		},
+		"167": {
+			"path": "png250px/PL.PNG",
+			"type": "Image"
+		},
+		"168": {
+			"path": "png250px/PN.PNG",
+			"type": "Image"
+		},
+		"169": {
+			"path": "png250px/PR.PNG",
+			"type": "Image"
+		},
+		"170": {
+			"path": "png250px/PT.PNG",
+			"type": "Image"
+		},
+		"171": {
+			"path": "png250px/PW.PNG",
+			"type": "Image"
+		},
+		"172": {
+			"path": "png250px/PY.PNG",
+			"type": "Image"
+		},
+		"173": {
+			"path": "png250px/QA.PNG",
+			"type": "Image"
+		},
+		"174": {
+			"path": "png250px/RO.PNG",
+			"type": "Image"
+		},
+		"175": {
+			"path": "png250px/RS.PNG",
+			"type": "Image"
+		},
+		"176": {
+			"path": "png250px/RU.PNG",
+			"type": "Image"
+		},
+		"177": {
+			"path": "png250px/RW.PNG",
+			"type": "Image"
+		},
+		"178": {
+			"path": "png250px/SA.PNG",
+			"type": "Image"
+		},
+		"179": {
+			"path": "png250px/SB.PNG",
+			"type": "Image"
+		},
+		"180": {
+			"path": "png250px/SC.PNG",
+			"type": "Image"
+		},
+		"181": {
+			"path": "png250px/SD.PNG",
+			"type": "Image"
+		},
+		"182": {
+			"path": "png250px/SE.PNG",
+			"type": "Image"
+		},
+		"183": {
+			"path": "png250px/SG.PNG",
+			"type": "Image"
+		},
+		"184": {
+			"path": "png250px/SH.PNG",
+			"type": "Image"
+		},
+		"185": {
+			"path": "png250px/SI.PNG",
+			"type": "Image"
+		},
+		"186": {
+			"path": "png250px/SK.PNG",
+			"type": "Image"
+		},
+		"187": {
+			"path": "png250px/SL.PNG",
+			"type": "Image"
+		},
+		"188": {
+			"path": "png250px/SM.PNG",
+			"type": "Image"
+		},
+		"189": {
+			"path": "png250px/SN.PNG",
+			"type": "Image"
+		},
+		"190": {
+			"path": "png250px/SO.PNG",
+			"type": "Image"
+		},
+		"191": {
+			"path": "png250px/SR.PNG",
+			"type": "Image"
+		},
+		"192": {
+			"path": "png250px/SS.PNG",
+			"type": "Image"
+		},
+		"193": {
+			"path": "png250px/ST.PNG",
+			"type": "Image"
+		},
+		"194": {
+			"path": "png250px/SV.PNG",
+			"type": "Image"
+		},
+		"195": {
+			"path": "png250px/SX.PNG",
+			"type": "Image"
+		},
+		"196": {
+			"path": "png250px/SY.PNG",
+			"type": "Image"
+		},
+		"197": {
+			"path": "png250px/SZ.PNG",
+			"type": "Image"
+		},
+		"198": {
+			"path": "png250px/TC.PNG",
+			"type": "Image"
+		},
+		"199": {
+			"path": "png250px/TD.PNG",
+			"type": "Image"
+		},
+		"200": {
+			"path": "png250px/TF.PNG",
+			"type": "Image"
+		},
+		"201": {
+			"path": "png250px/TG.PNG",
+			"type": "Image"
+		},
+		"202": {
+			"path": "png250px/TH.PNG",
+			"type": "Image"
+		},
+		"203": {
+			"path": "png250px/TJ.PNG",
+			"type": "Image"
+		},
+		"204": {
+			"path": "png250px/TK.PNG",
+			"type": "Image"
+		},
+		"205": {
+			"path": "png250px/TL.PNG",
+			"type": "Image"
+		},
+		"206": {
+			"path": "png250px/TM.PNG",
+			"type": "Image"
+		},
+		"207": {
+			"path": "png250px/TN.PNG",
+			"type": "Image"
+		},
+		"208": {
+			"path": "png250px/TO.PNG",
+			"type": "Image"
+		},
+		"209": {
+			"path": "png250px/TR.PNG",
+			"type": "Image"
+		},
+		"210": {
+			"path": "png250px/TT.PNG",
+			"type": "Image"
+		},
+		"211": {
+			"path": "png250px/TV.PNG",
+			"type": "Image"
+		},
+		"212": {
+			"path": "png250px/TZ.PNG",
+			"type": "Image"
+		},
+		"213": {
+			"path": "png250px/UA.PNG",
+			"type": "Image"
+		},
+		"214": {
+			"path": "png250px/UG.PNG",
+			"type": "Image"
+		},
+		"215": {
+			"path": "png250px/US.PNG",
+			"type": "Image"
+		},
+		"216": {
+			"path": "png250px/UY.PNG",
+			"type": "Image"
+		},
+		"217": {
+			"path": "png250px/UZ.PNG",
+			"type": "Image"
+		},
+		"218": {
+			"path": "png250px/VA.PNG",
+			"type": "Image"
+		},
+		"219": {
+			"path": "png250px/VC.PNG",
+			"type": "Image"
+		},
+		"220": {
+			"path": "png250px/VE.PNG",
+			"type": "Image"
+		},
+		"221": {
+			"path": "png250px/VG.PNG",
+			"type": "Image"
+		},
+		"222": {
+			"path": "png250px/VI.PNG",
+			"type": "Image"
+		},
+		"223": {
+			"path": "png250px/VN.PNG",
+			"type": "Image"
+		},
+		"224": {
+			"path": "png250px/VU.PNG",
+			"type": "Image"
+		},
+		"225": {
+			"path": "png250px/WS.PNG",
+			"type": "Image"
+		},
+		"226": {
+			"path": "png250px/YE.PNG",
+			"type": "Image"
+		},
+		"227": {
+			"path": "png250px/ZA.PNG",
+			"type": "Image"
+		},
+		"228": {
+			"path": "png250px/ZM.PNG",
+			"type": "Image"
+		},
+		"229": {
+			"path": "png250px/ZW.PNG",
+			"type": "Image"
+		}
+	}
+}

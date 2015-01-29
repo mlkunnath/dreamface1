@@ -1,0 +1,79 @@
+{
+	"_id": "5489b3dbf63f9ba0a5850798",
+	"name": "weather",
+	"description": "",
+	"items": [
+		{
+			"path": "openWeatherIcons/01d.png",
+			"type": "Image"
+		},
+		{
+			"path": "openWeatherIcons/01n.png",
+			"type": "Image"
+		},
+		{
+			"path": "openWeatherIcons/02d.png",
+			"type": "Image"
+		},
+		{
+			"path": "openWeatherIcons/02n.png",
+			"type": "Image"
+		},
+		{
+			"path": "openWeatherIcons/03d.png",
+			"type": "Image"
+		},
+		{
+			"path": "openWeatherIcons/03n.png",
+			"type": "Image"
+		},
+		{
+			"path": "openWeatherIcons/04d.png",
+			"type": "Image"
+		},
+		{
+			"path": "openWeatherIcons/04n.png",
+			"type": "Image"
+		},
+		{
+			"path": "openWeatherIcons/09d.png",
+			"type": "Image"
+		},
+		{
+			"path": "openWeatherIcons/09n.png",
+			"type": "Image"
+		},
+		{
+			"path": "openWeatherIcons/10d.png",
+			"type": "Image"
+		},
+		{
+			"path": "openWeatherIcons/10n.png",
+			"type": "Image"
+		},
+		{
+			"path": "openWeatherIcons/11d.png",
+			"type": "Image"
+		},
+		{
+			"path": "openWeatherIcons/11n.png",
+			"type": "Image"
+		},
+		{
+			"path": "openWeatherIcons/13d.png",
+			"type": "Image"
+		},
+		{
+			"path": "openWeatherIcons/13n.png",
+			"type": "Image"
+		},
+		{
+			"path": "openWeatherIcons/50d.png",
+			"type": "Image"
+		},
+		{
+			"path": "openWeatherIcons/50n.png",
+			"type": "Image"
+		}
+	]
+}

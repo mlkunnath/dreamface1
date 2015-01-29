@@ -1,0 +1,11 @@
+{
+	"_id": "546faec790e0fccf464c082d",
+	"name": "TypeAhead",
+	"description": "",
+	"items": [
+		{
+			"path": "TypeAhead/typeahead.bundle.js",
+			"type": "JavaScript"
+		}
+	]
+}

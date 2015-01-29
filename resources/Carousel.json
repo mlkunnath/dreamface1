@@ -1,0 +1,19 @@
+{
+	"_id": "546ab5b990e0fccf464c082b",
+	"name": "Carousel",
+	"description": "",
+	"items": [
+		{
+			"path": "Carousel/bigstock-Big-data-concept-in-word-tag-c-49922318.jpg",
+			"type": "Image"
+		},
+		{
+			"path": "Carousel/cracking-the-cloud-conceptions-v2.jpg",
+			"type": "Image"
+		},
+		{
+			"path": "Carousel/HiRes-221.jpg",
+			"type": "Image"
+		}
+	]
+}

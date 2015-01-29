@@ -1,0 +1,11 @@
+{
+	"_id": "5488a06bf63f9ba0a5850796",
+	"name": "googleMaps",
+	"description": "",
+	"items": [
+		{
+			"path": "google/googleMaps.js",
+			"type": "JavaScript"
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"_id": "54887c41f63f9ba0a5850795",
+	"name": "jsonFiles",
+	"description": "",
+	"items": [
+		{
+			"path": "json/airports.json",
+			"type": "0"
+		},
+		{
+			"path": "json/convertcsv.json",
+			"type": "0"
+		},
+		{
+			"path": "json/countcurr.json",
+			"type": "0"
+		},
+		{
+			"path": "json/countries.json",
+			"type": "0"
+		},
+		{
+			"path": "json/CurrencyMapper.Json",
+			"type": "0"
+		},
+		{
+			"path": "json/output.json",
+			"type": "0"
+		},
+		{
+			"path": "json/States.json",
+			"type": "0"
+		}
+	]
+}
