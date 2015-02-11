@@ -1,0 +1,37 @@
+{
+	"_id": "54d99efa5d907cc1ba770c66",
+	"name": "test",
+	"description": "",
+	"items": [
+		{
+			"path": "mik_css.css",
+			"type": "CSS",
+			"size": "<strong>46</strong> b"
+		},
+		{
+			"path": "mik_js.js",
+			"type": "JavaScript",
+			"size": "<strong>0.1</strong> KB"
+		},
+		{
+			"path": "cheburashka.jpg",
+			"type": "Image",
+			"size": "<strong>13.7</strong> KB"
+		},
+		{
+			"path": "Maradona.jpg",
+			"type": "Image",
+			"size": "<strong>79.2</strong> KB"
+		},
+		{
+			"path": "Snegir.jpg",
+			"type": "Image",
+			"size": "<strong>44</strong> KB"
+		},
+		{
+			"path": "mik_js_sub_folder.js",
+			"type": "JavaScript",
+			"size": "<strong>0.2</strong> KB"
+		}
+	]
+}
