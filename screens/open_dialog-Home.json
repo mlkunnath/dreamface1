@@ -1,0 +1,40 @@
+{
+	"_id": "54941a5479f467880dfabe46",
+	"title": "Home",
+	"name": "Home",
+	"requestDate": "2014-12-25T07:11:37.895Z",
+	"ownerId": "",
+	"application": "open_dialog",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "6",
+						"widgets": [
+							{
+								"name": "wChart",
+								"id": "72857"
+							}
+						]
+					},
+					{
+						"width": "6",
+						"widgets": [
+							{
+								"name": "wForm",
+								"id": "26110"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}
