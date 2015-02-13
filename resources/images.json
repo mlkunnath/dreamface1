@@ -1,0 +1,47 @@
+{
+	"_id": "54455e1c45b624d6a09aaddf",
+	"description": "workAroundImageStorage",
+	"items": [
+		{
+			"path": "FIDELITY-logo-new-1024x221.jpg",
+			"type": "JavaScript"
+		},
+		{
+			"path": "Logos/Cigna_logo.png",
+			"type": "Image"
+		},
+		{
+			"path": "Logos/person1.png",
+			"type": "Image"
+		},
+		{
+			"path": "Logos/person2.png",
+			"type": "Image"
+		},
+		{
+			"path": "Logos/person3.png",
+			"type": "Image"
+		},
+		{
+			"path": "Priority/Priority-High.png",
+			"type": "Image"
+		},
+		{
+			"path": "Priority/Priority-Highest.png",
+			"type": "Image"
+		},
+		{
+			"path": "Priority/Priority-Low.png",
+			"type": "Image"
+		},
+		{
+			"path": "Priority/Priority-Lowest.png",
+			"type": "Image"
+		},
+		{
+			"path": "Priority/Priority-Normal.png",
+			"type": "Image"
+		}
+	],
+	"name": "images"
+}

@@ -1,0 +1,37 @@
+{
+	"_id": "546d401b90e0fccf464c082c",
+	"name": "BPMImages",
+	"description": "",
+	"items": [
+		{
+			"path": "process1.png",
+			"type": "Image",
+			"size": ""
+		},
+		{
+			"path": "man4.jpg",
+			"type": "Image",
+			"size": "<strong>9.4</strong> KB"
+		},
+		{
+			"path": "man3.jpg",
+			"type": "Image",
+			"size": "<strong>11</strong> KB"
+		},
+		{
+			"path": "man2.jpg",
+			"type": "Image",
+			"size": "<strong>8.8</strong> KB"
+		},
+		{
+			"path": "woman1.jpg",
+			"type": "Image",
+			"size": "<strong>9</strong> KB"
+		},
+		{
+			"path": "man1.jpg",
+			"type": "Image",
+			"size": "<strong>8.9</strong> KB"
+		}
+	]
+}
