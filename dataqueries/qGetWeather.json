@@ -1,0 +1,71 @@
+{
+	"_id": "5421d74d2ff9c16c1e2cfa53",
+	"selector": ":root",
+	"update_comment": "",
+	"ownerId": "",
+	"persistence": "none",
+	"settings": {
+		"postrequestbody": "",
+		"authentication": "none",
+		"auth_password": "",
+		"typerequest": "HTTP_GET",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": "http://api.openweathermap.org/data/2.5/weather",
+		"dbdriver": ""
+	},
+	"appexpr": [],
+	"format": "json",
+	"dependency": "",
+	"category": "Samples",
+	"description": "get weather info",
+	"name": "qGetWeather",
+	"connector": "http",
+	"requestDate": "2014-09-23T20:25:49.319Z",
+	"parameters": [
+		{
+			"name": "q",
+			"type": "request",
+			"value": "london,uk",
+			"operation": "eq"
+		}
+	],
+	"metadata": {
+		"name": "root",
+		"type": "root",
+		"children": {}
+	},
+	"source": "ext",
+	"visibility": "visible",
+	"lock": {
+		"status": "unlocked"
+	},
+	"precode": [],
+	"postcode": [],
+	"service": {
+		"name": "0",
+		"method": ""
+	},
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1423825171",
+			"status": "committed",
+			"user": "admin"
+		},
+		"dreamface3": {
+			"last_action": "1422543082",
+			"status": "committed",
+			"user": "admin"
+		},
+		"ibmbpm": {
+			"last_action": "1416425271",
+			"status": "deleted",
+			"user": "admin"
+		},
+		"default": {
+			"last_action": "1414441807",
+			"status": "committed",
+			"user": "nicolas"
+		}
+	}
+}

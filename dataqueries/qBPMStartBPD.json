@@ -1,0 +1,66 @@
+{
+	"_id": "546e980776bd67e80db97135",
+	"selector": ":root",
+	"update_comment": "",
+	"ownerId": "",
+	"persistence": "none",
+	"settings": {
+		"postrequestbody": "",
+		"authentication": "IBMBPMadmin",
+		"auth_password": "",
+		"typerequest": "HTTP_POST",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": "http://dfdemos.market-interactive-clouds.com:9080/rest/bpm/wle/v1/process?action=start&bpdId=25.d00e57f7-20a1-4d91-8eba-8d22b579fb82&processAppId=2066.1c793d64-d2bd-4302-a847-25a98f37c561&federationMode=true",
+		"dbdriver": "",
+		"dbnames": {
+			"database": "",
+			"collection": ""
+		}
+	},
+	"appexpr": [],
+	"format": "json",
+	"dependency": "",
+	"category": "Demo",
+	"description": "",
+	"name": "qBPMStartBPD",
+	"connector": "http",
+	"requestDate": "2015-01-30T19:30:21.243Z",
+	"parameters": [
+		{
+			"name": "params",
+			"type": "request",
+			"value": "{\"currentPosition\":{\"positionType\":\"\",\"jobTitle\":\"\",\"iId\":\"\",\"replacement\":{\"lastName\":\"\",\"firstName\":\"\",\"supervisor\":\"\",\"payLevel\":\"\",\"payType\":\"\",\"notes\":\"\"}},\"requisition\":{\"reqNum\":\"1140\",\"requestor\":\"Roland Peisl\",\"status\":\"\",\"approvalNeeded\":\"false\",\"date\":\"2014-11-19T22:11:47Z\",\"department\":\"Software Engineering\",\"location\":\"\",\"empNum\":\"1\",\"gmApproval\":\"\",\"gmComments\":\"\",\"instanceId\":\"\",\"hrcandidateAvailable\":\"false\"}}",
+			"operation": "eq"
+		}
+	],
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{\"status\":{\"name\":\"status\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"status\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"status\"},\"styles\":{}}]},\"children\":{}},\"Data\":{\"name\":\"Data\",\"type\":\"Object\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Data\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Data\"},\"styles\":{}}]},\"children\":{\"status\":{\"name\":\"status\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"status\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"status\"},\"styles\":{}}]},\"children\":{}},\"exceptionType\":{\"name\":\"exceptionType\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"exceptionType\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"exceptionType\"},\"styles\":{}}]},\"children\":{}},\"errorNumber\":{\"name\":\"errorNumber\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"errorNumber\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"errorNumber\"},\"styles\":{}}]},\"children\":{}},\"errorMessage\":{\"name\":\"errorMessage\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"errorMessage\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"errorMessage\"},\"styles\":{}}]},\"children\":{}},\"errorMessageParameters\":{\"name\":\"errorMessageParameters\",\"type\":\"Array\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"errorMessageParameters\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"errorMessageParameters\"},\"styles\":{}}]},\"children\":{}},\"responses\":{\"name\":\"responses\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"responses\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"responses\"},\"styles\":{}}]},\"children\":{}}}}}}",
+	"source": "ext",
+	"visibility": "visible",
+	"lock": {
+		"status": "unlocked"
+	},
+	"precode": [],
+	"postcode": [
+		{
+			"name": "PostCode",
+			"code": "var paramsValue = params.params;\nvar data = response.data.data;\nexecuteQuery({\"qName\":\"qGetSubmitJobTaskID\"}, function(res){\n  //  executeQuery({\"qName\":\"qBPMGetTaskDetails\",\"params\":{\"task_id\":res.taskId}}, function(resi){\n          executeQuery({\"qName\":\"qBPMSubmitJobRequisition\",\"params\":{\"task_id\":res.taskId ,\"action\": \"finish\", \"params\": paramsValue , \"parts\" : \"all\"}}, function(submitJRResponse){\n           response= submitJRResponse;\n           \n           terminateFilter();   \n        });\n        \n  \n  //  });\n});\n\n\n\n\n\n\n\n"
+		}
+	],
+	"service": {
+		"name": "",
+		"method": ""
+	},
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1423825171",
+			"status": "committed",
+			"user": "admin"
+		},
+		"dreamface3": {
+			"status": "modified",
+			"user": "admin",
+			"last_action": "1422646221"
+		}
+	}
+}

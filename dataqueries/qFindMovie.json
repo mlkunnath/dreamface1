@@ -1,0 +1,66 @@
+{
+	"_id": "5445546cba22fcf82725ae93",
+	"selector": ":root",
+	"update_comment": "",
+	"ownerId": "",
+	"persistence": "none",
+	"settings": {
+		"postrequestbody": "",
+		"authentication": "none",
+		"auth_password": "",
+		"typerequest": "HTTP_GET",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": " http://www.omdbapi.com/",
+		"dbdriver": "",
+		"dbnames": {
+			"database": "",
+			"collection": ""
+		}
+	},
+	"appexpr": [],
+	"format": "json",
+	"dependency": "",
+	"category": "Samples",
+	"description": "Open Source IMDB Database Search Engine",
+	"name": "qFindMovie",
+	"connector": "http",
+	"requestDate": "2014-10-20T18:29:00.807Z",
+	"parameters": [
+		{
+			"name": "t",
+			"type": "request",
+			"value": "men in black",
+			"operation": "eq"
+		}
+	],
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{\"Title\":{\"name\":\"Title\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Title\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Title\"},\"styles\":{}}]},\"children\":{}},\"Year\":{\"name\":\"Year\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Year\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Year\"},\"styles\":{}}]},\"children\":{}},\"Rated\":{\"name\":\"Rated\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Rated\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Rated\"},\"styles\":{}}]},\"children\":{}},\"Released\":{\"name\":\"Released\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Released\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Released\"},\"styles\":{}}]},\"children\":{}},\"Runtime\":{\"name\":\"Runtime\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Runtime\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Runtime\"},\"styles\":{}}]},\"children\":{}},\"Genre\":{\"name\":\"Genre\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Genre\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Genre\"},\"styles\":{}}]},\"children\":{}},\"Director\":{\"name\":\"Director\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Director\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Director\"},\"styles\":{}}]},\"children\":{}},\"Writer\":{\"name\":\"Writer\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Writer\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Writer\"},\"styles\":{}}]},\"children\":{}},\"Actors\":{\"name\":\"Actors\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Actors\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Actors\"},\"styles\":{}}]},\"children\":{}},\"Plot\":{\"name\":\"Plot\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Plot\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Plot\"},\"styles\":{}}]},\"children\":{}},\"Language\":{\"name\":\"Language\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Language\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Language\"},\"styles\":{}}]},\"children\":{}},\"Country\":{\"name\":\"Country\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Country\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Country\"},\"styles\":{}}]},\"children\":{}},\"Awards\":{\"name\":\"Awards\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Awards\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Awards\"},\"styles\":{}}]},\"children\":{}},\"Poster\":{\"name\":\"Poster\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Poster\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Poster\"},\"styles\":{}}]},\"children\":{}},\"Metascore\":{\"name\":\"Metascore\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Metascore\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Metascore\"},\"styles\":{}}]},\"children\":{}},\"imdbRating\":{\"name\":\"imdbRating\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"imdbRating\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"imdbRating\"},\"styles\":{}}]},\"children\":{}},\"imdbVotes\":{\"name\":\"imdbVotes\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"imdbVotes\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"imdbVotes\"},\"styles\":{}}]},\"children\":{}},\"imdbID\":{\"name\":\"imdbID\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"imdbID\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"imdbID\"},\"styles\":{}}]},\"children\":{}},\"Type\":{\"name\":\"Type\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Type\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Type\"},\"styles\":{}}]},\"children\":{}},\"Response\":{\"name\":\"Response\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Response\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"Response\"},\"styles\":{}}]},\"children\":{}}}}",
+	"source": "ext",
+	"visibility": "visible",
+	"lock": {
+		"status": "unlocked"
+	},
+	"precode": [],
+	"postcode": [],
+	"service": {
+		"name": "",
+		"method": ""
+	},
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1423825171",
+			"status": "committed",
+			"user": "admin"
+		},
+		"dreamface3": {
+			"last_action": "1422543082",
+			"status": "committed",
+			"user": "admin"
+		},
+		"default": {
+			"last_action": "1414441807",
+			"status": "committed",
+			"user": "nicolas"
+		}
+	}
+}

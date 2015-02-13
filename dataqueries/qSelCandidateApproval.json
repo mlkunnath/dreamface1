@@ -1,0 +1,113 @@
+{
+	"_id": "5446cc89ba22fcf82725af69",
+	"appexpr": [],
+	"category": "Samples",
+	"connector": "http",
+	"dependency": "",
+	"description": "",
+	"format": "json",
+	"lock": {
+		"status": "unlocked"
+	},
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{}}",
+	"name": "qSelCandidateApproval",
+	"ownerId": "",
+	"parameters": [
+		{
+			"name": "task_id",
+			"type": "url",
+			"value": "",
+			"operation": "eq"
+		},
+		{
+			"name": "action",
+			"type": "request",
+			"value": "",
+			"operation": "eq"
+		},
+		{
+			"name": "lastName",
+			"type": "request",
+			"value": "",
+			"operation": "eq"
+		},
+		{
+			"name": "firstName",
+			"type": "request",
+			"value": "",
+			"operation": "eq"
+		},
+		{
+			"name": "supervisor",
+			"type": "request",
+			"value": "",
+			"operation": "eq"
+		},
+		{
+			"name": "payLevel",
+			"type": "request",
+			"value": "",
+			"operation": "eq"
+		},
+		{
+			"name": "payType",
+			"type": "request",
+			"value": "",
+			"operation": "eq"
+		},
+		{
+			"name": "hrcandidateAvailable",
+			"type": "request",
+			"value": "",
+			"operation": "eq"
+		}
+	],
+	"persistence": "none",
+	"postcode": [],
+	"precode": [
+		{
+			"name": "Add Params",
+			"code": "var new_params = [];\nnew_params.push({ \"name\": \"task_id\", \"value\": params[0].value, \"type\": \"url\" });\nnew_params.push({ \"name\": \"action\", \"value\": \"finish\", \"type\": \"request\" });\n\nvar params_obj = {};\nfor (var i=0; i<params.length; i++) {\n    params_obj[params[i].name] = params[i].value;\n}\n\n\nnew_params.push({ \"name\": \"params\",\n    \"value\": '{\"selectedCandidate\":{\"lastName\":\"'+params_obj.lastName+'\",' +\n        '\"firstName\":\"'+params_obj.firstName+'\",' +\n        '\"payLevel\":\"'+params_obj.payLevel+'\",' +\n        '\"payType\":\"'+params_obj.payType+'\",' +\n        '\"notes\":\"\",' +\n        '\"supervisor\":\"'+params_obj.supervisor+'\"},' +\n        '\"hrcandidateAvailable\":'+params_obj.hrcandidateAvailable+'}',\n    \"type\": \"request\"\n});\n\nparams = new_params;\nterminateFilter();"
+		}
+	],
+	"requestDate": "2014-10-21T21:23:01.639Z",
+	"selector": ":root",
+	"service": {
+		"name": "",
+		"method": ""
+	},
+	"settings": {
+		"postrequestbody": "",
+		"authentication": "BPMAdmin",
+		"auth_password": "",
+		"typerequest": "HTTP_PUT",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": "http://50.97.60.187:9080/rest/bpm/wle/v1/task/{task_id}",
+		"dbdriver": "",
+		"dbnames": {
+			"database": "",
+			"collection": ""
+		}
+	},
+	"source": "ext",
+	"update_comment": "",
+	"visibility": "visible",
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1423825171",
+			"status": "committed",
+			"user": "admin"
+		},
+		"dreamface3": {
+			"last_action": "1422543082",
+			"status": "committed",
+			"user": "admin"
+		},
+		"ibmbpm": {
+			"last_action": "1416531652",
+			"status": "deleted",
+			"user": "admin"
+		}
+	}
+}

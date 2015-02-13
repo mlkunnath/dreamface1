@@ -1,0 +1,53 @@
+{
+	"_id": "544fb97353451908114cf1fe",
+	"name": "qcGetClaimsOld",
+	"ownerId": "",
+	"description": "get Claims",
+	"category": "Samples",
+	"service": {
+		"name": "",
+		"method": ""
+	},
+	"format": "json",
+	"persistence": "none",
+	"source": "db",
+	"settings": {
+		"postrequestbody": "",
+		"authentication": "none",
+		"auth_password": "",
+		"typerequest": "HTTP_GET",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": "http://50.97.60.186/database/get/ClaimsDB/claims",
+		"dbdriver": "mongodb",
+		"dbnames": {
+			"database": "ClaimsDB",
+			"collection": "claims"
+		}
+	},
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{\"data\":{\"name\":\"data\",\"type\":\"Array\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"data\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"data\"},\"styles\":{}}]},\"children\":{\"id\":{\"name\":\"id\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"id\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"id\"},\"styles\":{}}]},\"children\":{}},\"subscriberId\":{\"name\":\"subscriberId\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"subscriberId\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"subscriberId\"},\"styles\":{}}]},\"children\":{}},\"claimType\":{\"name\":\"claimType\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"claimType\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"claimType\"},\"styles\":{}}]},\"children\":{}},\"submittedAt\":{\"name\":\"submittedAt\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"submittedAt\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"submittedAt\"},\"styles\":{}}]},\"children\":{}},\"region\":{\"name\":\"region\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"region\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"region\"},\"styles\":{}}]},\"children\":{}},\"summary\":{\"name\":\"summary\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"summary\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"summary\"},\"styles\":{}}]},\"children\":{}},\"amount\":{\"name\":\"amount\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"amount\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"amount\"},\"styles\":{}}]},\"children\":{}},\"status\":{\"name\":\"status\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"status\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"status\"},\"styles\":{}}]},\"children\":{}},\"_id\":{\"name\":\"_id\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"_id\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"_id\"},\"styles\":{}}]},\"children\":{}}}}}}",
+	"requestDate": "2014-10-29T21:35:46.068Z",
+	"parameters": [],
+	"appexpr": [],
+	"precode": [],
+	"postcode": [],
+	"connector": "http",
+	"lock": {
+		"status": "unlocked"
+	},
+	"selector": ":root",
+	"update_comment": "",
+	"visibility": "visible",
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1423825171",
+			"status": "committed",
+			"user": "admin"
+		},
+		"dreamface3": {
+			"last_action": "1422543082",
+			"status": "committed",
+			"user": "admin"
+		}
+	}
+}

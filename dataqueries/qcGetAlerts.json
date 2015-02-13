@@ -1,0 +1,59 @@
+{
+	"_id": "544fa9b853451908114cf1ea",
+	"selector": ":root",
+	"update_comment": "",
+	"ownerId": "",
+	"persistence": "none",
+	"settings": {
+		"postrequestbody": "",
+		"authentication": "none",
+		"auth_password": "",
+		"typerequest": "HTTP_GET",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": "http://demos.market-interactive-clouds.com:3000/database/get/ClaimsDB/inbox",
+		"dbdriver": "mongodb",
+		"dbnames": {
+			"database": "ClaimsDB",
+			"collection": "inbox"
+		}
+	},
+	"appexpr": [],
+	"format": "json",
+	"dependency": "",
+	"category": "Demo",
+	"description": "get alerts from alerts table",
+	"name": "qcGetAlerts",
+	"connector": "http",
+	"requestDate": "2015-01-30T23:43:51.844Z",
+	"parameters": [],
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{\"data\":{\"name\":\"data\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"data\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"data\"},\"styles\":{}}]},\"children\":{}}}}",
+	"source": "db",
+	"visibility": "visible",
+	"lock": {
+		"status": "unlocked"
+	},
+	"precode": [],
+	"postcode": [
+		{
+			"name": "",
+			"code": "resp=response.data\nfor (i=0;i<resp.length;i++)\n{\n    resp[i].alertTypeIco=\"resources/SamplesV7/icons/icons/\"+resp[i].alertType+\".png\";\n}\nresponse.data=resp;\nterminateFilter();\n"
+		}
+	],
+	"service": {
+		"name": "",
+		"method": ""
+	},
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1423825171",
+			"status": "committed",
+			"user": "admin"
+		},
+		"dreamface3": {
+			"status": "modified",
+			"user": "admin",
+			"last_action": "1422661432"
+		}
+	}
+}

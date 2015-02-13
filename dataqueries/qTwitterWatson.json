@@ -1,0 +1,65 @@
+{
+	"_id": "546b969e70facf0f0d6d22e7",
+	"name": "qTwitterWatson",
+	"ownerId": "",
+	"description": "Read Twitter feeds",
+	"category": "Samples",
+	"service": {
+		"name": "",
+		"method": ""
+	},
+	"format": "json",
+	"persistence": "none",
+	"source": "ext",
+	"settings": {
+		"postrequestbody": "",
+		"authentication": "TwitterConstant",
+		"auth_password": "",
+		"typerequest": "HTTP_GET",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": " https://api.twitter.com/1.1/statuses/user_timeline.json",
+		"dbdriver": "",
+		"dbnames": {
+			"database": "",
+			"collection": ""
+		}
+	},
+	"parameters": [
+		{
+			"name": "screen_name",
+			"type": "request",
+			"value": "IBM",
+			"operation": "eq"
+		}
+	],
+	"postcode": [
+		{
+			"name": "Concat",
+			"code": "resp=response\nvar separator=\". \"\nvar allTweets=[resp[0].text];\nfor (i=0;i<resp.length;i++)\n{   \n    allTweets[0]=allTweets[0]+separator + resp[i].text;\n}\n\nresponse=allTweets;\nterminateFilter();\n\n\n\n\n\n\n\n"
+		}
+	],
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{\"0\":{\"name\":\"0\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"0\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"0\"},\"styles\":{}}]},\"children\":{}}}}",
+	"requestDate": "2014-11-20T18:06:34.441Z",
+	"appexpr": [],
+	"precode": [],
+	"connector": "http",
+	"lock": {
+		"status": "unlocked"
+	},
+	"selector": ":root",
+	"update_comment": "",
+	"visibility": "visible",
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1423825171",
+			"status": "committed",
+			"user": "admin"
+		},
+		"dreamface3": {
+			"last_action": "1422543082",
+			"status": "committed",
+			"user": "admin"
+		}
+	}
+}

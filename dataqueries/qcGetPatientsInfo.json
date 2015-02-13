@@ -1,0 +1,61 @@
+{
+	"_id": "544f11a7307729dc25494e0b",
+	"selector": ":root",
+	"update_comment": "",
+	"ownerId": "",
+	"persistence": "none",
+	"settings": {
+		"postrequestbody": "",
+		"authentication": "none",
+		"auth_password": "",
+		"typerequest": "HTTP_GET",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": "http://demos.market-interactive-clouds.com:3000/database/get/ClaimsDB/patients",
+		"dbdriver": "mongodb",
+		"dbnames": {
+			"database": "ClaimsDB",
+			"collection": "patients"
+		}
+	},
+	"appexpr": [],
+	"format": "json",
+	"dependency": "",
+	"category": "Demo",
+	"description": "Get Patients Info of a subscriber",
+	"name": "qcGetPatientsInfo",
+	"connector": "http",
+	"requestDate": "2015-01-30T23:48:35.155Z",
+	"parameters": [
+		{
+			"name": "subscriberId",
+			"type": "",
+			"value": "800900",
+			"operation": "eq"
+		}
+	],
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{}}",
+	"source": "db",
+	"visibility": "visible",
+	"lock": {
+		"status": "unlocked"
+	},
+	"precode": [],
+	"postcode": [],
+	"service": {
+		"name": "",
+		"method": ""
+	},
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1423825171",
+			"status": "committed",
+			"user": "admin"
+		},
+		"dreamface3": {
+			"status": "modified",
+			"user": "admin",
+			"last_action": "1422661715"
+		}
+	}
+}

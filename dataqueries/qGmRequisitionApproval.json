@@ -1,0 +1,83 @@
+{
+	"_id": "544677c3ba22fcf82725af0a",
+	"appexpr": [],
+	"category": "Samples",
+	"connector": "http",
+	"dependency": "",
+	"description": "",
+	"format": "json",
+	"lock": {
+		"status": "unlocked"
+	},
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{}}",
+	"name": "qGmRequisitionApproval",
+	"ownerId": "",
+	"parameters": [
+		{
+			"name": "task_id",
+			"type": "url",
+			"value": "120",
+			"operation": "eq"
+		},
+		{
+			"name": "action",
+			"type": "request",
+			"value": "finish",
+			"operation": "eq"
+		},
+		{
+			"name": "decision",
+			"type": "request",
+			"value": "Approved",
+			"operation": "eq"
+		}
+	],
+	"persistence": "none",
+	"postcode": [],
+	"precode": [
+		{
+			"name": "Add Params",
+			"code": "params.push({ \"name\": \"params\", \"value\": '{\"gmApproval\":\"' + params[2].value + '\"}' });"
+		}
+	],
+	"requestDate": "2014-11-12T22:36:10.238Z",
+	"selector": ":root",
+	"service": {
+		"name": "",
+		"method": ""
+	},
+	"settings": {
+		"postrequestbody": "",
+		"authentication": "none",
+		"auth_password": "",
+		"typerequest": "HTTP_PUT",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": "http://50.97.60.187:9080/rest/bpm/wle/v1/task/{task_id}",
+		"dbdriver": "",
+		"dbnames": {
+			"database": "",
+			"collection": ""
+		}
+	},
+	"source": "ext",
+	"update_comment": "",
+	"visibility": "visible",
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1423825171",
+			"status": "committed",
+			"user": "admin"
+		},
+		"dreamface3": {
+			"last_action": "1422543082",
+			"status": "committed",
+			"user": "admin"
+		},
+		"ibmbpm": {
+			"last_action": "1416420149",
+			"status": "deleted",
+			"user": "admin"
+		}
+	}
+}

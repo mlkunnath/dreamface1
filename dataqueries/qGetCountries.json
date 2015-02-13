@@ -1,0 +1,61 @@
+{
+	"_id": "544ed433307729dc25494dba",
+	"appexpr": [],
+	"category": "Samples",
+	"connector": "http",
+	"dependency": "",
+	"description": "Get Countries From internal SamplesDB",
+	"format": "json",
+	"lock": {
+		"status": "unlocked"
+	},
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{}}",
+	"name": "qGetCountries",
+	"ownerId": "",
+	"parameters": [
+		{
+			"name": "cCode",
+			"type": "",
+			"value": "US",
+			"operation": "eq"
+		}
+	],
+	"persistence": "none",
+	"postcode": [],
+	"precode": [],
+	"requestDate": "2014-12-16T19:01:33.487Z",
+	"selector": ":root",
+	"service": {
+		"name": "",
+		"method": ""
+	},
+	"settings": {
+		"postrequestbody": "",
+		"authentication": "none",
+		"auth_password": "",
+		"typerequest": "HTTP_GET",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": "http://50.97.60.186/database/get/SamplesDB/Countries",
+		"dbdriver": "mongodb",
+		"dbnames": {
+			"database": "SamplesDB",
+			"collection": "Countries"
+		}
+	},
+	"source": "db",
+	"update_comment": "",
+	"visibility": "visible",
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1423825171",
+			"status": "committed",
+			"user": "admin"
+		},
+		"dreamface3": {
+			"last_action": "1422543082",
+			"status": "committed",
+			"user": "admin"
+		}
+	}
+}

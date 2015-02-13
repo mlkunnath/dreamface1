@@ -1,0 +1,66 @@
+{
+	"_id": "5462d0f68e82543e0a6fb2c1",
+	"name": "qBPMGetTasks",
+	"ownerId": "",
+	"description": "",
+	"category": "BPM",
+	"service": {
+		"name": "",
+		"method": ""
+	},
+	"format": "json",
+	"persistence": "none",
+	"source": "ext",
+	"settings": {
+		"postrequestbody": "",
+		"authentication": "IBMBPMadmin",
+		"auth_password": "",
+		"typerequest": "HTTP_POST",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": "http://dfdemos.market-interactive-clouds.com:9080/rest/bpm/wle/v1/search/query",
+		"dbdriver": "",
+		"dbnames": {
+			"database": "",
+			"collection": ""
+		}
+	},
+	"parameters": [
+		{
+			"name": "organization",
+			"type": "request",
+			"value": "byTask",
+			"operation": "eq"
+		},
+		{
+			"name": "condition",
+			"type": "request",
+			"value": "taskStatus|New_or_Received",
+			"operation": "eq"
+		}
+	],
+	"postcode": [],
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{\"status\":{\"name\":\"status\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"status\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"status\"},\"styles\":{}}]},\"children\":{}},\"data\":{\"name\":\"data\",\"type\":\"Object\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"data\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"data\"},\"styles\":{}}]},\"children\":{\"data\":{\"name\":\"data\",\"type\":\"Array\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"data\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"data\"},\"styles\":{}}]},\"children\":{\"taskAssignedTo\":{\"name\":\"taskAssignedTo\",\"type\":\"Object\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"taskAssignedTo\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"taskAssignedTo\"},\"styles\":{}}]},\"children\":{\"type\":{\"name\":\"type\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"type\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"type\"},\"styles\":{}}]},\"children\":{}},\"who\":{\"name\":\"who\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"who\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"who\"},\"styles\":{}}]},\"children\":{}}}},\"assignedToUser\":{\"name\":\"assignedToUser\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"assignedToUser\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"assignedToUser\"},\"styles\":{}}]},\"children\":{}},\"bpdName\":{\"name\":\"bpdName\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"bpdName\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"bpdName\"},\"styles\":{}}]},\"children\":{}},\"instanceCreateDate\":{\"name\":\"instanceCreateDate\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"instanceCreateDate\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"instanceCreateDate\"},\"styles\":{}}]},\"children\":{}},\"instanceDueDate\":{\"name\":\"instanceDueDate\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"instanceDueDate\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"instanceDueDate\"},\"styles\":{}}]},\"children\":{}},\"instanceId\":{\"name\":\"instanceId\",\"type\":\"Number\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"instanceId\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"instanceId\"},\"styles\":{}}]},\"children\":{}},\"instanceModifyDate\":{\"name\":\"instanceModifyDate\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"instanceModifyDate\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"instanceModifyDate\"},\"styles\":{}}]},\"children\":{}},\"instanceName\":{\"name\":\"instanceName\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"instanceName\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"instanceName\"},\"styles\":{}}]},\"children\":{}},\"instanceStatus\":{\"name\":\"instanceStatus\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"instanceStatus\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"instanceStatus\"},\"styles\":{}}]},\"children\":{}},\"taskAttachedExtActivityRef\":{\"name\":\"taskAttachedExtActivityRef\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"taskAttachedExtActivityRef\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"taskAttachedExtActivityRef\"},\"styles\":{}}]},\"children\":{}},\"taskAttachedInfoPathFormRef\":{\"name\":\"taskAttachedInfoPathFormRef\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"taskAttachedInfoPathFormRef\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"taskAttachedInfoPathFormRef\"},\"styles\":{}}]},\"children\":{}},\"taskDueDate\":{\"name\":\"taskDueDate\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"taskDueDate\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"taskDueDate\"},\"styles\":{}}]},\"children\":{}},\"taskId\":{\"name\":\"taskId\",\"type\":\"Number\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"taskId\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"taskId\"},\"styles\":{}}]},\"children\":{}},\"taskPriority\":{\"name\":\"taskPriority\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"taskPriority\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"taskPriority\"},\"styles\":{}}]},\"children\":{}},\"taskStatus\":{\"name\":\"taskStatus\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"taskStatus\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"taskStatus\"},\"styles\":{}}]},\"children\":{}},\"taskSubject\":{\"name\":\"taskSubject\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"taskSubject\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"taskSubject\"},\"styles\":{}}]},\"children\":{}}}},\"firstColumnSort\":{\"name\":\"firstColumnSort\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"firstColumnSort\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"firstColumnSort\"},\"styles\":{}}]},\"children\":{}},\"secondColumnSort\":{\"name\":\"secondColumnSort\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"secondColumnSort\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"secondColumnSort\"},\"styles\":{}}]},\"children\":{}},\"organization\":{\"name\":\"organization\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"organization\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"organization\"},\"styles\":{}}]},\"children\":{}},\"autoColumns\":{\"name\":\"autoColumns\",\"type\":\"Array\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"autoColumns\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"autoColumns\"},\"styles\":{}}]},\"children\":{}},\"offset\":{\"name\":\"offset\",\"type\":\"Number\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"offset\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"offset\"},\"styles\":{}}]},\"children\":{}},\"size\":{\"name\":\"size\",\"type\":\"Number\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"size\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"size\"},\"styles\":{}}]},\"children\":{}},\"requestedSize\":{\"name\":\"requestedSize\",\"type\":\"Number\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"requestedSize\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"requestedSize\"},\"styles\":{}}]},\"children\":{}},\"totalCount\":{\"name\":\"totalCount\",\"type\":\"Number\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"totalCount\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"totalCount\"},\"styles\":{}}]},\"children\":{}}}}}}",
+	"requestDate": "2015-01-30T19:24:50.523Z",
+	"appexpr": [],
+	"precode": [],
+	"connector": "http",
+	"lock": {
+		"status": "unlocked"
+	},
+	"selector": ":root",
+	"update_comment": "",
+	"visibility": "visible",
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1423825171",
+			"status": "committed",
+			"user": "admin"
+		},
+		"dreamface3": {
+			"status": "modified",
+			"user": "admin",
+			"last_action": "1422645891"
+		}
+	}
+}

@@ -1,0 +1,72 @@
+{
+	"_id": "5463b5f88e82543e0a6fb304",
+	"selector": ":root",
+	"update_comment": "",
+	"ownerId": "",
+	"persistence": "none",
+	"settings": {
+		"postrequestbody": "",
+		"authentication": "IBMBPMadmin",
+		"auth_password": "",
+		"typerequest": "HTTP_POST",
+		"urlrandom": "0",
+		"auth_userid": "",
+		"url": "http://50.97.60.187:9080/rest/bpm/wle/v1/search/query",
+		"dbdriver": "",
+		"dbnames": {
+			"database": "",
+			"collection": ""
+		}
+	},
+	"appexpr": [],
+	"format": "json",
+	"dependency": "",
+	"category": "Demo",
+	"description": "",
+	"name": "qGetTasksChart",
+	"connector": "http",
+	"requestDate": "2014-11-12T19:34:49.099Z",
+	"parameters": [
+		{
+			"name": "organization",
+			"type": "request",
+			"value": "byTask",
+			"operation": "eq"
+		},
+		{
+			"name": "condition",
+			"type": "request",
+			"value": "taskStatus|New_or_Received",
+			"operation": "eq"
+		}
+	],
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{\"series\":{\"name\":\"series\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"series\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"series\"},\"styles\":{}}]},\"children\":{}},\"data\":{\"name\":\"data\",\"type\":\"String\",\"options\":{\"properties\":{},\"gcontrols\":[{\"name\":\"SimpleText\",\"perspective\":\"Default\",\"type\":\"TextField\",\"attributes\":{\"label\":\"data\"},\"styles\":{}},{\"name\":\"SimpleEdit\",\"perspective\":\"Edit\",\"type\":\"TextField\",\"attributes\":{\"label\":\"data\"},\"styles\":{}}]},\"children\":{}}}}",
+	"source": "ext",
+	"visibility": "visible",
+	"lock": {
+		"status": "unlocked"
+	},
+	"precode": [],
+	"postcode": [
+		{
+			"name": "",
+			"code": "resp=response.data.data;\nvar VeryLow = 0;\nvar Low = 0;\nvar Normal = 0;\nvar High = 0;\nvar VeryHigh = 0;\nfor (i=0;i<resp.length;i++)\n{\n    switch (resp[i].taskPriority) {\n    case \"Lowest\":\n        VeryLow++;\n        break;\n    case \"Low\":\n        Low++;\n        break;\n    case \"Normal\":\n        Normal++;\n        break;\n    case \"High\":\n        High++;\n        break;\n    case \"Highest\":\n        VeryHigh++;\n        break;\n    \n}\n}\n\n\nchart={\n    \"series\": [\n        \"VeryLow\",\n        \"Low\",\n        \"Normal\",\n        \"High\",\n        \"VeryHigh\"\n    ],\n    \"data\": [\n        {\n            \"x\": \"VeryLow\",\n            \"y\": [\n                VeryLow\n            ],\n            \"tooltip\": \"this is tooltip\"\n        },\n        {\n            \"x\": \"Low\",\n            \"y\": [\n                Low\n            ]\n        },\n        {\n            \"x\": \"Normal\",\n            \"y\": [\n                Normal\n            ]\n        },\n         {\n            \"x\": \"High\",\n            \"y\": [\n                High\n            ]\n        },\n        {\n            \"x\": \"VeryHigh\",\n            \"y\": [\n                VeryHigh\n                \n            ]\n        },\n        ]};\n        \n    response = chart;\n    terminateFilter();\n"
+		}
+	],
+	"service": {
+		"name": "",
+		"method": ""
+	},
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1423825171",
+			"status": "committed",
+			"user": "admin"
+		},
+		"dreamface3": {
+			"last_action": "1422543082",
+			"status": "committed",
+			"user": "admin"
+		}
+	}
+}
