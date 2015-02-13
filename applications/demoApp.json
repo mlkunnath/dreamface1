@@ -1,0 +1,76 @@
+{
+	"_id": "544f3330307729dc25494e18",
+	"applicationContext": [
+		{
+			"properties": [
+				{
+					"possibleValues": [],
+					"name": "selectedItem",
+					"value": ""
+				}
+			],
+			"object": "menu"
+		}
+	],
+	"github": {
+		"token": "",
+		"username": "",
+		"repository": ""
+	},
+	"name": "demoApp",
+	"ownerId": "",
+	"personalization": {
+		"template": "Standard"
+	},
+	"phonegap": {
+		"token": ""
+	},
+	"platform": "web",
+	"requiredLibraries": [],
+	"requiredStylesheets": [
+		{
+			"name": "_gc"
+		},
+		{
+			"name": "_ext"
+		}
+	],
+	"screenflow": [
+		{
+			"name": "Guest",
+			"left": "85",
+			"connections": [
+				{
+					"assertions": [],
+					"name": "Home"
+				}
+			],
+			"type": "http_guest",
+			"top": "150"
+		},
+		{
+			"name": "Home",
+			"left": "330",
+			"connections": [],
+			"type": "screen",
+			"top": "165"
+		}
+	],
+	"start": "Home",
+	"title": "Demo App",
+	"visibility": "visible",
+	"active": true,
+	"creationDate": "2014-10-28T06:10:07.167Z",
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1423825164",
+			"status": "committed",
+			"user": "admin"
+		},
+		"dreamface3": {
+			"status": "modified",
+			"user": "admin",
+			"last_action": "1422661779"
+		}
+	}
+}
