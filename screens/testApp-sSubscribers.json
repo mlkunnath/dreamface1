@@ -1,0 +1,31 @@
+{
+	"_id": "545d34778e82543e0a6fb1f8",
+	"title": "sSubscribers",
+	"name": "sSubscribers",
+	"requestDate": "2014-11-21T19:05:25.059Z",
+	"ownerId": "",
+	"application": "testApp",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wcManageSubscriber"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	},
+	"category": ""
+}

@@ -1,0 +1,31 @@
+{
+	"_id": "546eed0576bd67e80db9716e",
+	"title": "Create job Requisition",
+	"name": "sBPMScreen1",
+	"requestDate": "2014-11-21T07:54:27.272Z",
+	"ownerId": "",
+	"application": "testApp",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wBPMStartJobReq"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	},
+	"category": ""
+}

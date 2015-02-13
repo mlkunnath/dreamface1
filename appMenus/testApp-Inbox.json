@@ -1,0 +1,15 @@
+{
+	"_id": "546eee7076bd67e80db97173",
+	"title": "Inbox",
+	"name": "Inbox",
+	"requestDate": "2014-12-24T05:17:26.427Z",
+	"ownerId": "",
+	"application": "testApp",
+	"parentname": "",
+	"order": "0",
+	"icon": "inbox",
+	"action": {
+		"type": "screen",
+		"value": "sInbox"
+	}
+}

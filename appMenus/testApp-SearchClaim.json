@@ -1,0 +1,14 @@
+{
+	"_id": "545d35168e82543e0a6fb1fb",
+	"title": "Search Claims",
+	"name": "SearchClaim",
+	"requestDate": "2014-11-07T21:10:13.295Z",
+	"ownerId": "",
+	"application": "testApp",
+	"parentname": "ClaimCenter",
+	"icon": "search",
+	"action": {
+		"type": "screen",
+		"value": "sClaim"
+	}
+}

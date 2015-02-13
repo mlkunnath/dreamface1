@@ -1,0 +1,30 @@
+{
+	"_id": "544f33e8307729dc25494e1d",
+	"application": "demoApp",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wcClaimCenter"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	},
+	"name": "sClaimCenter",
+	"ownerId": "",
+	"requestDate": "2014-11-05T16:32:56.823Z",
+	"title": "sClaimCenter",
+	"visibility": "visible"
+}

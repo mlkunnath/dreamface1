@@ -1,0 +1,15 @@
+{
+	"_id": "546eef3f76bd67e80db97175",
+	"title": "Dashboard",
+	"name": "Dashboard",
+	"requestDate": "2014-11-21T07:52:53.097Z",
+	"ownerId": "",
+	"application": "testApp",
+	"parentname": "BPM",
+	"order": "0",
+	"icon": "stats",
+	"action": {
+		"type": "screen",
+		"value": "sBPMDashboard"
+	}
+}

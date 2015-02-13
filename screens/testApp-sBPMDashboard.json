@@ -1,0 +1,31 @@
+{
+	"_id": "546eedbd76bd67e80db97171",
+	"title": "Dashboard",
+	"name": "sBPMDashboard",
+	"requestDate": "2014-11-21T07:52:53.076Z",
+	"ownerId": "",
+	"application": "testApp",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wBPMLanding"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	},
+	"category": ""
+}

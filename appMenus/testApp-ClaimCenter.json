@@ -1,0 +1,14 @@
+{
+	"_id": "545d34ee8e82543e0a6fb1fa",
+	"title": "Claim Center",
+	"name": "ClaimCenter",
+	"requestDate": "2014-11-07T21:09:33.577Z",
+	"ownerId": "",
+	"application": "testApp",
+	"parentname": "",
+	"icon": "screenshot",
+	"action": {
+		"type": "no_action",
+		"value": ""
+	}
+}

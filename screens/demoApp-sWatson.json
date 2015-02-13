@@ -1,0 +1,30 @@
+{
+	"_id": "545ac97555fc392a50f4283f",
+	"title": "sWatson",
+	"name": "sWatson",
+	"requestDate": "2014-11-07T18:13:25.781Z",
+	"ownerId": "",
+	"application": "demoApp",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wsgCallWatsonEnhanced"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

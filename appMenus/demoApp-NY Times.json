@@ -1,0 +1,14 @@
+{
+	"_id": "545d0b879878ad38519e9bec",
+	"title": "NY Times",
+	"name": "NY Times",
+	"requestDate": "2014-11-07T20:46:29.781Z",
+	"ownerId": "",
+	"application": "demoApp",
+	"parentname": "Cloud Stuff",
+	"icon": "th-list",
+	"action": {
+		"type": "screen",
+		"value": "sNYTimesNews"
+	}
+}

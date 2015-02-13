@@ -1,0 +1,14 @@
+{
+	"_id": "544f3416307729dc25494e1e",
+	"action": {
+		"type": "screen",
+		"value": "sManageSubscribers"
+	},
+	"application": "demoApp",
+	"icon": "user",
+	"name": "ManageClaim",
+	"ownerId": "",
+	"parentname": "Claims",
+	"requestDate": "2014-11-07T20:57:59.872Z",
+	"title": "Manage subscribers"
+}

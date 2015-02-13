@@ -1,0 +1,14 @@
+{
+	"_id": "544f337f307729dc25494e1b",
+	"action": {
+		"type": "no_action",
+		"value": ""
+	},
+	"application": "demoApp",
+	"icon": "th",
+	"name": "Claims",
+	"ownerId": "",
+	"parentname": "",
+	"requestDate": "2014-11-05T16:32:36.678Z",
+	"title": "Claims"
+}

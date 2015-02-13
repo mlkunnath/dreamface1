@@ -1,0 +1,31 @@
+{
+	"_id": "546eed5576bd67e80db97170",
+	"title": "Select Candidate",
+	"name": "sBPMScreen3",
+	"requestDate": "2014-11-21T07:55:03.064Z",
+	"ownerId": "",
+	"application": "testApp",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wBPMSelectCandidate"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	},
+	"category": ""
+}

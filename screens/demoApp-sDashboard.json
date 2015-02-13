@@ -1,0 +1,44 @@
+{
+	"_id": "544fb36253451908114cf1f2",
+	"application": "demoApp",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "7",
+						"widgets": [
+							{
+								"name": "wcInbox",
+								"id": "86813"
+							}
+						]
+					},
+					{
+						"width": "5",
+						"widgets": [
+							{
+								"name": "wcClaimsByState",
+								"id": "26127"
+							},
+							{
+								"name": "wcClaimsBySub",
+								"id": "24387"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	},
+	"name": "sDashboard",
+	"ownerId": "",
+	"requestDate": "2014-11-07T03:33:33.951Z",
+	"title": "sDashboard",
+	"visibility": "visible"
+}

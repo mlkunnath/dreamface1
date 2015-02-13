@@ -1,0 +1,14 @@
+{
+	"_id": "545d351e8e82543e0a6fb1fc",
+	"title": "ManageSub",
+	"name": "ManageSub",
+	"requestDate": "2014-11-07T21:10:33.857Z",
+	"ownerId": "",
+	"application": "testApp",
+	"parentname": "ClaimCenter",
+	"icon": "user",
+	"action": {
+		"type": "screen",
+		"value": "sSubscribers"
+	}
+}

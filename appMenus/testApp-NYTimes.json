@@ -1,0 +1,14 @@
+{
+	"_id": "545d39158e82543e0a6fb216",
+	"title": "NYTimes",
+	"name": "NYTimes",
+	"requestDate": "2014-11-07T21:28:09.136Z",
+	"ownerId": "",
+	"application": "testApp",
+	"parentname": "CLoudStuff",
+	"icon": "envelope",
+	"action": {
+		"type": "screen",
+		"value": "sNYTimes"
+	}
+}

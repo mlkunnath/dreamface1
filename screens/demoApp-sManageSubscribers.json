@@ -1,0 +1,30 @@
+{
+	"_id": "544f3442307729dc25494e1f",
+	"application": "demoApp",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wsgWatsonTranslate"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	},
+	"name": "sManageSubscribers",
+	"ownerId": "",
+	"requestDate": "2014-11-07T20:57:54.614Z",
+	"title": "sManageSubscribers",
+	"visibility": "visible"
+}

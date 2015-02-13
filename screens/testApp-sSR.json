@@ -1,0 +1,40 @@
+{
+	"_id": "5490aab7931e0efa0a53f626",
+	"title": "sSR",
+	"name": "sSR",
+	"requestDate": "2014-12-16T21:57:58.916Z",
+	"ownerId": "",
+	"application": "testApp",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "6",
+						"widgets": [
+							{
+								"name": "wSRTest",
+								"id": "87145"
+							}
+						]
+					},
+					{
+						"width": "6",
+						"widgets": [
+							{
+								"name": "wcInbox",
+								"id": "7420"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

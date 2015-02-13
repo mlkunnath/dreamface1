@@ -1,0 +1,30 @@
+{
+	"_id": "545d0bf89878ad38519e9bed",
+	"title": "sTwitter",
+	"name": "sTwitter",
+	"requestDate": "2014-11-07T18:14:29.020Z",
+	"ownerId": "",
+	"application": "demoApp",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wsgTwitterFeeds"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

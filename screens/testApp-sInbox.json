@@ -1,0 +1,31 @@
+{
+	"_id": "546eec6e76bd67e80db9716c",
+	"title": "sInbox",
+	"name": "sInbox",
+	"requestDate": "2014-11-21T07:49:51.611Z",
+	"ownerId": "",
+	"application": "testApp",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wcInbox"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	},
+	"category": ""
+}

@@ -1,0 +1,15 @@
+{
+	"_id": "545d38a98e82543e0a6fb213",
+	"title": "WatsonTranslate",
+	"name": "WatsonTranslate",
+	"requestDate": "2014-11-21T07:04:12.113Z",
+	"ownerId": "",
+	"application": "testApp",
+	"parentname": "CLoudStuff",
+	"icon": "globe",
+	"action": {
+		"type": "screen",
+		"value": "sWatson2"
+	},
+	"order": "0"
+}

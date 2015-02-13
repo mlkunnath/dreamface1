@@ -1,0 +1,31 @@
+{
+	"_id": "545d38458e82543e0a6fb211",
+	"title": "sWatson2",
+	"name": "sWatson2",
+	"requestDate": "2014-11-21T07:04:12.116Z",
+	"ownerId": "",
+	"application": "testApp",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wsgWatsonTranslate"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	},
+	"category": ""
+}

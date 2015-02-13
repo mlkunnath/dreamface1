@@ -1,0 +1,15 @@
+{
+	"_id": "546f7be6c7df5db63afa3d37",
+	"title": "My tasks",
+	"name": "My tasks",
+	"requestDate": "2014-11-21T17:53:17.819Z",
+	"ownerId": "",
+	"application": "testApp",
+	"parentname": "BPM",
+	"order": "0",
+	"icon": "list",
+	"action": {
+		"type": "screen",
+		"value": "sBPMTasks"
+	}
+}

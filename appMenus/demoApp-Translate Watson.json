@@ -1,0 +1,14 @@
+{
+	"_id": "545d0b769878ad38519e9bea",
+	"title": "Translate Watson",
+	"name": "Translate Watson",
+	"requestDate": "2014-11-07T18:13:48.698Z",
+	"ownerId": "",
+	"application": "demoApp",
+	"parentname": "Cloud Stuff",
+	"icon": "text-height",
+	"action": {
+		"type": "screen",
+		"value": "sWatsonTranslate"
+	}
+}

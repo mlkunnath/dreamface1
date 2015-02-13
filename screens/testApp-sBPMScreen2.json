@@ -1,0 +1,31 @@
+{
+	"_id": "546eed2b76bd67e80db9716f",
+	"title": "Approve Job Requisition",
+	"name": "sBPMScreen2",
+	"requestDate": "2014-11-21T07:54:44.109Z",
+	"ownerId": "",
+	"application": "testApp",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wBPMApproveJobReq"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	},
+	"category": ""
+}

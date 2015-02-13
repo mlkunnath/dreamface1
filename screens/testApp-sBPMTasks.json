@@ -1,0 +1,31 @@
+{
+	"_id": "546f7ba9c7df5db63afa3d36",
+	"title": "BPM Tasks",
+	"name": "sBPMTasks",
+	"requestDate": "2014-11-21T17:53:17.797Z",
+	"ownerId": "",
+	"application": "testApp",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wBPMGetTasksList"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	},
+	"category": ""
+}

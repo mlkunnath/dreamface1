@@ -1,0 +1,14 @@
+{
+	"_id": "545d0b819878ad38519e9beb",
+	"title": "Twitter",
+	"name": "Twitter",
+	"requestDate": "2014-11-07T18:14:31.438Z",
+	"ownerId": "",
+	"application": "demoApp",
+	"parentname": "Cloud Stuff",
+	"icon": "send",
+	"action": {
+		"type": "screen",
+		"value": "sTwitter"
+	}
+}

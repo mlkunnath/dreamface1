@@ -1,0 +1,14 @@
+{
+	"_id": "544f33c7307729dc25494e1c",
+	"action": {
+		"type": "screen",
+		"value": "sClaimCenter"
+	},
+	"application": "demoApp",
+	"icon": "search",
+	"name": "ClaimCenter",
+	"ownerId": "",
+	"parentname": "Claims",
+	"requestDate": "2014-10-28T06:13:54.257Z",
+	"title": "Search claims"
+}

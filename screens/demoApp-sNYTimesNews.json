@@ -1,0 +1,30 @@
+{
+	"_id": "545c3d6455fc392a50f428d5",
+	"title": "sNYTimesNews",
+	"name": "sNYTimesNews",
+	"requestDate": "2014-11-07T18:14:51.606Z",
+	"ownerId": "",
+	"application": "demoApp",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wsgNYTimesNews"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}

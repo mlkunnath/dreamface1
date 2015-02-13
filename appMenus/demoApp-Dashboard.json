@@ -1,0 +1,14 @@
+{
+	"_id": "544fb32553451908114cf1f1",
+	"action": {
+		"type": "screen",
+		"value": "sDashboard"
+	},
+	"application": "demoApp",
+	"icon": "dashboard",
+	"name": "Dashboard",
+	"ownerId": "",
+	"parentname": "",
+	"requestDate": "2014-11-07T03:33:43.381Z",
+	"title": "Dashboard"
+}

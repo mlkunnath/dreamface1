@@ -1,0 +1,26 @@
+{
+	"_id": "544f3330307729dc25494e19",
+	"application": "demoApp",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": []
+					}
+				],
+				"id": ""
+			}
+		]
+	},
+	"name": "Home",
+	"ownerId": "",
+	"requestDate": "2014-11-05T16:32:41.042Z",
+	"title": "Home",
+	"visibility": "visible"
+}
