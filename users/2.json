@@ -1,0 +1,28 @@
+{
+	"tenant": "demo",
+	"login": "2",
+	"roles": {
+		"list": [
+			"developer"
+		],
+		"default": "developer"
+	},
+	"rights": [
+		"accessRealm::studio",
+		"manageUsers::CustomUsers",
+		"listUsers::CustomUsers",
+		"executeAny::dataquery",
+		"assignAny::CustomRoles",
+		"manageRoles::CustomRoles",
+		"assignRight::accessRealm",
+		"assignRight::DATAQUERY",
+		"assignRight::executeAny::dataquery"
+	],
+	"email": "",
+	"type": "",
+	"lastName": "",
+	"firstName": "",
+	"kind": "system",
+	"_id": "54e2effca20b3a2a142d2b69",
+	"pass": "111111"
+}
