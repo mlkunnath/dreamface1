@@ -1,0 +1,73 @@
+{
+	"_id": "54c10689f4b90eac23275850",
+	"active": true,
+	"applicationContext": [
+		{
+			"properties": [
+				{
+					"possibleValues": [],
+					"name": "selectedItem",
+					"value": ""
+				}
+			],
+			"object": "menu"
+		}
+	],
+	"creationDate": "2015-01-22T14:17:45.114Z",
+	"github": {
+		"token": "",
+		"username": "",
+		"repository": ""
+	},
+	"name": "app1",
+	"ownerId": "",
+	"personalization": {
+		"template": "Standard"
+	},
+	"phonegap": {
+		"token": "",
+		"applicationId": ""
+	},
+	"platform": "web",
+	"requestDate": "",
+	"requiredLibraries": [],
+	"requiredStylesheets": [
+		{
+			"name": "_gc"
+		},
+		{
+			"name": "_ext"
+		}
+	],
+	"screenflow": [
+		{
+			"name": "Guest",
+			"left": "85",
+			"connections": [
+				{
+					"assertions": [],
+					"name": "Home"
+				}
+			],
+			"type": "http_guest",
+			"top": "150"
+		},
+		{
+			"name": "Home",
+			"left": "330",
+			"connections": [],
+			"type": "screen",
+			"top": "165"
+		}
+	],
+	"start": "Home",
+	"title": "",
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1424974784",
+			"status": "committed",
+			"user": "my"
+		}
+	},
+	"visibility": "visible"
+}
