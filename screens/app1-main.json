@@ -1,0 +1,32 @@
+{
+	"_id": "54edabf1f65e8c2c089db249",
+	"application": "app1",
+	"category": "",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "dhatim_main",
+								"id": "41873"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	},
+	"name": "main",
+	"ownerId": "",
+	"requestDate": "2015-02-26T12:16:27.441Z",
+	"title": "main",
+	"visibility": "visible"
+}
