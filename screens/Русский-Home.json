@@ -1,0 +1,16 @@
+{
+	"_id": "54eeef138ce334ec5b256b82",
+	"title": "Home",
+	"name": "Home",
+	"requestDate": "2015-02-26T10:01:55.766Z",
+	"ownerId": "Алексей",
+	"application": "Русский",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": []
+	}
+}
