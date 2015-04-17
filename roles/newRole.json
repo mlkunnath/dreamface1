@@ -1,9 +1,0 @@
-{
-	"_id": "5530b99e21e298d60efce95b",
-	"name": "newRole",
-	"application": "testApp",
-	"rights": [],
-	"type": "",
-	"unremovable": false,
-	"description": "New Role"
-}
