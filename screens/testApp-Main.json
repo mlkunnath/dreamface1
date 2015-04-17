@@ -1,0 +1,16 @@
+{
+	"_id": "5530ba5a21e298d60efce963",
+	"title": "Main",
+	"name": "Main",
+	"requestDate": "2015-04-17T07:46:34.247Z",
+	"ownerId": "",
+	"application": "testApp",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": []
+	}
+}
