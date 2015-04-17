@@ -22,16 +22,12 @@
 	"format": "json",
 	"dependency": "",
 	"category": "",
-	"description": "",
+	"description": "123",
 	"name": "testDataQuery",
 	"connector": "http",
-	"requestDate": "2015-04-17T07:45:44.551Z",
+	"requestDate": "2015-04-17T11:24:36.716Z",
 	"parameters": [],
-	"metadata": {
-		"name": "root",
-		"type": "root",
-		"children": {}
-	},
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{}}",
 	"source": "ext",
 	"visibility": "visible",
 	"lock": {
@@ -46,7 +42,7 @@
 	},
 	"versioning": {
 		"dreamface1": {
-			"last_action": "1429269318",
+			"last_action": "1429269986",
 			"status": "committed",
 			"user": "admin"
 		}
