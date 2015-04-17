@@ -2,8 +2,8 @@
 	"_id": "5530b9ee21e298d60efce95f",
 	"name": "testWidget",
 	"ownerId": "",
-	"requestDate": "2015-04-17T07:44:46.384Z",
-	"description": "",
+	"requestDate": "2015-04-17T11:24:24.795Z",
+	"description": "123",
 	"category": "widCategory",
 	"wtype": "visual",
 	"application": "testApp",
@@ -12,7 +12,7 @@
 	"src_script": "// this line should not be removed\r\nvar testWidget = angular.module(\"testWidget\",[]);\r\n\r\ntestWidget.controller( \"testWidgetController\", function( $scope ) {\n\t\n});\n",
 	"versioning": {
 		"dreamface1": {
-			"last_action": "1429269322",
+			"last_action": "1429269990",
 			"status": "committed",
 			"user": "admin"
 		}
