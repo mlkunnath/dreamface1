@@ -1,0 +1,12 @@
+{
+	"_id": "5530b95986d1294e9a9b4298",
+	"application": "testApp",
+	"name": "javascript",
+	"items": [
+		{
+			"path": "dfx.js",
+			"type": "JavaScript",
+			"size": "<strong>11.4</strong> KiB"
+		}
+	]
+}
