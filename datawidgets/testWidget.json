@@ -12,7 +12,7 @@
 	"src_script": "// this line should not be removed\r\nvar testWidget = angular.module(\"testWidget\",[]);\r\n\r\ntestWidget.controller( \"testWidgetController\", function( $scope ) {\n\t\n});\n",
 	"versioning": {
 		"dreamface1": {
-			"last_action": "1429274568",
+			"last_action": "1429448147",
 			"status": "committed",
 			"user": "admin"
 		}
