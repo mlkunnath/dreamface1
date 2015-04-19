@@ -1,0 +1,12 @@
+{
+	"_id": "5530b96986d1294e9a9b4299",
+	"application": "testApp",
+	"name": "stylesheets",
+	"items": [
+		{
+			"path": "upload.min.css",
+			"type": "CSS",
+			"size": "<strong>9.6</strong> KiB"
+		}
+	]
+}
