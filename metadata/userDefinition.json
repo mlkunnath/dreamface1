@@ -1,94 +1,70 @@
 {
-	"_id": "5534b886252b99840df2fe34",
+	"_id": "5534b5e8252b99840df2fe2b",
 	"document": "userDefinition",
 	"metadata": {
-		"credentials": {
+		"roles": {
 			"type": "subdocument",
+			"pass": "true",
+			"mandatory": "true",
 			"structure": {
-				"login": {
-					"type": "string",
-					"title": "User login",
-					"defaults": [
-						""
-					],
-					"mandatory": "true"
+				"list": {
+					"title": "Roles list",
+					"mandatory": "true",
+					"type": "array",
+					"defaults": []
 				},
-				"pass": {
+				"default": {
+					"title": "Default role",
+					"mandatory": "true",
 					"type": "string",
-					"title": "User password",
-					"defaults": [
-						""
-					],
-					"mandatory": "true"
+					"defaults": ""
 				}
-			},
-			"pass": "false",
-			"mandatory": "true"
+			}
+		},
+		"email": {
+			"title": "E-Mail",
+			"type": "string",
+			"pass": "true",
+			"mandatory": "true",
+			"defaults": ""
 		},
 		"name": {
 			"type": "subdocument",
+			"pass": "true",
+			"mandatory": "true",
 			"structure": {
 				"last": {
-					"type": "string",
 					"title": "Last name",
-					"defaults": [
-						""
-					],
-					"mandatory": "true"
+					"mandatory": "true",
+					"type": "string",
+					"defaults": ""
 				},
 				"first": {
-					"type": "string",
 					"title": "First name",
-					"defaults": [
-						""
-					],
-					"mandatory": "true"
-				}
-			},
-			"pass": "true",
-			"mandatory": "true"
-		},
-		"email": {
-			"type": "string",
-			"title": "E-Mail",
-			"defaults": [
-				""
-			],
-			"pass": "true",
-			"mandatory": "true"
-		},
-		"roles": {
-			"type": "subdocument",
-			"structure": {
-				"list": {
-					"type": "array",
-					"title": "Roles list",
-					"defaults": [
-						""
-					],
-					"mandatory": "true"
-				},
-				"default": {
+					"mandatory": "true",
 					"type": "string",
-					"title": "Default role",
-					"defaults": [
-						""
-					],
-					"mandatory": "true"
+					"defaults": ""
 				}
-			},
-			"pass": "true",
-			"mandatory": "true"
+			}
 		},
-		"test": {
-			"type": "string",
-			"title": "test",
-			"defaults": [
-				""
-			],
-			"pass": "true",
-			"mandatory": "false"
+		"credentials": {
+			"type": "subdocument",
+			"pass": "false",
+			"mandatory": "true",
+			"structure": {
+				"login": {
+					"title": "User login",
+					"mandatory": "true",
+					"type": "string",
+					"defaults": ""
+				},
+				"pass": {
+					"title": "User password",
+					"mandatory": "true",
+					"type": "string",
+					"defaults": ""
+				}
+			}
 		}
-	},
-	"requestDate": "2015-04-20T09:09:19.254Z"
+	}
 }
