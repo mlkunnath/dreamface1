@@ -1,0 +1,11 @@
+{
+	"_id": "5534c9e2db5892b0149cb350",
+	"name": "testRole1",
+	"application": "testApp",
+	"rights": [
+		"DATAQUERY::testDataquery"
+	],
+	"type": "",
+	"unremovable": false,
+	"description": "desc"
+}
