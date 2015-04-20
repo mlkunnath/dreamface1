@@ -1,0 +1,12 @@
+{
+	"_id": "5534b61aecc757309b655f7a",
+	"application": "testApp",
+	"name": "assets",
+	"items": [
+		{
+			"path": "test.jpg",
+			"type": "Image",
+			"size": "<strong>88.7</strong> KiB"
+		}
+	]
+}
