@@ -1,0 +1,10 @@
+{
+	"_id": "55312976b29f9b38054b0a7e",
+	"provider": "auth_dev",
+	"application": "web_app",
+	"schema": "basic",
+	"credentials": {
+		"username": "aaa",
+		"password": "aaa"
+	}
+}
