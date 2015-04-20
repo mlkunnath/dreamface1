@@ -1,0 +1,13 @@
+{
+	"_id": "5532ad3c17ab72eb924059c2",
+	"nameDriver": "mysql_temp",
+	"dialect": "mysql",
+	"host": "localhost",
+	"port": "3306",
+	"database": "dhatim",
+	"user": "root",
+	"password": "root123",
+	"min": "1",
+	"max": "10",
+	"idleTimeoutMillis": "100"
+}
