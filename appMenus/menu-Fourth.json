@@ -1,0 +1,15 @@
+{
+	"_id": "5534ac16f360cdb4027ce6eb",
+	"title": "Fourth",
+	"name": "Fourth",
+	"requestDate": "2015-04-20T14:11:53.301Z",
+	"ownerId": "",
+	"application": "menu",
+	"parentname": "",
+	"order": "1",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "Fourth"
+	}
+}

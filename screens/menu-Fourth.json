@@ -1,0 +1,31 @@
+{
+	"_id": "55350913091067ae057e59c0",
+	"title": "Fourth",
+	"name": "Fourth",
+	"requestDate": "2015-04-20T14:11:53.299Z",
+	"ownerId": "",
+	"application": "menu",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wFourth",
+								"id": "83119"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}
