@@ -1,9 +1,0 @@
-{
-	"_id": "5534c392252b99840df2fe3a",
-	"provider": "testAuthProvider",
-	"schema": "basic",
-	"credentials": {
-		"username": "dir",
-		"password": "123456"
-	}
-}
