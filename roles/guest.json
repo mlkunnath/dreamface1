@@ -1,0 +1,9 @@
+{
+	"_id": "5534b541252b99840df2fe24",
+	"name": "guest",
+	"application": "testApp",
+	"rights": [],
+	"type": "",
+	"unremovable": true,
+	"description": ""
+}
