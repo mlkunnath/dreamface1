@@ -1,9 +1,0 @@
-{
-	"_id": "5534c87cdb5892b0149cb34c",
-	"provider": "testProvider1",
-	"schema": "basic",
-	"credentials": {
-		"username": "root",
-		"password": "123"
-	}
-}
