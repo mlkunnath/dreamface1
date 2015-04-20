@@ -1,0 +1,9 @@
+{
+	"_id": "5534c892db5892b0149cb34d",
+	"provider": "testProvider2",
+	"schema": "basic",
+	"credentials": {
+		"username": "root",
+		"password": "123"
+	}
+}
