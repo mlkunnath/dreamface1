@@ -1,0 +1,18 @@
+{
+	"tenant": "dev",
+	"login": "blin",
+	"roles": {
+		"list": [
+			"guest"
+		],
+		"default": "guest"
+	},
+	"rights": [],
+	"email": null,
+	"type": "",
+	"lastName": "",
+	"firstName": "",
+	"kind": "application",
+	"application": "menu",
+	"_id": "55350961091067ae057e59c2"
+}
