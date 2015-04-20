@@ -1,0 +1,10 @@
+{
+	"_id": "5534ee30c2919d1521f219dc",
+	"provider": "testAuthProvider",
+	"application": "testApp",
+	"schema": "digest",
+	"credentials": {
+		"username": "root",
+		"password": "123456"
+	}
+}
