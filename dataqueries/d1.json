@@ -22,16 +22,12 @@
 	"format": "json",
 	"dependency": "",
 	"category": "",
-	"description": "",
+	"description": "12345",
 	"name": "d1",
 	"connector": "http",
-	"requestDate": "2015-04-21T10:07:06.986Z",
+	"requestDate": "2015-04-21T10:17:50.486Z",
 	"parameters": [],
-	"metadata": {
-		"name": "root",
-		"type": "root",
-		"children": {}
-	},
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{}}",
 	"source": "ext",
 	"visibility": "visible",
 	"lock": {
@@ -46,7 +42,7 @@
 	},
 	"versioning": {
 		"dreamface1": {
-			"last_action": "1429610899",
+			"last_action": "1429614896",
 			"status": "committed",
 			"user": "admin"
 		}
