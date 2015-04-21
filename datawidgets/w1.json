@@ -2,8 +2,8 @@
 	"_id": "5536213ebf662822158e7e0f",
 	"name": "w1",
 	"ownerId": "",
-	"requestDate": "2015-04-21T10:06:54.742Z",
-	"description": "",
+	"requestDate": "2015-04-21T10:17:42.115Z",
+	"description": "12345",
 	"category": "",
 	"wtype": "visual",
 	"application": "testApp",
@@ -12,7 +12,7 @@
 	"src_script": "// this line should not be removed\r\nvar w1 = angular.module(\"w1\",[]);\r\n\r\nw1.controller( \"w1Controller\", function( $scope ) {\n\t\n});\n",
 	"versioning": {
 		"dreamface1": {
-			"last_action": "1429610902",
+			"last_action": "1429614899",
 			"status": "committed",
 			"user": "admin"
 		}
