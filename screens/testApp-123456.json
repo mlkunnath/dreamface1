@@ -1,8 +1,8 @@
 {
-	"_id": "553620d2bf662822158e7e0c",
-	"title": "Home123",
-	"name": "Home",
-	"requestDate": "2015-04-21T10:19:24.618Z",
+	"_id": "553625ac7fa4961b19940762",
+	"title": "123456",
+	"name": "123456",
+	"requestDate": "2015-04-21T10:25:48.613Z",
 	"ownerId": "",
 	"application": "testApp",
 	"visibility": "visible",
@@ -12,6 +12,5 @@
 		"width": "100%",
 		"backgroundcolor": "white",
 		"rows": []
-	},
-	"category": ""
+	}
 }
