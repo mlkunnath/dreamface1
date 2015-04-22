@@ -1,0 +1,79 @@
+{
+	"_id": "55376feec2d6c20a2f58a58c",
+	"name": "testApp",
+	"ownerId": "",
+	"requestDate": "",
+	"title": "testApp",
+	"applicationContext": [
+		{
+			"properties": [
+				{
+					"possibleValues": [],
+					"name": "selectedItem",
+					"value": ""
+				}
+			],
+			"object": "menu"
+		}
+	],
+	"github": {
+		"token": "",
+		"username": "",
+		"repository": ""
+	},
+	"phonegap": {
+		"token": "",
+		"applicationId": ""
+	},
+	"requiredLibraries": [],
+	"requiredStylesheets": [
+		{
+			"name": "_gc"
+		},
+		{
+			"name": "_ext"
+		}
+	],
+	"screenflow": [
+		{
+			"name": "Guest",
+			"left": "85",
+			"connections": [
+				{
+					"assertions": [],
+					"name": "Home"
+				}
+			],
+			"type": "http_guest",
+			"top": "150"
+		},
+		{
+			"name": "Home",
+			"left": "330",
+			"connections": [],
+			"type": "screen",
+			"top": "165"
+		}
+	],
+	"start": "Home",
+	"visibility": "visible",
+	"creationDate": "2015-04-22T09:54:54.148Z",
+	"active": true,
+	"version": "1.0",
+	"platform": "web",
+	"personalization": {
+		"template": "Standard"
+	},
+	"versioningSettings": {
+		"access_token": "c6a5036a9314401b780f47c70512cec76126b5bf",
+		"username": "dinaris",
+		"reponame": "dreamface1"
+	},
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1429729618",
+			"status": "committed",
+			"user": "admin"
+		}
+	}
+}
