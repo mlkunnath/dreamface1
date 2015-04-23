@@ -70,15 +70,15 @@
 		"reponame": "dreamface1"
 	},
 	"versioning": {
-		"undefined": {
-			"last_action": "1429804973",
+		"dreamface1": {
+			"last_action": "1429805223",
 			"status": "committed",
 			"user": "admin"
 		},
-		"dreamface1": {
-			"status": "modified",
-			"user": "admin",
-			"last_action": "1429802198"
+		"undefined": {
+			"last_action": "1429803429",
+			"status": "committed",
+			"user": "admin"
 		}
 	}
 }
