@@ -1,0 +1,20 @@
+{
+	"_id": "55395f13460e182d19b6a028",
+	"name": "w2",
+	"ownerId": "",
+	"requestDate": "2015-04-23T21:07:31.325Z",
+	"description": "",
+	"category": "",
+	"wtype": "visual",
+	"application": "",
+	"platform": "mobile",
+	"src": "{\"properties\":{\"title\":{\"label\":\"\",\"visible\":true,\"color\":\"\"},\"tools\":{\"color\":true,\"edit\":true,\"collapse\":true,\"fullscreen\":true,\"delete\":true},\"sortable\":true},\"definition\":[{\"id\":\"root\",\"type\":\"panel\",\"attributes\":{\"name\":{\"value\":\"pnlPanel1\"},\"controller\":{\"value\":\"\"},\"form\":{\"value\":\"\"},\"classes\":{\"value\":\"\"},\"style\":{\"value\":\"\"},\"css\":{\"width\":\"\",\"height\":\"\",\"color\":\"\",\"background\":\"\",\"padding\":\"\",\"margin\":\"\",\"text-align\":\"\"},\"bodyCss\":{\"width\":\"\",\"height\":\"\",\"color\":\"\",\"background\":\"\",\"padding\":\"\",\"margin\":\"\",\"text-align\":\"\"},\"bodyClasses\":{\"value\":\"\"},\"bodyDynamicClasses\":{\"value\":\"\"},\"display\":{\"value\":\"\"},\"layout\":{\"rows\":[{\"classes\":{\"value\":\"\"},\"dynamicClasses\":{\"value\":\"\"},\"style\":{\"value\":\"\"}}],\"classes\":{\"value\":\"\"},\"dynamicClasses\":{\"value\":\"\"},\"style\":{\"value\":\"\"}}},\"children\":[]},{\"id\":\"root_tabbar\",\"type\":\"tabbar\",\"kind\":\"bar\",\"attributes\":{\"display\":{\"value\":\"true\"},\"onclick\":{\"value\":\"\"},\"tabs\":[{\"label\":{\"value\":\"Home\"},\"value\":{\"value\":\"Home\"},\"icon\":{\"value\":\"home\"}},{\"label\":{\"value\":\"Profile\"},\"value\":{\"value\":\"Profile\"},\"icon\":{\"value\":\"person\"}},{\"label\":{\"value\":\"Settings\"},\"value\":{\"value\":\"Settings\"},\"icon\":{\"value\":\"gear\"}}]},\"children\":[]}]}",
+	"src_script": "// this line should not be removed\r\nvar w2 = angular.module(\"w2\",[]);\r\n\r\nw2.controller( \"w2Controller\", function( $scope ) {\n\t\n});\n",
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1429823358",
+			"status": "committed",
+			"user": "admin"
+		}
+	}
+}
