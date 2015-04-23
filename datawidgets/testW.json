@@ -2,8 +2,8 @@
 	"_id": "553774b52115b9b52fdc622d",
 	"name": "testW",
 	"ownerId": "",
-	"requestDate": "2015-04-23T06:43:57.095Z",
-	"description": "123",
+	"requestDate": "2015-04-23T16:08:25.947Z",
+	"description": "1234",
 	"category": "",
 	"wtype": "visual",
 	"application": "testApp",
@@ -12,7 +12,7 @@
 	"src_script": "// this line should not be removed\r\nvar testW = angular.module(\"testW\",[]);\r\n\r\ntestW.controller( \"testWController\", function( $scope ) {\n\t\n});\n",
 	"versioning": {
 		"dreamface1": {
-			"last_action": "1429805234",
+			"last_action": "1429805327",
 			"status": "committed",
 			"user": "admin"
 		},
@@ -20,6 +20,21 @@
 			"last_action": "1429803440",
 			"status": "committed",
 			"user": "admin"
+		},
+		"dreamface123": {
+			"status": "modified",
+			"user": "admin",
+			"last_action": "1429805306"
+		},
+		"sharedName": {
+			"status": "modified",
+			"user": "admin",
+			"last_action": "1429805306"
+		},
+		"ffr": {
+			"status": "modified",
+			"user": "admin",
+			"last_action": "1429805306"
 		}
 	}
 }
