@@ -1,5 +1,5 @@
 {
-	"_id": "553a2b677eda6d8521914a07",
+	"_id": "5537f1238ca65b6557b5f6b4",
 	"document": "userDefinition",
 	"metadata": {
 		"roles": {
@@ -67,5 +67,5 @@
 			}
 		}
 	},
-	"application": "testApp5"
+	"application": "testApp"
 }
