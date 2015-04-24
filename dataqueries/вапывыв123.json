@@ -46,9 +46,14 @@
 	},
 	"versioning": {
 		"dreamface1": {
-			"last_action": "1429877824",
+			"last_action": "1429879687",
 			"status": "committed",
 			"user": "admin"
+		},
+		"[object Object]": {
+			"status": "deleted",
+			"user": "admin",
+			"last_action": "1429879648"
 		}
 	}
 }
