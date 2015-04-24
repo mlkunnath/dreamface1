@@ -1,0 +1,20 @@
+{
+	"_id": "553a1bd2844deefa1a052a56",
+	"name": "fddfdfg345",
+	"ownerId": "",
+	"requestDate": "2015-04-24T10:32:50.348Z",
+	"description": "",
+	"category": "",
+	"wtype": "visual",
+	"application": "testApp3",
+	"platform": "web",
+	"src": "{\"properties\":{\"title\":{\"label\":\"\",\"visible\":true,\"color\":\"\"},\"tools\":{\"color\":true,\"edit\":true,\"collapse\":true,\"fullscreen\":true,\"delete\":true},\"sortable\":true},\"definition\":[{\"id\":\"root\",\"type\":\"panel\",\"attributes\":{\"name\":{\"value\":\"pnlPanel1\"},\"controller\":{\"value\":\"\"},\"form\":{\"value\":\"\"},\"model\":{\"value\":\"\"},\"useModel\":{\"value\":false},\"collapsible\":{\"value\":false},\"classes\":{\"value\":\"\"},\"style\":{\"value\":\"\"},\"display\":{\"value\":\"\"},\"title\":{\"value\":\"\"},\"titleVisible\":{\"value\":false},\"layout\":{\"rows\":[{\"cols\":[{\"width\":{\"value\":\"12\"},\"classes\":{\"value\":\"\"},\"dynamicClasses\":{\"value\":\"\"},\"style\":{\"value\":\"\"},\"orientation\":{\"value\":\"vertical\"},\"alignment\":{\"value\":\"start\"},\"disposition\":{\"value\":\"space_around\"},\"css\":{\"color\":\"\",\"background\":\"\",\"padding\":\"\",\"text-align\":\"\"}}],\"classes\":{\"value\":\"\"},\"dynamicClasses\":{\"value\":\"\"},\"style\":{\"value\":\"\"}}],\"classes\":{\"value\":\"\"},\"dynamicClasses\":{\"value\":\"\"},\"style\":{\"value\":\"\"}}},\"children\":[]}]}",
+	"src_script": "// this line should not be removed\r\nvar fddfdfg345 = angular.module(\"fddfdfg345\",[]);\r\n\r\nfddfdfg345.controller( \"fddfdfg345Controller\", function( $scope ) {\n\t\n});\n",
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1429877648",
+			"status": "committed",
+			"user": "admin"
+		}
+	}
+}
