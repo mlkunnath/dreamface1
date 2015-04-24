@@ -1,0 +1,20 @@
+{
+	"_id": "553a3b75408f027f2a6f78ba",
+	"name": "testDeletedWidget",
+	"ownerId": "",
+	"requestDate": "2015-04-24T12:47:49.906Z",
+	"description": "",
+	"category": "",
+	"wtype": "visual",
+	"application": "testApp3",
+	"platform": "web",
+	"src": "{\"properties\":{\"title\":{\"label\":\"\",\"visible\":true,\"color\":\"\"},\"tools\":{\"color\":true,\"edit\":true,\"collapse\":true,\"fullscreen\":true,\"delete\":true},\"sortable\":true},\"definition\":[{\"id\":\"root\",\"type\":\"panel\",\"attributes\":{\"name\":{\"value\":\"pnlPanel1\"},\"controller\":{\"value\":\"\"},\"form\":{\"value\":\"\"},\"model\":{\"value\":\"\"},\"useModel\":{\"value\":false},\"collapsible\":{\"value\":false},\"classes\":{\"value\":\"\"},\"style\":{\"value\":\"\"},\"display\":{\"value\":\"\"},\"title\":{\"value\":\"\"},\"titleVisible\":{\"value\":false},\"layout\":{\"rows\":[{\"cols\":[{\"width\":{\"value\":\"12\"},\"classes\":{\"value\":\"\"},\"dynamicClasses\":{\"value\":\"\"},\"style\":{\"value\":\"\"},\"orientation\":{\"value\":\"vertical\"},\"alignment\":{\"value\":\"start\"},\"disposition\":{\"value\":\"space_around\"},\"css\":{\"color\":\"\",\"background\":\"\",\"padding\":\"\",\"text-align\":\"\"}}],\"classes\":{\"value\":\"\"},\"dynamicClasses\":{\"value\":\"\"},\"style\":{\"value\":\"\"}}],\"classes\":{\"value\":\"\"},\"dynamicClasses\":{\"value\":\"\"},\"style\":{\"value\":\"\"}}},\"children\":[]}]}",
+	"src_script": "// this line should not be removed\r\nvar testDeletedWidget = angular.module(\"testDeletedWidget\",[]);\r\n\r\ntestDeletedWidget.controller( \"testDeletedWidgetController\", function( $scope ) {\n\t\n});\n",
+	"versioning": {
+		"dreamface1": {
+			"last_action": "1429879690",
+			"status": "committed",
+			"user": "admin"
+		}
+	}
+}
