@@ -1,0 +1,18 @@
+{
+	"_id": "553e25e24d2f10b71d2c0da3",
+	"name": "w2",
+	"ownerId": "",
+	"requestDate": "2015-04-27T12:04:50.974Z",
+	"description": "",
+	"category": "",
+	"wtype": "visual",
+	"application": "a1",
+	"platform": "web",
+	"src": "{\n\t\"properties\": {\n\t\t\"title\": {\n\t\t\t\"label\": \"\",\n\t\t\t\"visible\": true,\n\t\t\t\"color\": \"\"\n\t\t},\n\t\t\"tools\": {\n\t\t\t\"color\": true,\n\t\t\t\"edit\": true,\n\t\t\t\"collapse\": true,\n\t\t\t\"fullscreen\": true,\n\t\t\t\"delete\": true\n\t\t},\n\t\t\"sortable\": true\n\t},\n\t\"definition\": [\n\t\t{\n\t\t\t\"id\": \"root\",\n\t\t\t\"type\": \"panel\",\n\t\t\t\"attributes\": {\n\t\t\t\t\"name\": {\n\t\t\t\t\t\"value\": \"pnlPanel1\"\n\t\t\t\t},\n\t\t\t\t\"controller\": {\n\t\t\t\t\t\"value\": \"\"\n\t\t\t\t},\n\t\t\t\t\"form\": {\n\t\t\t\t\t\"value\": \"\"\n\t\t\t\t},\n\t\t\t\t\"model\": {\n\t\t\t\t\t\"value\": \"\"\n\t\t\t\t},\n\t\t\t\t\"useModel\": {\n\t\t\t\t\t\"value\": false\n\t\t\t\t},\n\t\t\t\t\"collapsible\": {\n\t\t\t\t\t\"value\": false\n\t\t\t\t},\n\t\t\t\t\"classes\": {\n\t\t\t\t\t\"value\": \"\"\n\t\t\t\t},\n\t\t\t\t\"style\": {\n\t\t\t\t\t\"value\": \"\"\n\t\t\t\t},\n\t\t\t\t\"display\": {\n\t\t\t\t\t\"value\": \"\"\n\t\t\t\t},\n\t\t\t\t\"title\": {\n\t\t\t\t\t\"value\": \"\"\n\t\t\t\t},\n\t\t\t\t\"titleVisible\": {\n\t\t\t\t\t\"value\": false\n\t\t\t\t},\n\t\t\t\t\"layout\": {\n\t\t\t\t\t\"rows\": [\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\"cols\": [\n\t\t\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\t\"width\": {\n\t\t\t\t\t\t\t\t\t\t\"value\": \"12\"\n\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\"classes\": {\n\t\t\t\t\t\t\t\t\t\t\"value\": \"\"\n\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\"dynamicClasses\": {\n\t\t\t\t\t\t\t\t\t\t\"value\": \"\"\n\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\"style\": {\n\t\t\t\t\t\t\t\t\t\t\"value\": \"\"\n\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\"orientation\": {\n\t\t\t\t\t\t\t\t\t\t\"value\": \"vertical\"\n\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\"alignment\": {\n\t\t\t\t\t\t\t\t\t\t\"value\": \"start\"\n\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\"disposition\": {\n\t\t\t\t\t\t\t\t\t\t\"value\": \"space_around\"\n\t\t\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\t\t\"css\": {\n\t\t\t\t\t\t\t\t\t\t\"color\": \"\",\n\t\t\t\t\t\t\t\t\t\t\"background\": \"\",\n\t\t\t\t\t\t\t\t\t\t\"padding\": \"\",\n\t\t\t\t\t\t\t\t\t\t\"text-align\": \"\"\n\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t],\n\t\t\t\t\t\t\t\"classes\": {\n\t\t\t\t\t\t\t\t\"value\": \"\"\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\"dynamicClasses\": {\n\t\t\t\t\t\t\t\t\"value\": \"\"\n\t\t\t\t\t\t\t},\n\t\t\t\t\t\t\t\"style\": {\n\t\t\t\t\t\t\t\t\"value\": \"\"\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t}\n\t\t\t\t\t],\n\t\t\t\t\t\"classes\": {\n\t\t\t\t\t\t\"value\": \"\"\n\t\t\t\t\t},\n\t\t\t\t\t\"dynamicClasses\": {\n\t\t\t\t\t\t\"value\": \"\"\n\t\t\t\t\t},\n\t\t\t\t\t\"style\": {\n\t\t\t\t\t\t\"value\": \"\"\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t},\n\t\t\t\"children\": []\n\t\t}\n\t]\n}",
+	"src_script": "// this line should not be removed\r\nvar w2 = angular.module(\"w2\",[]);\r\n\r\nw2.controller( \"w2Controller\", function( $scope ) {\n\t\n});\n",
+	"versioning": {
+		"status": "added",
+		"user": "admin",
+		"last_action": "1430136291"
+	}
+}
