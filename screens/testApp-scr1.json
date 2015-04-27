@@ -1,0 +1,16 @@
+{
+	"_id": "553e65e68833d43339e2195c",
+	"title": "scr1",
+	"name": "scr1",
+	"requestDate": "2015-04-27T16:37:58.034Z",
+	"ownerId": "",
+	"application": "testApp",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": []
+	}
+}
