@@ -1,0 +1,15 @@
+{
+	"_id": "55409b374a68048111b3f09a",
+	"title": "testMenu",
+	"name": "testMenu",
+	"requestDate": "2015-04-29T08:50:04.419Z",
+	"ownerId": "",
+	"application": "a5",
+	"parentname": "",
+	"order": "1",
+	"icon": "",
+	"action": {
+		"type": "no_action",
+		"value": ""
+	}
+}
