@@ -1,0 +1,15 @@
+{
+	"_id": "5540ce3c80925ed21e600477",
+	"title": "Home",
+	"name": "Home",
+	"requestDate": "2015-04-29T12:27:40.625Z",
+	"ownerId": "",
+	"application": "app",
+	"parentname": "",
+	"order": "0",
+	"icon": "home",
+	"action": {
+		"type": "screen",
+		"value": "Home"
+	}
+}
