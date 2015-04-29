@@ -1,0 +1,16 @@
+{
+	"_id": "5540af912382e429190ea48e",
+	"title": "scr2",
+	"name": "scr2",
+	"requestDate": "2015-04-29T10:16:49.154Z",
+	"ownerId": "",
+	"application": "a5",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": []
+	}
+}
