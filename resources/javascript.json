@@ -1,12 +1,12 @@
 {
-	"_id": "553f55c0ff57458a225f6573",
-	"application": "mob",
+	"_id": "553f55ccff57458a225f6574",
+	"application": "menu",
 	"name": "javascript",
 	"items": [
 		{
-			"path": "test_mobile.js",
+			"path": "test_web.js",
 			"type": "JavaScript",
-			"size": "<strong>51</strong> b"
+			"size": "<strong>48</strong> b"
 		}
 	]
 }
