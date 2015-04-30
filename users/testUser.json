@@ -1,0 +1,19 @@
+{
+	"tenant": "test2",
+	"login": "testUser",
+	"roles": {
+		"list": [
+			"guest"
+		],
+		"default": "guest"
+	},
+	"rights": [],
+	"email": null,
+	"type": "",
+	"lastName": "",
+	"firstName": "",
+	"kind": "application",
+	"application": "test1App",
+	"_id": "55422567f5da335b333139fc",
+	"pass": "123456"
+}
