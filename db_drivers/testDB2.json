@@ -1,0 +1,19 @@
+{
+	"_id": "554215e58652237ad814a7a5",
+	"application": "",
+	"nameDriver": "testDB2",
+	"dialect": "mssql",
+	"host": "localhost",
+	"port": "1433",
+	"database": "1",
+	"user": "2",
+	"password": "3",
+	"min": "1",
+	"max": "10",
+	"idleTimeoutMillis": "100",
+	"versioning": {
+		"status": "committed",
+		"user": "admin",
+		"last_action": "1430394341"
+	}
+}
