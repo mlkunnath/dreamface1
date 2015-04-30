@@ -1,0 +1,18 @@
+{
+	"_id": "554253f3abf7d96d4a579774",
+	"provider": "testAuthProvider1",
+	"application": "app1",
+	"schema": "oAuth1",
+	"credentials": {
+		"signature_method": "HMAC-SHA1",
+		"consumer_key": "1",
+		"consumer_secret": "2",
+		"access_token": "3",
+		"access_secret": "4"
+	},
+	"versioning": {
+		"status": "committed",
+		"user": "admin",
+		"last_action": "1430410228"
+	}
+}
