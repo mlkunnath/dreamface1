@@ -1,5 +1,5 @@
 {
-	"tenant": "t2",
+	"tenant": "t1",
 	"login": "testUser",
 	"roles": {
 		"list": [
@@ -14,6 +14,6 @@
 	"firstName": "",
 	"kind": "application",
 	"application": "app1",
-	"_id": "55425959580817ee4c5d28b8",
+	"_id": "55425439abf7d96d4a579776",
 	"pass": "123456"
 }
