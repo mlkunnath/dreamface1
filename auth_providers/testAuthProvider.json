@@ -1,14 +1,14 @@
 {
-	"_id": "55422cb0b4b89e39377cfb2b",
+	"_id": "554249a00039678a44b3dfce",
 	"provider": "testAuthProvider",
 	"application": "test1App",
 	"schema": "oAuth2",
 	"credentials": {
-		"access_token": "1"
+		"access_token": "12"
 	},
 	"versioning": {
 		"status": "committed",
 		"user": "admin",
-		"last_action": "1430401971"
+		"last_action": "1430407631"
 	}
 }
