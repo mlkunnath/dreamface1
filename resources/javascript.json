@@ -1,0 +1,12 @@
+{
+	"_id": "553f55ccff57458a225f6574",
+	"application": "menu",
+	"name": "javascript",
+	"items": [
+		{
+			"path": "test_web.js",
+			"type": "JavaScript",
+			"size": "<strong>48</strong> b"
+		}
+	]
+}
