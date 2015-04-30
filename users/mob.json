@@ -1,0 +1,19 @@
+{
+	"tenant": "dev",
+	"login": "mob",
+	"roles": {
+		"list": [
+			"guest"
+		],
+		"default": "guest"
+	},
+	"rights": [],
+	"email": null,
+	"type": "",
+	"lastName": "",
+	"firstName": "",
+	"kind": "application",
+	"application": "mob",
+	"_id": "5539a6b834327fb60a4663e6",
+	"pass": "12345"
+}
