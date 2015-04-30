@@ -1,0 +1,15 @@
+{
+	"_id": "5542237df5da335b333139e2",
+	"title": "testMenuItem",
+	"name": "testMenuItem",
+	"requestDate": "2015-04-30T12:45:04.469Z",
+	"ownerId": "",
+	"application": "test1App",
+	"parentname": "",
+	"order": "1",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "testScr"
+	}
+}
