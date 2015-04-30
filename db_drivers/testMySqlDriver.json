@@ -1,11 +1,11 @@
 {
-	"_id": "55423b848652237ad814a7b0",
+	"_id": "554249a28652237ad814a7b2",
 	"application": "test1App",
 	"nameDriver": "testMySqlDriver",
 	"dialect": "mysql",
 	"host": "localhost",
 	"port": "3306",
-	"database": "1",
+	"database": "10",
 	"user": "root",
 	"password": "2",
 	"min": "1",
@@ -14,6 +14,6 @@
 	"versioning": {
 		"status": "committed",
 		"user": "admin",
-		"last_action": "1430403973"
+		"last_action": "1430407643"
 	}
 }
