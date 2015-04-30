@@ -1,0 +1,14 @@
+{
+	"_id": "5541e76a8652237ad814a799",
+	"application": "",
+	"nameDriver": "testDB",
+	"dialect": "mssql",
+	"host": "localhost",
+	"port": "1433",
+	"database": "1",
+	"user": "2",
+	"password": "3",
+	"min": "1",
+	"max": "10",
+	"idleTimeoutMillis": "100"
+}
