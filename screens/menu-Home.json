@@ -1,0 +1,36 @@
+{
+	"_id": "5534abf8f360cdb4027ce6e7",
+	"title": "Home",
+	"name": "Home",
+	"requestDate": "2015-04-24T02:02:35.569Z",
+	"ownerId": "",
+	"application": "menu",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wSharedWeb1",
+								"id": "23874"
+							},
+							{
+								"name": "wChartWebMenu",
+								"id": "66442"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	},
+	"category": ""
+}
