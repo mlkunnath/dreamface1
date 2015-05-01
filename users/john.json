@@ -1,0 +1,21 @@
+{
+	"tenant": "dev",
+	"login": "john",
+	"roles": {
+		"list": [
+			"guest"
+		],
+		"default": "guest"
+	},
+	"rights": [
+		"DATAQUERY::qTest"
+	],
+	"email": null,
+	"type": "",
+	"lastName": "",
+	"firstName": "",
+	"kind": "application",
+	"application": "menu",
+	"_id": "553f56b3d4acf2b404c6b8ac",
+	"pass": "12345"
+}
