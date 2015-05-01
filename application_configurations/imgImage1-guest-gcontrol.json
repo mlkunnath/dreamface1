@@ -1,0 +1,16 @@
+{
+	"_id": "554327424087331b0efc1e9f",
+	"type": "gcontrol",
+	"id": "26702",
+	"application": "mob",
+	"role": "guest",
+	"name": "imgImage1",
+	"widget": "wFormMob",
+	"screen": "",
+	"attributes": [
+		{
+			"name": "display",
+			"value": "false"
+		}
+	]
+}
