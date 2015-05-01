@@ -1,0 +1,11 @@
+{
+	"_id": "5534abf8f360cdb4027ce6e6",
+	"name": "guest",
+	"application": "menu",
+	"rights": [
+		"DATAQUERY::qTest"
+	],
+	"type": "",
+	"unremovable": true,
+	"description": ""
+}
