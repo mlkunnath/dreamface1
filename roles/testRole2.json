@@ -1,0 +1,14 @@
+{
+	"_id": "5544aa5254aeec68188abb37",
+	"name": "testRole2",
+	"application": "app",
+	"rights": [],
+	"type": "",
+	"unremovable": false,
+	"description": "",
+	"versioning": {
+		"status": "committed",
+		"user": "admin",
+		"last_action": "1430563432"
+	}
+}

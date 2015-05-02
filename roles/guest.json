@@ -1,0 +1,14 @@
+{
+	"_id": "55449b7de3bafe34118a690f",
+	"name": "guest",
+	"application": "app",
+	"rights": [],
+	"type": "",
+	"unremovable": true,
+	"description": "",
+	"versioning": {
+		"status": "committed",
+		"user": "admin",
+		"last_action": "1430563432"
+	}
+}
