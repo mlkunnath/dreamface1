@@ -1,6 +1,6 @@
 {
 	"tenant": "demo",
-	"login": "testUser3",
+	"login": "testuser4",
 	"roles": {
 		"list": [
 			"guest"
@@ -14,11 +14,11 @@
 	"firstName": "",
 	"kind": "application",
 	"application": "app",
-	"_id": "5544b8bafda958b21c5a4661",
+	"_id": "5544bc520d436e741d6d5159",
 	"pass": "123456",
 	"versioning": {
 		"status": "committed",
 		"user": "admin",
-		"last_action": "1430567224"
+		"last_action": "1430568018"
 	}
 }
