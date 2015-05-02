@@ -1,0 +1,16 @@
+{
+	"_id": "5544ad68b86799001ad4114f",
+	"title": "Home",
+	"name": "Home",
+	"requestDate": "2015-05-02T10:56:40.591Z",
+	"ownerId": "",
+	"application": "app",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": []
+	}
+}
