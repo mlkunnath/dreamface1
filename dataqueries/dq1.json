@@ -22,16 +22,12 @@
 	"format": "json",
 	"dependency": "",
 	"category": "",
-	"description": "",
+	"description": "desc",
 	"name": "dq1",
 	"connector": "http",
-	"requestDate": "2015-05-02T16:54:26.473Z",
+	"requestDate": "2015-05-04T10:48:51.811Z",
 	"parameters": [],
-	"metadata": {
-		"name": "root",
-		"type": "root",
-		"children": {}
-	},
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{}}",
 	"source": "ext",
 	"visibility": "visible",
 	"lock": {
@@ -47,6 +43,6 @@
 	"versioning": {
 		"status": "committed",
 		"user": "admin",
-		"last_action": "1430585666"
+		"last_action": "1430736532"
 	}
 }
