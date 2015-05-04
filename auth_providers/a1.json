@@ -1,0 +1,14 @@
+{
+	"_id": "55475076ba3d9a0721983e7d",
+	"provider": "a1",
+	"application": "app",
+	"schema": "oAuth2",
+	"credentials": {
+		"access_token": "123456"
+	},
+	"versioning": {
+		"status": "committed",
+		"user": "admin",
+		"last_action": "1430737015"
+	}
+}
