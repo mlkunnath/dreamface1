@@ -1,0 +1,17 @@
+{
+	"_id": "554762fb5bc4d0b26246dc73",
+	"application": "app",
+	"name": "stylesheets",
+	"items": [
+		{
+			"path": "dfx.css",
+			"type": "CSS",
+			"size": "<strong>38.3</strong> KiB"
+		}
+	],
+	"versioning": {
+		"status": "committed",
+		"user": "admin",
+		"last_action": "1430741755"
+	}
+}
