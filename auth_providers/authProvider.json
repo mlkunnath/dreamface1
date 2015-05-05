@@ -2,13 +2,17 @@
 	"_id": "5548c2ddea80f33f2a6cc228",
 	"provider": "authProvider",
 	"application": "app",
-	"schema": "oAuth2",
+	"schema": "oAuth1",
 	"credentials": {
-		"access_token": "123456"
+		"signature_method": "HMAC-SHA1",
+		"consumer_key": "12",
+		"consumer_secret": "22",
+		"access_token": "22",
+		"access_secret": "22"
 	},
 	"versioning": {
 		"status": "committed",
 		"user": "admin",
-		"last_action": "1430831837"
+		"last_action": "1430832202"
 	}
 }
