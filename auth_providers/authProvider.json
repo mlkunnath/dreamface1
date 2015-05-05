@@ -1,5 +1,5 @@
 {
-	"_id": "5548bcaee54239ef27335638",
+	"_id": "5548c2ddea80f33f2a6cc228",
 	"provider": "authProvider",
 	"application": "app",
 	"schema": "oAuth2",
@@ -9,6 +9,6 @@
 	"versioning": {
 		"status": "committed",
 		"user": "admin",
-		"last_action": "1430830255"
+		"last_action": "1430831837"
 	}
 }
