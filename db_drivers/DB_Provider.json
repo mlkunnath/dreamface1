@@ -1,0 +1,19 @@
+{
+	"_id": "554a45792c05fa37f952a87a",
+	"application": "app",
+	"nameDriver": "DB_Provider",
+	"dialect": "mssql",
+	"host": "localhost",
+	"port": "1433",
+	"database": "1",
+	"user": "2",
+	"password": "3",
+	"min": "1",
+	"max": "10",
+	"idleTimeoutMillis": "100",
+	"versioning": {
+		"status": "committed",
+		"user": "admin",
+		"last_action": "1430932111"
+	}
+}
