@@ -1,0 +1,17 @@
+{
+	"_id": "5548bcc65f56816b546aed46",
+	"application": "app",
+	"name": "assets",
+	"items": [
+		{
+			"path": "images.jpg",
+			"type": "Image",
+			"size": "<strong>5.5</strong> KiB"
+		}
+	],
+	"versioning": {
+		"status": "committed",
+		"user": "admin",
+		"last_action": "1430932111"
+	}
+}

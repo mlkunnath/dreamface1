@@ -1,0 +1,22 @@
+{
+	"_id": "5548bceb5f56816b546aed47",
+	"application": "app",
+	"name": "stylesheets",
+	"items": [
+		{
+			"path": "dfx.css",
+			"type": "CSS",
+			"size": "<strong>38.3</strong> KiB"
+		},
+		{
+			"path": "dfx-gcontrols.css",
+			"type": "CSS",
+			"size": "<strong>5.1</strong> KiB"
+		}
+	],
+	"versioning": {
+		"status": "committed",
+		"user": "admin",
+		"last_action": "1430932111"
+	}
+}
