@@ -1,0 +1,13 @@
+{
+	"_id": "554a4bc62205065a3f2785b0",
+	"ownerId": "",
+	"name": "category_1",
+	"requestDate": "2015-05-06T17:13:42.015Z",
+	"visibility": "visible",
+	"application": "app",
+	"versioning": {
+		"status": "committed",
+		"user": "admin",
+		"last_action": "1430932489"
+	}
+}
