@@ -1,5 +1,5 @@
 {
-	"tenant": "demo",
+	"tenant": "demo1",
 	"login": "testU",
 	"roles": {
 		"list": [
@@ -15,11 +15,14 @@
 	"firstName": "",
 	"kind": "application",
 	"application": "application",
-	"_id": "555089a57d0c52231dd34b2b",
+	"_id": "55508dcf7d0c52231dd34b46",
 	"pass": "123456",
 	"versioning": {
 		"status": "committed",
-		"user": "testUser",
-		"last_action": "1431341862"
-	}
+		"user": "testU2",
+		"last_action": "1431342882"
+	},
+	"test": [
+		""
+	]
 }
