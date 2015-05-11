@@ -12,7 +12,7 @@
 	"max": "10",
 	"idleTimeoutMillis": "100",
 	"versioning": {
-		"status": "added",
+		"status": "committed",
 		"user": "testUser",
 		"last_action": "1431341522"
 	}
