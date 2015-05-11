@@ -2,13 +2,16 @@
 	"_id": "555089947d0c52231dd34b2a",
 	"name": "testRole2",
 	"application": "application",
-	"rights": [],
+	"rights": [
+		"DATAQUERY::dq1",
+		"DATAQUERY::dq2"
+	],
 	"type": "",
 	"unremovable": false,
 	"description": "desc",
 	"versioning": {
 		"status": "committed",
-		"user": "testUser",
-		"last_action": "1431341858"
+		"user": "testU2",
+		"last_action": "1431342866"
 	}
 }
