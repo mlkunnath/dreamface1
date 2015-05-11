@@ -1,0 +1,19 @@
+{
+	"_id": "5550893cffc1d1383abfac3a",
+	"application": "application",
+	"nameDriver": "testDB2",
+	"dialect": "mysql",
+	"host": "localhost",
+	"port": "3306",
+	"database": "12",
+	"user": "testUser",
+	"password": "22",
+	"min": "1",
+	"max": "10",
+	"idleTimeoutMillis": "100",
+	"versioning": {
+		"status": "committed",
+		"user": "testUser",
+		"last_action": "1431341373"
+	}
+}
