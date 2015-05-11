@@ -21,11 +21,11 @@
 	"appexpr": [],
 	"format": "json",
 	"dependency": "",
-	"category": "",
+	"category": "dqCat2",
 	"description": "",
 	"name": "dq2",
 	"connector": "http",
-	"requestDate": "2015-05-11T10:53:09.838Z",
+	"requestDate": "2015-05-11T11:00:30.775Z",
 	"parameters": [],
 	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{}}",
 	"source": "ext",
@@ -43,6 +43,6 @@
 	"versioning": {
 		"status": "committed",
 		"user": "testUser",
-		"last_action": "1431341589"
+		"last_action": "1431342031"
 	}
 }

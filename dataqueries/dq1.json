@@ -21,17 +21,13 @@
 	"appexpr": [],
 	"format": "json",
 	"dependency": "",
-	"category": "",
+	"category": "dqCat1",
 	"description": "",
 	"name": "dq1",
 	"connector": "http",
-	"requestDate": "2015-05-11T10:53:00.733Z",
+	"requestDate": "2015-05-11T11:00:22.749Z",
 	"parameters": [],
-	"metadata": {
-		"name": "root",
-		"type": "root",
-		"children": {}
-	},
+	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{}}",
 	"source": "ext",
 	"visibility": "visible",
 	"lock": {
@@ -47,6 +43,6 @@
 	"versioning": {
 		"status": "committed",
 		"user": "testUser",
-		"last_action": "1431341581"
+		"last_action": "1431342023"
 	}
 }
