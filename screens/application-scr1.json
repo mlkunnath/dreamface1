@@ -1,0 +1,32 @@
+{
+	"_id": "55508a2c7d0c52231dd34b31",
+	"title": "scr1",
+	"name": "scr1",
+	"requestDate": "2015-05-11T10:56:30.160Z",
+	"ownerId": "",
+	"application": "application",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "dw1",
+								"id": "45408"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	},
+	"category": ""
+}

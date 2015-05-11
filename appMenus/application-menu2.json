@@ -1,0 +1,15 @@
+{
+	"_id": "55508a437d0c52231dd34b34",
+	"title": "menu2",
+	"name": "menu2",
+	"requestDate": "2015-05-11T10:53:56.404Z",
+	"ownerId": "",
+	"application": "application",
+	"parentname": "",
+	"order": "2",
+	"icon": "",
+	"action": {
+		"type": "no_action",
+		"value": ""
+	}
+}
