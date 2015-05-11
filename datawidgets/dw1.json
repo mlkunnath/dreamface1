@@ -2,9 +2,9 @@
 	"_id": "555089fb7d0c52231dd34b2d",
 	"name": "dw1",
 	"ownerId": "",
-	"requestDate": "2015-05-11T10:55:13.954Z",
+	"requestDate": "2015-05-11T10:59:44.719Z",
 	"description": "",
-	"category": "",
+	"category": "dwCat1",
 	"wtype": "visual",
 	"application": "application",
 	"platform": "web",
@@ -13,7 +13,7 @@
 	"versioning": {
 		"status": "committed",
 		"user": "testUser",
-		"last_action": "1431341564"
+		"last_action": "1431341985"
 	},
 	"src_styles": ""
 }
