@@ -1,0 +1,13 @@
+{
+	"_id": "55508b957d0c52231dd34b39",
+	"ownerId": "",
+	"name": "dwCat1",
+	"requestDate": "2015-05-11T10:59:33.376Z",
+	"visibility": "visible",
+	"application": "application",
+	"versioning": {
+		"status": "committed",
+		"user": "testUser",
+		"last_action": "1431341973"
+	}
+}
