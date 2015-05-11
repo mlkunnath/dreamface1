@@ -25,7 +25,7 @@
 	"description": "",
 	"name": "dq1",
 	"connector": "http",
-	"requestDate": "2015-05-11T11:00:22.749Z",
+	"requestDate": "2015-05-11T11:16:13.377Z",
 	"parameters": [],
 	"metadata": "{\"name\":\"root\",\"type\":\"root\",\"children\":{}}",
 	"source": "ext",
@@ -42,7 +42,7 @@
 	},
 	"versioning": {
 		"status": "committed",
-		"user": "testUser",
-		"last_action": "1431342023"
+		"user": "testU2",
+		"last_action": "1431342964"
 	}
 }
