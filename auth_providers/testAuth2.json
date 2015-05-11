@@ -1,0 +1,15 @@
+{
+	"_id": "555089307d0c52231dd34b28",
+	"provider": "testAuth2",
+	"application": "application",
+	"schema": "basic",
+	"credentials": {
+		"username": "1",
+		"password": "2"
+	},
+	"versioning": {
+		"status": "committed",
+		"user": "testUser",
+		"last_action": "1431341361"
+	}
+}

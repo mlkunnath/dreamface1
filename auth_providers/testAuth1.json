@@ -1,0 +1,14 @@
+{
+	"_id": "555089177d0c52231dd34b27",
+	"provider": "testAuth1",
+	"application": "application",
+	"schema": "oAuth2",
+	"credentials": {
+		"access_token": "123456"
+	},
+	"versioning": {
+		"status": "committed",
+		"user": "testUser",
+		"last_action": "1431341519"
+	}
+}
