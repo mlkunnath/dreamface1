@@ -1,5 +1,5 @@
 {
-	"_id": "555089177d0c52231dd34b27",
+	"_id": "55508dde7d0c52231dd34b47",
 	"provider": "testAuth1",
 	"application": "application",
 	"schema": "oAuth2",
@@ -8,7 +8,7 @@
 	},
 	"versioning": {
 		"status": "committed",
-		"user": "testUser",
-		"last_action": "1431341519"
+		"user": "admin",
+		"last_action": "1431342635"
 	}
 }
