@@ -1,5 +1,5 @@
 {
-	"_id": "5550893cffc1d1383abfac3a",
+	"_id": "55508de1ffc1d1383abfac3f",
 	"application": "application",
 	"nameDriver": "testDB2",
 	"dialect": "mysql",
@@ -14,6 +14,6 @@
 	"versioning": {
 		"status": "committed",
 		"user": "testUser",
-		"last_action": "1431341373"
+		"last_action": "1431342561"
 	}
 }
