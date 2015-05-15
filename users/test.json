@@ -1,0 +1,25 @@
+{
+	"tenant": "demo",
+	"login": "test",
+	"roles": {
+		"list": [
+			"guest",
+			"shared_guest"
+		],
+		"default": "guest"
+	},
+	"rights": [],
+	"email": null,
+	"type": "",
+	"lastName": "",
+	"firstName": "",
+	"kind": "application",
+	"application": "app",
+	"_id": "55549b4ec8a3e6532707f60a",
+	"pass": "123456",
+	"versioning": {
+		"status": "committed",
+		"user": "admin",
+		"last_action": "1431677932"
+	}
+}
