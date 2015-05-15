@@ -1,0 +1,72 @@
+{
+	"_id": "5550bd0f02d17c440a567ef9",
+	"name": "app",
+	"ownerId": "john",
+	"requestDate": "",
+	"title": "app",
+	"applicationContext": [
+		{
+			"properties": [
+				{
+					"possibleValues": [],
+					"name": "selectedItem",
+					"value": ""
+				}
+			],
+			"object": "menu"
+		}
+	],
+	"github": {
+		"token": "",
+		"username": "",
+		"repository": ""
+	},
+	"phonegap": {
+		"token": "",
+		"applicationId": ""
+	},
+	"requiredLibraries": [],
+	"requiredStylesheets": [
+		{
+			"name": "_gc"
+		},
+		{
+			"name": "_ext"
+		}
+	],
+	"screenflow": [
+		{
+			"name": "Guest",
+			"left": "85",
+			"connections": [
+				{
+					"assertions": [],
+					"name": "Home"
+				}
+			],
+			"type": "http_guest",
+			"top": "150"
+		},
+		{
+			"name": "Home",
+			"left": "330",
+			"connections": [],
+			"type": "screen",
+			"top": "165"
+		}
+	],
+	"start": "Home",
+	"visibility": "visible",
+	"creationDate": "2015-05-11T14:30:39.257Z",
+	"active": true,
+	"version": "1.0",
+	"platform": "web",
+	"personalization": {
+		"template": "Standard"
+	},
+	"versioning": {
+		"status": "committed",
+		"user": "admin",
+		"last_action": "1431523196"
+	}
+}
