@@ -1,0 +1,14 @@
+{
+	"_id": "55549b45c8a3e6532707f609",
+	"name": "test",
+	"application": "app",
+	"rights": [],
+	"type": "",
+	"unremovable": false,
+	"description": "",
+	"versioning": {
+		"status": "committed",
+		"user": "admin",
+		"last_action": "1431677929"
+	}
+}
