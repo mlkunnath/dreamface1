@@ -1,7 +1,7 @@
 {
-	"_id": "5550bd0f02d17c440a567ef9",
+	"_id": "55547206f204767f19d49999",
 	"name": "app",
-	"ownerId": "john",
+	"ownerId": "",
 	"requestDate": "",
 	"title": "app",
 	"applicationContext": [
@@ -57,7 +57,7 @@
 	],
 	"start": "Home",
 	"visibility": "visible",
-	"creationDate": "2015-05-11T14:30:39.257Z",
+	"creationDate": "2015-05-14T09:59:34.265Z",
 	"active": true,
 	"version": "1.0",
 	"platform": "web",
@@ -67,6 +67,6 @@
 	"versioning": {
 		"status": "committed",
 		"user": "admin",
-		"last_action": "1431523196"
+		"last_action": "1431608183"
 	}
 }
