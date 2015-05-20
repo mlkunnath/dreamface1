@@ -1,0 +1,32 @@
+{
+	"_id": "555c5df1724ed1b016a28b2b",
+	"title": "Home",
+	"name": "Home",
+	"requestDate": "2015-05-20T10:14:36.588Z",
+	"ownerId": "",
+	"application": "testApp",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "dw1",
+								"id": "71171"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	},
+	"category": ""
+}
