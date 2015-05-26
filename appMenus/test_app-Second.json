@@ -1,0 +1,15 @@
+{
+	"_id": "556483b8ee61440b0507902d",
+	"title": "Second",
+	"name": "Second",
+	"requestDate": "2015-05-26T14:46:11.880Z",
+	"ownerId": "",
+	"application": "test_app",
+	"parentname": "",
+	"order": "1",
+	"icon": "",
+	"action": {
+		"type": "screen",
+		"value": "SecondScreen"
+	}
+}
