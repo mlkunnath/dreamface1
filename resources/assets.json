@@ -1,0 +1,17 @@
+{
+	"_id": "556486a535d019ac0a7bbed3",
+	"application": "test_app",
+	"name": "assets",
+	"items": [
+		{
+			"path": "121nature.jpg",
+			"type": "Image",
+			"size": "<strong>0.3</strong> MiB"
+		}
+	],
+	"versioning": {
+		"status": "committed",
+		"user": "admin",
+		"last_action": "1432651429"
+	}
+}
