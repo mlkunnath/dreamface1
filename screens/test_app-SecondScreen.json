@@ -1,0 +1,31 @@
+{
+	"_id": "556483c4ee61440b0507902e",
+	"title": "SecondScreen",
+	"name": "SecondScreen",
+	"requestDate": "2015-05-26T14:31:48.029Z",
+	"ownerId": "",
+	"application": "test_app",
+	"visibility": "visible",
+	"layout": {
+		"fixedlayout": "no",
+		"widgetspacing": "yes",
+		"width": "100%",
+		"backgroundcolor": "white",
+		"rows": [
+			{
+				"columns": [
+					{
+						"width": "12",
+						"widgets": [
+							{
+								"name": "wGrid",
+								"id": "24627"
+							}
+						]
+					}
+				],
+				"id": ""
+			}
+		]
+	}
+}
