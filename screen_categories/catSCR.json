@@ -1,0 +1,13 @@
+{
+	"_id": "556d74822fd99a2312060688",
+	"title": "catSCR",
+	"name": "catSCR",
+	"requestDate": "2015-06-02T09:16:50.200Z",
+	"ownerId": null,
+	"application": "testApp",
+	"versioning": {
+		"status": "committed",
+		"user": "admin",
+		"last_action": "1433237223"
+	}
+}
