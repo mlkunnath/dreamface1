@@ -1,0 +1,13 @@
+{
+	"_id": "556c1e92d89dd4ea148fec8d",
+	"ownerId": "",
+	"name": "Default",
+	"requestDate": "2015-06-01T08:57:54.220Z",
+	"visibility": "visible",
+	"application": "testApp",
+	"versioning": {
+		"status": "committed",
+		"user": "admin",
+		"last_action": "1433237223"
+	}
+}
